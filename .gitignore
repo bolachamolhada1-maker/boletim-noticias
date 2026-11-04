@@ -1,0 +1,22 @@
+# Credenciais — NUNCA envie para o GitHub
+.env
+
+# Histórico local (gerenciado pelo GitHub Actions no repositório)
+# history.json  <-- este vai para o repo (versionado pelo Actions)
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# Editores
+.vscode/
+.idea/
+*.swp
+*.swo

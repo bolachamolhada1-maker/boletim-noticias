@@ -1,0 +1,63 @@
+name: Boletim de Notícias
+
+on:
+  schedule:
+    # Horário de Brasília (BRT = UTC-3)
+    # 18h BRT = 21h UTC
+    # Roda de segunda a sexta-feira
+    - cron: "0 21 * * 1-5"
+
+  # Permite executar manualmente pelo painel do GitHub (Actions → Run workflow)
+  workflow_dispatch:
+    inputs:
+      preview:
+        description: "Gerar prévia sem enviar ao Telegram?"
+        required: false
+        default: "false"
+        type: choice
+        options:
+          - "false"
+          - "true"
+
+jobs:
+  enviar-boletim:
+    runs-on: ubuntu-latest
+    # Permissão para fazer commit do history.json de volta no repositório
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout do repositório
+        uses: actions/checkout@v4
+
+      - name: Configurar Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Instalar dependências
+        run: pip install -r requirements.txt
+
+      - name: Executar boletim
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          if [ "${{ github.event.inputs.preview }}" = "true" ]; then
+            python news_bot.py --preview
+          else
+            python news_bot.py
+          fi
+
+      - name: Salvar histórico no repositório
+        # Faz commit do history.json atualizado
+        # [skip ci] evita que este commit dispare um novo workflow
+        if: github.event.inputs.preview != 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add history.json
+          git diff --staged --quiet || git commit -m "chore: atualiza histórico [skip ci]"
+          git push
