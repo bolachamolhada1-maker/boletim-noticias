@@ -218,15 +218,21 @@ def fetch_feed(feed_config: dict, cutoff: datetime) -> list:
         return []
 
     try:
-        # Usa requests com timeout de 12s e cabeçalho adequado
+        # Usa requests com timeout de 12s, cabeçalho adequado e validação de redirecionamento anti-SSRF
         resp = requests.get(
             url,
             timeout=12,
+            allow_redirects=True,
             headers={
                 "User-Agent": "Mozilla/5.0 (compatible; NewsBot/1.0; +https://github.com/)",
                 "Accept": "application/rss+xml, application/xml, text/xml, */*",
             },
         )
+        # Se houve redirecionamento, valida a URL final contra SSRF
+        if resp.history and not is_safe_url(resp.url):
+            log.warning(f"[{name}] Redirecionamento bloqueado por segurança (anti-SSRF): {resp.url}")
+            return []
+
         if resp.status_code != 200:
             log.warning(f"[{name}] HTTP {resp.status_code} ao baixar feed.")
             return []
