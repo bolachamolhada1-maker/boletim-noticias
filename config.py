@@ -130,3 +130,4 @@ RETRY_DELAY_SECONDS = 10     # Segundos entre tentativas (aumenta a cada retry)
 # ---------------------------------------------------------------------------
 HISTORY_FILE = "history.json"
 HISTORY_MAX_ENTRIES = 500    # Máximo de URLs armazenadas (evita crescimento infinito)
+GEMINI_MODEL = "gemini-3.1-flash-lite"

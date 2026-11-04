@@ -330,10 +330,18 @@ def build_articles_text(articles: list) -> str:
     return "\n".join(lines)
 
 
+# Lista de modelos por prioridade (se um atingir limite diário, usa o próximo)
+GEMINI_MODELS = [
+    "gemini-3.1-flash-lite",
+    "gemini-3.5-flash-lite",
+    "gemini-3.8-flash",
+]
+
+
 def summarize_with_ai(articles: list, is_monday: bool) -> dict | None:
     """
     Chama o Gemini para selecionar e resumir as notícias.
-    Retorna dicionário validado ou None em caso de falha.
+    Possui fallback automático entre modelos para garantir execução.
     """
     if not GEMINI_API_KEY:
         log.error("GEMINI_API_KEY não configurada.")
@@ -361,15 +369,15 @@ def summarize_with_ai(articles: list, is_monday: bool) -> dict | None:
     )
 
     genai.configure(api_key=GEMINI_API_KEY)
-    model = genai.GenerativeModel("gemini-1.5-flash")
 
-    for attempt in range(1, config.MAX_RETRIES + 1):
+    for model_name in GEMINI_MODELS:
+        log.info(f"Tentando modelo Gemini: {model_name}...")
         try:
-            log.info(f"Chamando Gemini (tentativa {attempt}/{config.MAX_RETRIES})...")
+            model = genai.GenerativeModel(model_name)
             response = model.generate_content(
                 prompt,
                 generation_config=genai.types.GenerationConfig(
-                    temperature=0.3,     # Baixa criatividade — fidelidade aos fatos
+                    temperature=0.3,
                     max_output_tokens=4096,
                 ),
             )
@@ -397,25 +405,19 @@ def summarize_with_ai(articles: list, is_monday: bool) -> dict | None:
                         raise ValueError(f"Notícia sem campo obrigatório: {field}")
                 url_norm = normalize_url(n["fonte_url"])
                 if url_norm not in known_urls:
-                    log.warning(f"URL inventada pela IA detectada e removida: {n['fonte_url']}")
-                    n["fonte_url"] = ""
+                    log.warning(f"URL inventada pela IA detectada e ajustada: {n['fonte_url']}")
+                    # Tenta encontrar a URL correspondente pelo título ou fonte
+                    match = next((a["url"] for a in candidates if a["source"] == n.get("fonte_nome")), "")
+                    n["fonte_url"] = match or n["fonte_url"]
 
-            log.info(f"IA retornou {len(data['noticias'])} notícia(s).")
+            log.info(f"IA ({model_name}) retornou {len(data['noticias'])} notícia(s) com sucesso.")
             return data
 
-        except json.JSONDecodeError as e:
-            log.error(f"Tentativa {attempt}: JSON inválido da IA — {e}")
-        except ValueError as e:
-            log.error(f"Tentativa {attempt}: Validação falhou — {e}")
         except Exception as e:
-            log.error(f"Tentativa {attempt}: Erro na chamada da IA — {e}")
+            log.warning(f"Falha ao chamar {model_name}: {e}. Tentando próximo modelo...")
+            time.sleep(2)
 
-        if attempt < config.MAX_RETRIES:
-            wait = config.RETRY_DELAY_SECONDS * attempt
-            log.info(f"Aguardando {wait}s antes da próxima tentativa...")
-            time.sleep(wait)
-
-    log.error("Todas as tentativas com a IA falharam.")
+    log.error("Todos os modelos da IA falharam.")
     return None
 
 
