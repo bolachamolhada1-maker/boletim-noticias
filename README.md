@@ -1,133 +1,71 @@
 # 📰 Boletim Automático de Notícias
 
-Automação que coleta, resume e envia um boletim diário de notícias pelo Telegram, usando Google Gemini como IA e GitHub Actions para agendamento gratuito na nuvem.
-
-## O que faz
-
-- Coleta notícias de **política, economia, segurança e tecnologia** do Brasil e do mundo
-- Seleciona as 6 mais relevantes do dia (4 do Brasil + 2 do mundo)
-- Gera um **panorama executivo** + **resumo detalhado** de cada notícia com repercussão
-- Envia automaticamente para o seu Telegram **de segunda a sexta às 18h (Brasília)**
-- Na segunda-feira, inclui o resumo do fim de semana
-- **Custo: R$ 0,00/mês**
+Automação jornalística completa que coleta, filtra, resume e entrega um boletim diário de notícias no Telegram com custo **R$ 0,00/mês**. 
+Utiliza **Google Gemini** como IA editorial e **GitHub Actions** para agendamento autônomo na nuvem (roda mesmo com seu computador desligado).
 
 ---
 
-## ⚙️ Configuração inicial (faça uma vez)
+## 🚀 Como Funciona o Fluxo
 
-### 1. Instale as dependências (para rodar localmente)
+1. **Coleta Confiável (Anti-SSRF):** Monitora feeds RSS de veículos de referência (Agência Brasil, G1, Poder360, TecMundo e BBC News Brasil) com validação de cabeçalhos, timeout de 12s e proteção contra Server-Side Request Forgery.
+2. **Filtragem & Deduplicação:** Remove notícias duplicadas e filtra estritamente por **Política, Economia, Segurança Pública e Tecnologia**, excluindo fofocas, esportes e entretenimento.
+3. **Curadoria & Resumo com IA:** O **Google Gemini** analisa as notícias em lote isolado (delimitadas por XML para proteção contra prompt injection) e seleciona até 6 notícias (4 do Brasil + 2 do Mundo).
+4. **Formato Editorial de Dois Níveis:**
+   - ⚡ **Panorama do Dia:** Síntese executiva rápida no topo.
+   - 📌 **Matérias Detalhadas:** Fatos estruturados com marcadores, contexto/desdobramentos práticos, visão leve a moderada de analistas/mercado e link direto para a matéria original.
+5. **Entrega no Telegram:** Formatação em HTML nativo com escape estrito de caracteres (imune a falhas de markdown) e divisão inteligente de blocos caso a mensagem ultrapasse 4.000 caracteres.
+6. **Histórico Inteligente:** Salva no `history.json` apenas as matérias efetivamente entregues, impedindo repetições sem descartar precocemente matérias não selecionadas.
 
+---
+
+## 🔒 Arquitetura de Segurança Implementada
+
+- **Proteção contra Vazamento de Chaves:** Nenhum token ou chave de API fica registrado no código-fonte. No ambiente local, ficam no arquivo `.env` (ignorado pelo `.gitignore`); no GitHub, ficam salvos nos **Repository Secrets**.
+- **Defesa contra Prompt Injection:** As notícias de feeds RSS externos são tratadas como dados brutos não confiáveis encapsulados em tags `<artigo>` e validadas com `response_mime_type="application/json"`.
+- **Prevenção de SSRF e DNS Rebinding:** O script inspeciona a URL de cada feed e resolve o endereço de IP via socket para impedir requisições acidentais ou maliciosas a redes internas ou endereços locais (localhost, loopback, redes privadas RFC1918).
+- **Imunidade a Erros de Parsing no Telegram:** Uso de HTML seguro com `html.escape()` em todos os campos dinâmicos, acompanhado de fallback automático para texto puro em caso de rejeição da API do Telegram.
+- **Resiliência Multi-Modelo:** Fallback sequencial automático entre múltiplos modelos (`gemini-3.1-flash-lite` → `gemini-3.5-flash-lite` → `gemini-3.8-flash`) caso algum modelo atinja o limite temporário de requisições.
+
+---
+
+## ⚙️ Configuração dos Segredos no GitHub
+
+No seu repositório no GitHub:
+Acesse **Settings → Secrets and variables → Actions** e configure os 3 segredos:
+
+| Segredo | Descrição |
+|---|---|
+| `GEMINI_API_KEY` | Chave gratuita de API gerada no Google AI Studio |
+| `TELEGRAM_BOT_TOKEN` | Token do seu bot do Telegram (@jornaltom_bot) |
+| `TELEGRAM_CHAT_ID` | Seu ID de usuário no Telegram |
+
+---
+
+## 🕒 Horários e Frequência
+
+- **Terça a Sexta-feira às 18h (Horário de Brasília):** Cobre as notícias das últimas 24 horas.
+- **Segunda-feira às 18h (Horário de Brasília):** Edição especial com cobertura estendida das últimas 72 horas (fim de semana completo + segunda-feira).
+
+---
+
+## 🛠️ Comandos Úteis
+
+### Execução Local
 ```bash
+# Instalar dependências
 pip install -r requirements.txt
-```
 
-### 2. Configure o arquivo `.env`
+# Gerar prévia no terminal (não envia mensagem)
+python news_bot.py --preview
 
-Copie o exemplo abaixo e preencha com suas chaves:
+# Executar e enviar para o Telegram
+python news_bot.py
 
-```
-GEMINI_API_KEY=sua_chave_aqui
-TELEGRAM_BOT_TOKEN=seu_token_aqui
-TELEGRAM_CHAT_ID=seu_chat_id_aqui
-```
-
-### 3. Obtenha seu Chat ID do Telegram
-
-1. Abra o Telegram e busque por **@jornaltom_bot**
-2. Clique em **Iniciar** ou envie qualquer mensagem
-3. Execute:
-
-```bash
+# Descobrir o Chat ID do seu Telegram
 python get_chat_id.py
 ```
 
-4. Copie o número exibido e cole no `.env` em `TELEGRAM_CHAT_ID=`
-
-### 4. Configure os segredos no GitHub
-
-No seu repositório GitHub:
-- Vá em **Settings → Secrets and variables → Actions → New repository secret**
-- Adicione os 3 segredos abaixo (use exatamente esses nomes):
-
-| Nome do Segredo | Valor |
-|---|---|
-| `GEMINI_API_KEY` | Sua chave do Google AI Studio |
-| `TELEGRAM_BOT_TOKEN` | Token do bot (começa com números) |
-| `TELEGRAM_CHAT_ID` | O número obtido no passo 3 |
-
----
-
-## 🚀 Como usar
-
-### Testar localmente (prévia sem enviar)
-
-```bash
-python news_bot.py --preview
-```
-
-### Executar e enviar de verdade
-
-```bash
-python news_bot.py
-```
-
-### Disparar manualmente pelo GitHub
-
-1. Vá em **Actions → Boletim de Notícias → Run workflow**
-2. Escolha se quer gerar prévia ou enviar de verdade
-
----
-
-## 🛠️ Manutenção
-
-### Alterar fontes RSS
-
-Edite o arquivo `config.py` → lista `RSS_FEEDS`.
-
-### Alterar quantidade de notícias
-
-Edite `config.py` → `MAX_NEWS_TOTAL`, `MAX_NEWS_BRAZIL`, `MAX_NEWS_WORLD`.
-
-### Alterar horário de envio
-
-Edite `.github/workflows/news_bot.yml` → campo `cron`.  
-Lembre-se: o GitHub usa UTC. Brasília = UTC-3.  
-Exemplo: 18h BRT = 21h UTC = `0 21 * * 1-5`
-
-### Pausar temporariamente
-
-No GitHub: **Actions → Boletim de Notícias → ⋯ → Disable workflow**
-
-### Reativar
-
-No GitHub: **Actions → Boletim de Notícias → Enable workflow**
-
-### Consultar erros
-
-No GitHub: **Actions** → clique na execução com ✗ → veja os logs de cada etapa.
-
-### Resetar o histórico (reenviar notícias antigas)
-
-Delete ou esvazie o arquivo `history.json` no repositório.
-
----
-
-## 📋 Arquitetura
-
-```
-news_bot.py       → Script principal (coleta, filtra, resume, envia)
-config.py         → Fontes RSS, temas, limites e configurações
-get_chat_id.py    → Utilitário de configuração do Telegram
-history.json      → Histórico de notícias já enviadas (gerado automaticamente)
-.env              → Credenciais locais (nunca vai para o GitHub)
-.github/
-  workflows/
-    news_bot.yml  → Agendamento automático no GitHub Actions
-```
-
-## ⚠️ Limitações conhecidas
-
-- O GitHub Actions pode atrasar o disparo do cron em até 15-30 minutos em horários de pico
-- O plano gratuito do GitHub desativa workflows em repositórios sem commits por 60 dias — faça ao menos um commit pequeno por mês se necessário
-- A API gratuita do Gemini tem limite de requisições por minuto — para uso pessoal com 1 execução/dia, não é um problema
-- Notícias por trás de paywall aparecem apenas com o trecho disponível no RSS
+### Disparo Manual na Nuvem
+1. Acesse o repositório no GitHub.
+2. Vá na aba **Actions** → selecione **Boletim de Notícias** à esquerda.
+3. Clique em **Run workflow**.

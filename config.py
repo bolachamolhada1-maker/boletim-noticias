@@ -40,9 +40,9 @@ RSS_FEEDS = [
         "country": "BR",
     },
     {
-        "name": "G1 — Brasil (segurança pública)",
-        "url": "https://g1.globo.com/rss/g1/brasil/",
-        "topics": ["segurança"],
+        "name": "G1 — Brasil e Cidades",
+        "url": "https://g1.globo.com/rss/g1/",
+        "topics": ["segurança", "política"],
         "country": "BR",
     },
     {

@@ -2,16 +2,15 @@ name: Boletim de Notícias
 
 on:
   schedule:
-    # Horário de Brasília (BRT = UTC-3)
-    # 18h BRT = 21h UTC
-    # Roda de segunda a sexta-feira
+    # 18h de Brasília (BRT = UTC-3) corresponde a 21h UTC
+    # Executa de segunda a sexta-feira
     - cron: "0 21 * * 1-5"
 
-  # Permite executar manualmente pelo painel do GitHub (Actions → Run workflow)
+  # Permite disparar manualmente via interface web do GitHub
   workflow_dispatch:
     inputs:
       preview:
-        description: "Gerar prévia sem enviar ao Telegram?"
+        description: "Executar em modo prévia (apenas log, sem enviar ao Telegram)?"
         required: false
         default: "false"
         type: choice
@@ -22,15 +21,18 @@ on:
 jobs:
   enviar-boletim:
     runs-on: ubuntu-latest
-    # Permissão para fazer commit do history.json de volta no repositório
+    timeout-minutes: 10
+
     permissions:
       contents: write
 
     steps:
-      - name: Checkout do repositório
+      - name: Checkout do código
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 10
 
-      - name: Configurar Python 3.11
+      - name: Configurar ambiente Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
@@ -39,7 +41,7 @@ jobs:
       - name: Instalar dependências
         run: pip install -r requirements.txt
 
-      - name: Executar boletim
+      - name: Executar Boletim
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
@@ -51,13 +53,14 @@ jobs:
             python news_bot.py
           fi
 
-      - name: Salvar histórico no repositório
-        # Faz commit do history.json atualizado
-        # [skip ci] evita que este commit dispare um novo workflow
+      - name: Salvar histórico de notícias
         if: github.event.inputs.preview != 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add history.json
-          git diff --staged --quiet || git commit -m "chore: atualiza histórico [skip ci]"
-          git push
+          if ! git diff --staged --quiet; then
+            git commit -m "chore(history): atualiza histórico de envios [skip ci]"
+            git pull --rebase origin main
+            git push origin main
+          fi
