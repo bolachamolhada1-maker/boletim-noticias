@@ -249,3 +249,7 @@ fora deste escopo. Revisão semântica depende do modelo e não é certificaçã
 Próxima ocorrência do cron após esta sessão: **09/11/2026 às 17h America/Sao_Paulo**
 (20h UTC), sujeita a atraso do agendador. A execução de hoje já terminou antes da
 publicação, com sucesso reportado pelo Actions; isso não comprova recibo Telegram.
+
+Auditoria preexistente preservada sem editar: whitespace legado em audit_tests/
+permanece; diff-check passou com essa excecao de espacos finais. Nenhuma credencial
+do .env foi encontrada nos arquivos selecionados, conferidos antes do commit.
