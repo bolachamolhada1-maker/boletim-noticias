@@ -20,3 +20,8 @@ build/
 .idea/
 *.swp
 *.swo
+
+# Trava de processo e saídas de desenvolvimento; estado de produção é versionado.
+.delivery.lock
+*.log
+.pytest_cache/

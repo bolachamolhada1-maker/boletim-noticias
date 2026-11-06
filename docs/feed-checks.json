@@ -1,0 +1,111 @@
+[
+  {
+    "url": "https://www.nexojornal.com.br/rss.xml",
+    "checked_at": "2026-11-05T23:36:10.034015+00:00",
+    "result": "HTTP 200",
+    "final_url": "https://www.nexojornal.com.br/rss.xml",
+    "content_type": "text/xml; charset=utf-8",
+    "entries": 20,
+    "editorial_entries": 20,
+    "sample_links": [
+      "https://www.nexojornal.com.br/ensaio/2026/11/05/cooperativas-cooperativismo-democracia",
+      "https://www.nexojornal.com.br/grafico/2026/11/05/dinheiro-elon-musk-eleicoes-eua-2026"
+    ],
+    "newest_entry": "2026-11-05T23:27:47+00:00",
+    "oldest_entry": "2026-11-01T17:49:47+00:00",
+    "dated_last_24h": 8,
+    "article_probe": {
+      "url": "https://www.nexojornal.com.br/ensaio/2026/11/05/cooperativas-cooperativismo-democracia",
+      "result": "HTTP 200",
+      "final_url": "https://www.nexojornal.com.br/ensaio/2026/11/05/cooperativas-cooperativismo-democracia",
+      "content_type": "text/html; charset=utf-8",
+      "extracted_chars": 0,
+      "access": "corpo não identificado"
+    }
+  },
+  {
+    "url": "https://www.nexojornal.com.br/feed/",
+    "checked_at": "2026-11-05T23:36:10.465164+00:00",
+    "result": "HTTP 404"
+  },
+  {
+    "url": "https://feeds.a.dj.com/rss/RSSWorldNews.xml",
+    "checked_at": "2026-11-05T23:36:10.625938+00:00",
+    "result": "HTTP 200",
+    "final_url": "https://feeds.a.dj.com/rss/RSSWorldNews.xml",
+    "content_type": "application/rss+xml;charset=UTF-8",
+    "entries": 20,
+    "editorial_entries": 20,
+    "sample_links": [
+      "https://www.wsj.com/articles/palestinians-flock-back-to-northern-gaza-on-foot-after-hostage-release-breakthrough-3f60e2db",
+      "https://www.wsj.com/articles/even-chinas-property-stalwart-isnt-immune-from-the-crisis-19799863"
+    ],
+    "newest_entry": "2025-01-27T19:23:00+00:00",
+    "oldest_entry": "2025-01-24T22:56:00+00:00",
+    "dated_last_24h": 0,
+    "article_probe": {
+      "url": "https://www.wsj.com/articles/palestinians-flock-back-to-northern-gaza-on-foot-after-hostage-release-breakthrough-3f60e2db",
+      "result": "HTTP 401"
+    }
+  },
+  {
+    "url": "https://feeds.content.dowjones.io/public/rss/RSSWorldNews",
+    "checked_at": "2026-11-05T23:36:11.267634+00:00",
+    "result": "HTTP 200",
+    "final_url": "https://feeds.content.dowjones.io/public/rss/RSSWorldNews",
+    "content_type": "application/xml; charset=utf-8",
+    "entries": 74,
+    "editorial_entries": 74,
+    "sample_links": [
+      "https://www.wsj.com/world/americas/colombia-arrests-mexican-judge-tied-to-drug-gang-led-by-ex-olympian-ba98c5c1?mod=rss_worldnews",
+      "https://www.wsj.com/world/americas/paraguays-president-resigns-as-collapse-of-bank-with-close-ties-to-him-sparks-crisis-a62895f1?mod=rss_worldnews"
+    ],
+    "newest_entry": "2026-11-05T22:42:00+00:00",
+    "oldest_entry": "2025-12-22T11:11:00+00:00",
+    "dated_last_24h": 16,
+    "article_probe": {
+      "url": "https://www.wsj.com/world/americas/colombia-arrests-mexican-judge-tied-to-drug-gang-led-by-ex-olympian-ba98c5c1?mod=rss_worldnews",
+      "result": "HTTP 401"
+    }
+  },
+  {
+    "url": "https://www.ft.com/rss/home/international",
+    "checked_at": "2026-11-05T23:36:11.933291+00:00",
+    "result": "HTTP 200",
+    "final_url": "https://www.ft.com/rss/home/international",
+    "content_type": "text/xml; charset=utf-8",
+    "entries": 12,
+    "editorial_entries": 12,
+    "sample_links": [
+      "https://www.ft.com/content/3d079b3d-580d-400b-bf9c-56af6a08f60f?syn-25a6b1a6=1",
+      "https://www.ft.com/content/7c6ceb4f-d7b1-49ec-9047-0e2e4cd2615c?syn-25a6b1a6=1"
+    ],
+    "newest_entry": "2026-11-05T22:41:52+00:00",
+    "oldest_entry": "2026-11-05T00:52:16+00:00",
+    "dated_last_24h": 12,
+    "article_probe": {
+      "url": "https://www.ft.com/content/3d079b3d-580d-400b-bf9c-56af6a08f60f?syn-25a6b1a6=1",
+      "result": "HTTP 403"
+    }
+  },
+  {
+    "url": "https://www.ft.com/rss/world",
+    "checked_at": "2026-11-05T23:36:12.553337+00:00",
+    "result": "HTTP 200",
+    "final_url": "https://www.ft.com/world?format=rss",
+    "content_type": "text/xml; charset=utf-8",
+    "entries": 25,
+    "editorial_entries": 25,
+    "sample_links": [
+      "https://www.ft.com/content/3d079b3d-580d-400b-bf9c-56af6a08f60f?syn-25a6b1a6=1",
+      "https://www.ft.com/content/6a1b17dd-3da2-410b-b64e-fbf111e40336?syn-25a6b1a6=1"
+    ],
+    "newest_entry": "2026-11-05T22:41:52+00:00",
+    "oldest_entry": "2026-11-05T16:59:34+00:00",
+    "dated_last_24h": 25,
+    "article_probe": {
+      "url": "https://www.ft.com/content/3d079b3d-580d-400b-bf9c-56af6a08f60f?syn-25a6b1a6=1",
+      "result": "HTTP 403"
+    }
+  }
+]

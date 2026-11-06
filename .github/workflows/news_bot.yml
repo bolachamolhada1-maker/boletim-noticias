@@ -18,10 +18,19 @@ on:
           - "false"
           - "true"
 
+concurrency:
+  group: telegram-news-production-state
+  cancel-in-progress: false
+
 jobs:
   enviar-boletim:
+    if: github.ref_name == github.event.repository.default_branch
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 25
+
+    env:
+      BOT_PERSIST_GIT: "1"
+      BOT_STATE_BRANCH: ${{ github.event.repository.default_branch }}
 
     permissions:
       contents: write
@@ -30,7 +39,11 @@ jobs:
       - name: Checkout do código
         uses: actions/checkout@v4
         with:
-          fetch-depth: 10
+          ref: ${{ github.event.repository.default_branch }}
+          fetch-depth: 0
+
+      - name: Atualizar checkout após espera na fila
+        run: git pull --ff-only origin "$BOT_STATE_BRANCH"
 
       - name: Configurar ambiente Python
         uses: actions/setup-python@v5
@@ -40,6 +53,9 @@ jobs:
 
       - name: Instalar dependências
         run: pip install -r requirements.txt
+
+      - name: Testes de regressão sem serviços externos
+        run: python tools/run_regressions.py
 
       - name: Executar Boletim
         env:
@@ -54,13 +70,16 @@ jobs:
           fi
 
       - name: Salvar histórico de notícias
-        if: github.event.inputs.preview != 'true'
+        if: always() && github.event.inputs.preview != 'true'
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add history.json
-          if ! git diff --staged --quiet; then
-            git commit -m "chore(history): atualiza histórico de envios [skip ci]"
-            git pull --rebase origin main
-            git push origin main
-          fi
+          python delivery_state.py
+
+      - name: Preservar estado para diagnóstico após falha
+        if: failure() && github.event.inputs.preview != 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: delivery-state-${{ github.run_id }}
+          path: |
+            history.json
+            delivery_state.json
+          retention-days: 14

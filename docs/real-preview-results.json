@@ -1,0 +1,332 @@
+{
+  "started_at": "2026-11-06T00:18:53.190834+00:00",
+  "python": "3.11.18",
+  "gemini_model": "gemini-3.1-flash-lite",
+  "max_gemini_requests": 8,
+  "gemini_requests": 2,
+  "errors": [
+    {
+      "type": "InternalServerError",
+      "detail": "500 Internal error encountered."
+    }
+  ],
+  "collected": 221,
+  "candidates": [
+    {
+      "id": "cc6e79226394fc01",
+      "source": "G1",
+      "url": "https://g1.globo.com/politica/blog/valdo-cruz/post/2026/11/05/lula-convoca-ministro-da-fazenda-e-economistas-do-pt-para-discutir-medidas-para-economia-apos-bc-parar-corte-de-juros.ghtml",
+      "category_hint": "BR",
+      "level": "excerpt",
+      "access": "não solicitado"
+    },
+    {
+      "id": "0768eef6b7ffa16e",
+      "source": "The New York Times",
+      "url": "https://www.nytimes.com/2026/11/05/world/middleeast/israel-election-herzog-prime-minister-meetings.html",
+      "category_hint": "MUNDO",
+      "level": "excerpt",
+      "access": "HTTP 403"
+    },
+    {
+      "id": "333bbece86b7aa78",
+      "source": "Poder360",
+      "url": "https://www.poder360.com.br/poder-governo/saiba-quem-lula-ouviu-para-definir-politica-economica-no-4o-mandato/",
+      "category_hint": "BR",
+      "level": "body",
+      "access": "corpo público extraído"
+    },
+    {
+      "id": "e76c57a3e51b4d6e",
+      "source": "Nexo Jornal",
+      "url": "https://www.nexojornal.com.br/grafico/2026/11/05/dinheiro-elon-musk-eleicoes-eua-2026",
+      "category_hint": "MUNDO",
+      "level": "excerpt",
+      "access": "não solicitado"
+    },
+    {
+      "id": "fbe2c1471464b959",
+      "source": "BBC News Brasil",
+      "url": "https://www.bbc.com/portuguese/articles/cmly0jeq2q9no?at_medium=RSS&at_campaign=rss",
+      "category_hint": "BR",
+      "level": "excerpt",
+      "access": "corpo não identificado ou ambíguo"
+    },
+    {
+      "id": "5ae899d9601a0d9f",
+      "source": "Folha de S.Paulo",
+      "url": "https://www1.folha.uol.com.br/mundo/2026/11/aborto-pessoas-trans-armas-e-bilionarios-tambem-estavam-nas-cedulas-durante-eleicao-nos-eua.shtml",
+      "category_hint": "MUNDO",
+      "level": "excerpt",
+      "access": "restrição declarada na matéria solicitada; corpo não utilizado"
+    },
+    {
+      "id": "93c9bf38d5713b73",
+      "source": "Deutsche Welle — DW",
+      "url": "https://www.dw.com/pt-br/flávio-bolsonaro-diz-a-jornal-americano-que-fugiu-sozinho-do-brasil/a-79871184?maca=bra-rss-br-br-1031-rdf",
+      "category_hint": "BR",
+      "level": "excerpt",
+      "access": "entidade da matéria solicitada não identificada"
+    },
+    {
+      "id": "5e38829b7e8e9fc8",
+      "source": "Financial Times",
+      "url": "https://www.ft.com/content/aa2f03e3-e73e-48c2-b183-610fa00051e1?syn-25a6b1a6=1",
+      "category_hint": "MISTO",
+      "level": "excerpt",
+      "access": "HTTP 403"
+    },
+    {
+      "id": "3d902979045dd6b8",
+      "source": "G1",
+      "url": "https://g1.globo.com/economia/noticia/2026/11/05/dolar-ibovespa.ghtml",
+      "category_hint": "BR",
+      "level": "excerpt",
+      "access": "não solicitado"
+    },
+    {
+      "id": "ae34ee0cc8d32876",
+      "source": "The Wall Street Journal",
+      "url": "https://www.wsj.com/world/middle-east/saudi-arabia-has-no-easy-choices-as-it-weighs-how-to-combat-houthi-threat-a4adc358?mod=rss_worldnews",
+      "category_hint": "MUNDO",
+      "level": "excerpt",
+      "access": "HTTP 401"
+    },
+    {
+      "id": "8e39183298f419d0",
+      "source": "Poder360",
+      "url": "https://www.poder360.com.br/poder-governo/lula-diz-que-vitoria-na-eleicao-presidencial-foi-licao-ao-mundo/",
+      "category_hint": "BR",
+      "level": "body",
+      "access": "corpo público extraído"
+    },
+    {
+      "id": "3a8629e8e0d6675b",
+      "source": "Agência Lupa",
+      "url": "https://www.agencialupa.org/noticias/2026/11/05/e-falso-que-republicanos-conquistaram-maioria-da-camara-dos-deputados-dos-eua-em-2026/",
+      "category_hint": "MUNDO",
+      "level": "body",
+      "access": "corpo público extraído"
+    },
+    {
+      "id": "8df91c8f827f4aa9",
+      "source": "Folha de S.Paulo",
+      "url": "https://www1.folha.uol.com.br/mundo/2026/11/governo-lula-ve-tendencia-de-normalizacao-das-relacoes-com-eua-apos-vitoria-democrata.shtml",
+      "category_hint": "BR",
+      "level": "excerpt",
+      "access": "restrição declarada na matéria solicitada; corpo não utilizado"
+    },
+    {
+      "id": "48fccadf6f96640c",
+      "source": "The Economist",
+      "url": "https://www.economist.com/finance-and-economics/2026/11/05/indebted-tycoons-haunt-chinas-banking-system",
+      "category_hint": "MUNDO",
+      "level": "excerpt",
+      "access": "HTTP 403"
+    },
+    {
+      "id": "110de9f7b896a7f9",
+      "source": "BBC News Brasil",
+      "url": "https://www.bbc.com/portuguese/articles/cm78p04n78zno?at_medium=RSS&at_campaign=rss",
+      "category_hint": "BR",
+      "level": "excerpt",
+      "access": "corpo não identificado ou ambíguo"
+    },
+    {
+      "id": "67a0f265ea33954a",
+      "source": "Agência Lupa",
+      "url": "https://www.agencialupa.org/eleicoes/2026/11/05/e-falso-que-8-milhoes-de-votos-sem-biometria-comprovam-fraude-nas-eleicoes/",
+      "category_hint": "MISTO",
+      "level": "body",
+      "access": "corpo público extraído"
+    },
+    {
+      "id": "a9d8795db31978c3",
+      "source": "Nexo Jornal",
+      "url": "https://www.nexojornal.com.br/ensaio/2026/11/05/cooperativas-cooperativismo-democracia",
+      "category_hint": "BR",
+      "level": "excerpt",
+      "access": "não solicitado"
+    },
+    {
+      "id": "1dae6cf322542067",
+      "source": "The New York Times",
+      "url": "https://www.nytimes.com/2026/11/05/us/politics/trump-iran-war-midterm-elections.html",
+      "category_hint": "MUNDO",
+      "level": "excerpt",
+      "access": "HTTP 403"
+    },
+    {
+      "id": "37077d230ebff3cf",
+      "source": "Deutsche Welle — DW",
+      "url": "https://www.dw.com/pt-br/tse-aceita-ação-contra-lula-e-alckmin-por-abuso-de-poder-político/a-79871343?maca=bra-rss-br-br-1031-rdf",
+      "category_hint": "BR",
+      "level": "excerpt",
+      "access": "não solicitado"
+    },
+    {
+      "id": "dff3e042562743b4",
+      "source": "Financial Times",
+      "url": "https://www.ft.com/content/5ddd52f0-adb8-41d6-9a06-a680daa2e427?syn-25a6b1a6=1",
+      "category_hint": "MUNDO",
+      "level": "excerpt",
+      "access": "não solicitado"
+    },
+    {
+      "id": "ea9811bd1577febc",
+      "source": "G1",
+      "url": "https://g1.globo.com/politica/noticia/2026/11/05/lula-diz-que-economia-precisa-estar-arrumada-para-atrair-investimentos-ninguem-vai-querer-investir-em-economia-desordenada.ghtml",
+      "category_hint": "BR",
+      "level": "excerpt",
+      "access": "não solicitado"
+    },
+    {
+      "id": "b8efa28a3bdb2b5c",
+      "source": "The Wall Street Journal",
+      "url": "https://www.wsj.com/world/uk/russell-brand-guilty-verdict-02e0ad15?mod=rss_worldnews",
+      "category_hint": "MUNDO",
+      "level": "excerpt",
+      "access": "não solicitado"
+    },
+    {
+      "id": "24b64648c0c42b0d",
+      "source": "Poder360",
+      "url": "https://www.poder360.com.br/poder-governo/lula-diz-que-brasil-chega-como-o-mais-preparado-a-cop-sobre-clima/",
+      "category_hint": "BR",
+      "level": "excerpt",
+      "access": "não solicitado"
+    },
+    {
+      "id": "da9336efc280cb9f",
+      "source": "The Economist",
+      "url": "https://www.economist.com/finance-and-economics/2026/11/05/william-nordhaus-favourite-economist-of-the-right-and-the-left",
+      "category_hint": "MISTO",
+      "level": "excerpt",
+      "access": "não solicitado"
+    },
+    {
+      "id": "65b13f474f6ec8ee",
+      "source": "Nexo Jornal",
+      "url": "https://www.nexojornal.com.br/externo/2026/11/05/o-que-e-racismo-obstetrico-no-brasil-mulheres-negras",
+      "category_hint": "BR",
+      "level": "excerpt",
+      "access": "não solicitado"
+    },
+    {
+      "id": "3a8288a7f84f390e",
+      "source": "Folha de S.Paulo",
+      "url": "https://www1.folha.uol.com.br/mundo/2026/11/rubio-avalia-renunciar-e-abandonar-governo-trump-apos-midterms-diz-agencia.shtml",
+      "category_hint": "MUNDO",
+      "level": "excerpt",
+      "access": "não solicitado"
+    },
+    {
+      "id": "3538c4bd6d9db576",
+      "source": "BBC News Brasil",
+      "url": "https://www.bbc.com/portuguese/articles/cm70ppw2k0y3o?at_medium=RSS&at_campaign=rss",
+      "category_hint": "BR",
+      "level": "excerpt",
+      "access": "não solicitado"
+    },
+    {
+      "id": "6f11c00aff04319b",
+      "source": "Financial Times",
+      "url": "https://www.ft.com/content/c8314951-713a-4370-ac7b-89b35e771f7e?syn-25a6b1a6=1",
+      "category_hint": "MUNDO",
+      "level": "excerpt",
+      "access": "não solicitado"
+    },
+    {
+      "id": "42386846f3c32b7a",
+      "source": "The New York Times",
+      "url": "https://www.nytimes.com/2026/11/05/world/americas/bolsonaro-escape-brazil-milei-adviser-argentina.html",
+      "category_hint": "BR",
+      "level": "excerpt",
+      "access": "não solicitado"
+    },
+    {
+      "id": "5b9a8f395a757ae4",
+      "source": "The Wall Street Journal",
+      "url": "https://www.wsj.com/business/airlines/flights-across-europe-diverted-after-bomb-threats-2e860a9c?mod=rss_worldnews",
+      "category_hint": "MUNDO",
+      "level": "excerpt",
+      "access": "não solicitado"
+    },
+    {
+      "id": "2566d823174e75f5",
+      "source": "Deutsche Welle — DW",
+      "url": "https://www.dw.com/pt-br/por-que-a-doença-de-newcastle-voltou-a-preocupar-a-avicultura-no-brasil-e-no-mundo/a-79867131?maca=bra-rss-br-br-1031-rdf",
+      "category_hint": "BR",
+      "level": "excerpt",
+      "access": "não solicitado"
+    },
+    {
+      "id": "7eee476c7ca8331c",
+      "source": "Agência Lupa",
+      "url": "https://www.agencialupa.org/verificacao/2026/11/05/e-de-2021-video-de-pessoas-procurando-comida-em-caminhao-de-lixo-no-ceara/",
+      "category_hint": "MISTO",
+      "level": "excerpt",
+      "access": "não solicitado"
+    },
+    {
+      "id": "3468929c60f378f5",
+      "source": "G1",
+      "url": "https://g1.globo.com/carros/noticia/2026/11/05/imposto-do-pecado-governo-define-regras-para-taxar-carros-veja-o-que-pesa-no-calculo.ghtml",
+      "category_hint": "BR",
+      "level": "excerpt",
+      "access": "não solicitado"
+    },
+    {
+      "id": "e8ad071c96ad0a77",
+      "source": "BBC News Brasil",
+      "url": "https://www.bbc.com/portuguese/articles/c6x23z0n899zo?at_medium=RSS&at_campaign=rss",
+      "category_hint": "MUNDO",
+      "level": "excerpt",
+      "access": "não solicitado"
+    },
+    {
+      "id": "27b7c55a52de855d",
+      "source": "Poder360",
+      "url": "https://www.poder360.com.br/poder-governo/lula-anuncia-mp-para-criar-ministerio-da-seguranca-publica/",
+      "category_hint": "BR",
+      "level": "excerpt",
+      "access": "não solicitado"
+    }
+  ],
+  "parts": [],
+  "BR": 0,
+  "MUNDO": 0,
+  "sources": [],
+  "limitations": [],
+  "production_before": {
+    "history.json": "795897e67385564d45456404a41a5d7ce2a85f1eb9d03aed050b7656d61e7153",
+    "delivery_state.json": null
+  },
+  "feed_observations": [
+    {
+      "name": "Folha de S.Paulo — Poder",
+      "url": "https://feeds.folha.uol.com.br/poder/rss091.xml",
+      "status": "error",
+      "result": "destino não autorizado, não público ou DNS não resolvido"
+    },
+    {
+      "name": "Folha de S.Paulo — Mercado",
+      "url": "https://feeds.folha.uol.com.br/mercado/rss091.xml",
+      "status": "error",
+      "result": "destino não autorizado, não público ou DNS não resolvido"
+    },
+    {
+      "name": "Folha de S.Paulo — Cotidiano",
+      "url": "https://feeds.folha.uol.com.br/cotidiano/rss091.xml",
+      "status": "error",
+      "result": "destino não autorizado, não público ou DNS não resolvido"
+    }
+  ],
+  "exit_code": 4,
+  "production_after": {
+    "history.json": "795897e67385564d45456404a41a5d7ce2a85f1eb9d03aed050b7656d61e7153",
+    "delivery_state.json": null
+  },
+  "production_unchanged": true,
+  "finished_at": "2026-11-06T00:19:39.630608+00:00"
+}

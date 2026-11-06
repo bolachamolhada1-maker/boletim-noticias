@@ -1,0 +1,13 @@
+{
+  "history.json": "795897e67385564d45456404a41a5d7ce2a85f1eb9d03aed050b7656d61e7153",
+  ".github\\workflows\\news_bot.yml": "3987cc7cbe3af0a795eab476a67d4907a42c02d24f8b073ffe4b876985955d6c",
+  "audit_tests\\analyze_preview.py": "7cffcad5e72abd29e68378c8b901b804be8f1471e869219d12108f839d34c423",
+  "audit_tests\\probe_results.json": "e890980725f6e3a00a078d5cb094bbf181851bf426711ffe494025c6f1a40493",
+  "audit_tests\\probe_unavailable_sources.py": "3684f28fa44b0aebaead3ab14717d97bc8d37b9cc8544441de720dd1166c2fda",
+  "audit_tests\\real_reviewer_results.json": "42d82c287e0bde3ba23f0de9f967b21f316ef521f95099992046c66d0fca49a7",
+  "audit_tests\\test_authorized_sources_and_security.py": "88cded858abca00954e308fe57ac8ac8a66c27e9360a5fdf2f5b33da6e332341",
+  "audit_tests\\test_failure_paths.py": "af87cd863b37088c07046dcb3273134f2630e918e636a18ed25b092cc1efb754",
+  "audit_tests\\test_messages_and_history.py": "5e6b769cc321c053499cb7ae5411077eff7421f7c631eb0bb155b82068d5946d",
+  "audit_tests\\test_real_reviewer.py": "0c96137dd37236eb049e3183a78ee65463dc5b7d2986d951aa4617b312525d5c",
+  "audit_tests\\test_review_control.py": "e42b6a022ca8672124806560416dedb1989b2eee6698368e2b77ba7a8eda1191"
+}
