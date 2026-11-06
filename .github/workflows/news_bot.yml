@@ -46,7 +46,7 @@ jobs:
         run: git pull --ff-only origin "$BOT_STATE_BRANCH"
 
       - name: Configurar ambiente Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v7
         with:
           python-version: "3.11"
           cache: "pip"
