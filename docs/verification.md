@@ -253,3 +253,29 @@ publicação, com sucesso reportado pelo Actions; isso não comprova recibo Tele
 Auditoria preexistente preservada sem editar: whitespace legado em audit_tests/
 permanece; diff-check passou com essa excecao de espacos finais. Nenhuma credencial
 do .env foi encontrada nos arquivos selecionados, conferidos antes do commit.
+
+## Agendamento diário e retrospectiva — 06/11/2026
+
+Alteração pontual: cron `0 20 * * *`, às 17h de Brasília todos os dias.
+Terça a domingo continuam com coleta de 24h e exclusão dos IDs do histórico.
+Na segunda, a coleta de 72h permite selecionar também IDs já enviados, sem
+remover ou alterar o histórico. A edição é identificada como retrospectiva do
+fim de semana com atualizações da segunda. Itens reaproveitados recebem o texto
+“Recapitulação de notícia já enviada.” no contexto, antes da revisão e do hash
+de aprovação. Atualizações precisam ser sustentadas pelas evidências atuais;
+não são inferidas comparando com uma versão antiga que não esteja disponível.
+O marcador de recapitulação integra a evidência versionada apenas quando verdadeiro,
+preservando os hashes de edições congeladas anteriores. Retomar a mesma edição
+continua utilizando as partes persistidas, sem nova coleta ou novo envio de partes
+confirmadas. Cotas, fontes, modelo e limites por execução permanecem iguais.
+
+Testes focados em Python 3.11.18: **77 passaram**, nas suítes test_main,
+test_editorial, test_delivery, test_review_followup, test_pipeline e
+test_format_and_network. Novos testes reproduziram a falha antes da mudança e
+validaram cron diário, sábado/domingo com 24h, segunda com 72h, recapitulação de ID
+já enviado, deduplicação nos demais dias, reexecução sem envio adicional,
+idempotência do rótulo, aprovação por versão e compatibilidade das evidências antigas.
+Comando: `python -m unittest tests.test_main tests.test_editorial tests.test_delivery tests.test_review_followup tests.test_pipeline tests.test_format_and_network -q`
+com `PYTHONUTF8=1`. Sem chamadas reais de IA, coleta real ou envio ao Telegram.
+Nenhuma auditoria geral adicional. `git diff --check` passou.
+Os registros anteriores acima descrevem o cron e as validações da versão anterior.

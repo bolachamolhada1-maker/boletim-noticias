@@ -442,7 +442,11 @@ def _run(preview=False):
     history = load_history()
     lookback = config.LOOKBACK_HOURS_MONDAY if is_monday else config.LOOKBACK_HOURS_WEEKDAY
     articles, feed_observations = collect_all_articles(lookback)
-    fresh = filter_already_sent(articles, history)
+    if is_monday:
+        # Recapitulação editorial intencional; a trava de edição/parte permanece.
+        fresh = [dict(a, previously_sent=a["id"] in history) for a in articles]
+    else:
+        fresh = filter_already_sent(articles, history)
     if preview and not fresh:
         fresh = articles  # seleção compartilhada também na prévia; nenhum corte [:25]
     candidates = select_candidates(fresh)

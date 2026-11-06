@@ -1,7 +1,7 @@
 # 📰 Boletim Automático de Notícias
 
 Automação que coleta, filtra, redige, revisa e entrega notícias no Telegram.
-Utiliza **Google Gemini** e **GitHub Actions**, agendado para dias úteis às 17h de Brasília. A execução pode começar depois do horário agendado; o rodapé informa a hora real da revisão. Custos e cotas dependem dos planos dos serviços, da redação e das revisões necessárias; não há garantia de custo zero.
+Utiliza **Google Gemini** e **GitHub Actions**, agendado todos os dias às 17h de Brasília. A execução pode começar depois do horário agendado; o rodapé informa a hora real da revisão. Custos e cotas dependem dos planos dos serviços, da redação e das revisões necessárias; não há garantia de custo zero.
 
 ---
 
@@ -36,9 +36,9 @@ Utiliza **Google Gemini** e **GitHub Actions**, agendado para dias úteis às 17
 
 ## 🕒 Horários e Frequência
 
-- **Segunda a Sexta-feira às 17h (Horário de Brasília / UTC-3):** Acionado via cron `0 20 * * 1-5` no GitHub Actions.
+- **Todos os dias às 17h (Horário de Brasília / UTC-3):** Acionado via cron `0 20 * * *` no GitHub Actions, incluindo sábado e domingo.
 - **Terça a Sexta-feira:** Cobertura das últimas 24 horas.
-- **Segunda-feira:** Edição especial com janela estendida de 72 horas (cobre o fim de semana completo + segunda-feira).
+- **Segunda-feira:** Retrospectiva do fim de semana com atualizações da segunda, dentro das últimas 72 horas. Notícias já enviadas podem voltar à seleção por relevância e recebem identificação de recapitulação no texto submetido à revisão. Atualizações precisam de suporte nas evidências. Nos demais dias, inclusive sábado e domingo, a janela é de 24 horas e o histórico continua excluindo IDs já enviados. A mesma edição ou parte não é reenviada: a retomada usa o estado congelado existente.
 
 ---
 

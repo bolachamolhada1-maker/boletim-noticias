@@ -61,7 +61,7 @@ def format_bulletin_html(data, edition_date, is_monday, failed_sources):
     date = edition_date.astimezone(brt).strftime("%d/%m/%Y")
     header = f"📰 <b>Boletim de notícias — {date}</b>"
     if is_monday:
-        header += "\n<i>Cobertura: últimas 72 horas.</i>"
+        header += "\n<i>Retrospectiva do fim de semana com atualizações da segunda-feira. Cobertura: últimas 72 horas.</i>"
     else:
         header += "\n<i>Cobertura: últimas 24 horas.</i>"
     blocks = [(header + "\n\n<b>Panorama:</b>\n" + html.escape(data["panorama"]), ())]

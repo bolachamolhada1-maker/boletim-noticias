@@ -31,6 +31,60 @@ class MainTests(unittest.TestCase):
         self.data = stamped(dict(panorama="Decisão oficial anunciada.", noticias=[item(self.sources[0])]), self.sources)
         self.data["shortages"] = dict(BR=3, MUNDO=3)
 
+    def test_weekend_window_and_monday_recap_with_delivery_deduplication(self):
+        from datetime import datetime, timezone, timedelta
+        for day, hours in ((7, 24), (8, 24), (9, 72), (10, 24)):
+            with self.subTest(day=day):
+                self.history.write_text(json.dumps({"sent_ids": [self.sources[0]["id"]]}), encoding="utf-8")
+                if self.outbox.exists():
+                    self.outbox.unlink()
+                fixed = datetime(2026, 11, day, 17, tzinfo=timezone(timedelta(hours=-3)))
+                def reviewed(candidates, monday):
+                    data = stamped(dict(panorama="Decisao oficial.", noticias=[bot.bind_item(item(candidates[0]), candidates)]), candidates)
+                    data["shortages"] = dict(BR=3, MUNDO=3)
+                    return data
+                with patch.object(bot, "datetime") as clock, \
+                     patch.object(bot, "collect_all_articles", return_value=(copy.deepcopy(self.sources), [])) as collect, \
+                     patch.object(bot, "enrich_candidates", side_effect=lambda a: a), \
+                     patch.object(bot, "build_reviewed_bulletin", side_effect=reviewed) as build, \
+                     patch.object(bot, "send_telegram_message", return_value=dict(status="sent", message_id=1, chat_id="test-chat")) as send:
+                    clock.now.return_value = fixed
+                    result = bot.main()
+                    collect.assert_called_once_with(hours)
+                    if day == 9:
+                        self.assertEqual(result, 5)
+                        self.assertTrue(build.call_args.args[0][0]["previously_sent"])
+                        text = "\n".join(c.args[0] for c in send.call_args_list)
+                        self.assertIn("Retrospectiva", text)
+                        self.assertIn("Recapitula", text)
+                        sent_count = send.call_count
+                        self.assertEqual(bot.main(), 5)
+                        self.assertEqual(send.call_count, sent_count)
+                        self.assertEqual(collect.call_count, 1)
+                    else:
+                        self.assertEqual(result, 2)
+                        build.assert_not_called()
+                        send.assert_not_called()
+
+    def test_daily_cron_preserves_brasilia_time(self):
+        workflow = Path(".github/workflows/news_bot.yml").read_text(encoding="utf-8")
+        self.assertIn('cron: "0 20 * * *"', workflow)
+        self.assertNotIn('cron: "0 20 * * 1-5"', workflow)
+
+    def test_recap_label_is_reviewed_and_old_evidence_versions_are_unchanged(self):
+        from editorial import evidence_snapshot
+        original = evidence_snapshot(self.sources[0])
+        self.assertNotIn("previously_sent", original)
+        unchanged = dict(self.sources[0], previously_sent=False)
+        self.assertEqual(original, evidence_snapshot(unchanged))
+        source = dict(self.sources[0], previously_sent=True)
+        bound = bot.bind_item(item(source), [source])
+        self.assertEqual(bound, bot.bind_item(bound, [source]))
+        data = stamped(dict(panorama="Recapitulação.", noticias=[bound]), [source])
+        self.assertTrue(bot.validate_publication(data, [source]))
+        data["noticias"][0]["contexto"] = ""
+        self.assertFalse(bot.validate_publication(data, [source]))
+
     def test_restart_resumes_frozen_content_without_rss_or_gemini(self):
         store = DeliveryStore()
         edition = store.create(bot.datetime.now(bot.timezone(bot.timedelta(hours=-3))).date().isoformat(), [dict(text="parte um", article_ids=[]),

@@ -3,8 +3,8 @@ name: Boletim de Notícias
 on:
   schedule:
     # 17h de Brasília (BRT = UTC-3) corresponde a 20h UTC
-    # Executa de segunda a sexta-feira
-    - cron: "0 20 * * 1-5"
+    # Executa todos os dias, incluindo sábado e domingo
+    - cron: "0 20 * * *"
 
   # Permite disparar manualmente via interface web do GitHub
   workflow_dispatch:

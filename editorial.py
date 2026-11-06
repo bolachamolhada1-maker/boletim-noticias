@@ -112,8 +112,11 @@ def source_group(article):
 
 
 def evidence_snapshot(a):
-    return {k: a.get(k) for k in ("id", "url", "source", "title", "summary", "body",
-                                 "published_at", "evidence_level", "content_access")}
+    snapshot = {k: a.get(k) for k in ("id", "url", "source", "title", "summary", "body",
+                                    "published_at", "evidence_level", "content_access")}
+    if a.get("previously_sent"):
+        snapshot["previously_sent"] = True
+    return snapshot
 
 
 def catalog(articles):
@@ -149,6 +152,10 @@ def bind_item(raw, articles):
         if raw["pais"] not in ("BR", "MUNDO") or raw["tema"] not in THEMES:
             return None
         n = {k: copy.deepcopy(raw[k]) for k in ("article_id", "evidence_ids", "pais", "tema", *TEXT_FIELDS)}
+        recap = "Recapitulação de notícia já enviada. "
+        if a.get("previously_sent") and isinstance(n["contexto"], str) and not n["contexto"].startswith(recap.strip()):
+            n["contexto"] = recap + n["contexto"]
+            n["contexto"] = n["contexto"].strip()
         for k in TEXT_FIELDS:
             value = n[k]
             if k in ("titulo", "resumo_desenvolvido", "contexto"):
@@ -241,6 +248,11 @@ use outra fonte autorizada do catálogo quando disponível. Registre divergênci
 pela memória. Comparar uma matéria não é verificação independente da verdade.
 Use evidence_ids adicionais apenas se comprovadamente sobre o mesmo acontecimento.
 O panorama será produzido apenas após a seleção final. Não repita acontecimentos já aceitos.
+Na edição de 72 horas, faça retrospectiva do fim de semana com as atualizações da segunda.
+previously_sent indica recapitulação intencional: inicie contexto com
+"Recapitulação de notícia já enviada." e conte esse rótulo no limite de palavras.
+Identifique atualizações somente quando sustentadas pelas evidências; não apresente
+um fato recapitulado como novidade nem invente desdobramentos.
 Preencha as vagas BR e MUNDO informadas quando houver evid?ncia eleg?vel; nunca troque uma cota pela outra.
 Respeite limites_palavras por ID, contando TODOS os campos de texto inclusive t?tulo e limita??o.
 Com evidence_ids adicionais, o teto ? min(180, max(60, int(palavras da evid?ncia conjunta * 1.7))).
