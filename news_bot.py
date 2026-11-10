@@ -263,24 +263,31 @@ def summarize_with_ai(articles: list, is_monday: bool, accepted=None, excluded_i
     raw = call_gemini_json(GENERATION_RULES, payload)
     if not isinstance(raw, dict) or not isinstance(raw.get("noticias"), list):
         return None
-    news, ids, attempted_ids, invalid_ids = [], set(), [], []
+    news, attempted_ids, invalid_ids, invalid_categories = [], [], [], {}
+    sources = {a["id"]: a for a in articles}
+    seen = set()
     for candidate in raw["noticias"]:
         ident = candidate.get("article_id") if isinstance(candidate, dict) else None
-        if ident in payload["eligible_ids"]:
-            attempted_ids.append(ident)
+        if not isinstance(ident, str) or ident not in sources:
+            log.error("Resposta de geração com referência principal inválida")
+            return None
+        if ident in excluded_ids or ident in seen:
+            continue
+        seen.add(ident)
+        attempted_ids.append(ident)
         n = bind_item(candidate, articles)
         if n is None:
-            if ident in payload["eligible_ids"]:
-                invalid_ids.append(ident)
+            invalid_ids.append(ident)
+            country = candidate.get("pais")
+            if country not in ("BR", "MUNDO"):
+                country = sources[ident].get("country")
+            invalid_categories[ident] = country
             log.warning("Rascunho inv?lido ID=%s categoria=%s: contrato local (campos/refer?ncias/tamanho/evid?ncia)", ident, candidate.get("pais") if isinstance(candidate, dict) else None)
             continue
-        if n["article_id"] in ids or n["article_id"] in excluded_ids:
-            log.info("Rascunho ignorado ID=%s: repetido ou j? tentado", ident)
-            continue
         log.info("Rascunho v?lido ID=%s categoria=%s", ident, n["pais"])
-        ids.add(n["article_id"])
         news.append(n)
-    return dict(panorama="", noticias=news, attempted_ids=attempted_ids, invalid_ids=invalid_ids, invalid_categories={n.get("article_id"): n.get("pais") for n in raw["noticias"] if isinstance(n, dict) and n.get("article_id") in invalid_ids})
+    return dict(panorama="", noticias=news, attempted_ids=attempted_ids,
+                invalid_ids=invalid_ids, invalid_categories=invalid_categories)
 
 
 def review_bulletin(draft_data: dict, source_articles: list) -> dict | None:
@@ -366,7 +373,8 @@ def build_reviewed_bulletin(candidates, is_monday):
                 return False
             proposed = [n for n in draft["noticias"] if n["article_id"] not in attempted]
             previous_invalid = dict(invalid)
-            attempted.update(draft.get("attempted_ids", []))
+            # Reservas válidas cortadas pela cota ainda podem substituir rejeições.
+            attempted.update(draft.get("invalid_ids", []))
             for ident in draft.get("invalid_ids", []):
                 invalid[ident] = draft.get("invalid_categories", {}).get(ident, next((a.get("country") for a in candidates if a["id"] == ident), None))
             proposed = apply_quotas(accepted + proposed)
@@ -487,6 +495,8 @@ def _run(preview=False):
 
 def main(preview=False):
     try:
+        if os.path.realpath(os.getcwd()) != os.path.dirname(os.path.realpath(__file__)):
+            raise ValueError("Execute o bot a partir da pasta do projeto para preservar histórico e trava")
         if preview:
             return _run(preview=True)
         with execution_lock():

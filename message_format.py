@@ -23,6 +23,15 @@ def split_html(block, limit):
         return [block]
     parts, stack, current = [], [], ""
     tokens = re.findall(r"<[^>]+>|(?:&(?:#[0-9]+|#x[0-9a-fA-F]+|[a-zA-Z]+);|[^<&\s])+|\s+|[<&]", block)
+    # Texto extenso pode ser dividido sem perder caracteres ou quebrar entidades.
+    # Tags e atributos continuam indivisíveis.
+    expanded = []
+    for token in tokens:
+        if not token.startswith("<") and size(token) > limit // 2:
+            expanded.extend(re.findall(r"&(?:#[0-9]+|#x[0-9a-fA-F]+|[a-zA-Z]+);|.", token, re.S))
+        else:
+            expanded.append(token)
+    tokens = expanded
 
     def closing(tags):
         return "".join(f"</{name}>" for name, opening in reversed(tags))

@@ -68,7 +68,7 @@ RSS_FEEDS = [
     },
     {
         "name": "G1 — Tecnologia",
-        "url": "http://pox.globo.com/rss/g1/tecnologia/",
+        "url": "https://pox.globo.com/rss/g1/tecnologia/",
         "topics": ["tecnologia"],
         "country": "BR",
     },

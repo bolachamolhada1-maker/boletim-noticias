@@ -74,12 +74,21 @@ def bounded_get(url, *, feed=False, max_bytes=None):
     with requests.Session() as session:
         session.trust_env = False
         for hop in range(config.MAX_REDIRECTS + 1):
+            if time.monotonic() - started >= config.NETWORK_BUDGET_SECONDS:
+                raise FetchError("orçamento de tempo excedido")
+            if urlparse(current).scheme != "https":
+                raise FetchError("transporte sem HTTPS não permitido")
             host = urlparse(current).hostname
             permitted = editorial_source(current) or (feed and host in TRANSPORT_HOSTS)
             if not permitted or not is_public_url(current):
                 raise FetchError("destino não autorizado, não público ou DNS não resolvido")
-            with session.get(current, timeout=(4, 8), allow_redirects=False, stream=True,
+            remaining = config.NETWORK_BUDGET_SECONDS - (time.monotonic() - started)
+            if remaining <= 0:
+                raise FetchError("orçamento de tempo excedido")
+            with session.get(current, timeout=(min(4, remaining), min(8, remaining)), allow_redirects=False, stream=True,
                              headers={"User-Agent": "NewsBulletin/2.0", "Accept": "application/rss+xml, application/xml, text/html"}) as response:
+                if time.monotonic() - started >= config.NETWORK_BUDGET_SECONDS:
+                    raise FetchError("orçamento de tempo excedido")
                 if response.status_code in (301, 302, 303, 307, 308):
                     if hop == config.MAX_REDIRECTS or not response.headers.get("Location"):
                         raise FetchError("limite de redirecionamentos")
@@ -88,12 +97,17 @@ def bounded_get(url, *, feed=False, max_bytes=None):
                 if response.status_code != 200:
                     raise FetchError(f"HTTP {response.status_code}")
                 data = bytearray()
-                for chunk in response.iter_content(16384):
-                    if time.monotonic() - started > config.NETWORK_BUDGET_SECONDS:
+                # Um byte impede que um bloco grande retenha um fluxo lento
+                # sem devolver controle para conferir o prazo. DNS e leituras
+                # bloqueantes ainda dependem dos limites do sistema/requests.
+                for chunk in response.iter_content(1):
+                    if time.monotonic() - started >= config.NETWORK_BUDGET_SECONDS:
                         raise FetchError("orçamento de tempo excedido")
                     data.extend(chunk)
                     if len(data) > max_bytes:
                         raise FetchError("limite de bytes excedido")
+                if time.monotonic() - started >= config.NETWORK_BUDGET_SECONDS:
+                    raise FetchError("orçamento de tempo excedido")
                 return bytes(data), current, response.headers.get("Content-Type", "")
     raise FetchError("redirecionamento inválido")
 
@@ -177,31 +191,40 @@ def extract_public_body(content, requested_url=None):
     parser = PublicArticleParser()
     parser.feed(content)
 
-    def walk(node):
-        if isinstance(node, list):
-            for child in node:
-                yield from walk(child)
-        elif isinstance(node, dict):
-            yield node
-            for child in node.values():
-                if isinstance(child, (dict, list)):
-                    yield from walk(child)
+    def walk(node, seen=None):
+        pending = [node]
+        seen = set() if seen is None else seen
+        while pending:
+            current = pending.pop()
+            if not isinstance(current, (list, dict)) or id(current) in seen:
+                continue
+            seen.add(id(current))
+            if isinstance(current, list):
+                pending.extend(reversed(current))
+            elif isinstance(current, dict):
+                yield current
+                pending.extend(reversed(list(current.values())))
 
     nodes = []
     for block in parser.json_blocks:
         try:
             nodes.extend(walk(json.loads(block)))
+        except RecursionError:
+            return "", "metadados excedem a profundidade suportada"
         except (ValueError, TypeError):
             continue
 
     def identities(value):
-        if isinstance(value, str):
-            return [value]
-        if isinstance(value, list):
-            return [url for member in value for url in identities(member)]
-        if isinstance(value, dict):
-            return identities(value.get("url")) + identities(value.get("@id"))
-        return []
+        result, pending = [], [value]
+        while pending:
+            current = pending.pop()
+            if isinstance(current, str):
+                result.append(current)
+            elif isinstance(current, list):
+                pending.extend(current)
+            elif isinstance(current, dict):
+                pending.extend((current.get("url"), current.get("@id")))
+        return result
 
     requested = _identity_url(requested_url, requested_url)
     if requested_url is not None and requested is None:
@@ -228,16 +251,18 @@ def extract_public_body(content, requested_url=None):
         elif not requested and len(articles) == 1:
             selected.append(node)  # compatibilidade do extrator isolado sem URL
 
-    def restricted(node):
-        value = node.get("isAccessibleForFree")
+    # Compartilhar a visita evita custo quadrático entre entidades selecionadas
+    # aninhadas. Entidades relacionadas fora de hasPart continuam independentes.
+    checked = set()
+    restrictions = list(selected)
+    for node in selected:
+        restrictions.extend(walk(node.get("hasPart", []), checked))
+    for part in restrictions:
+        value = part.get("isAccessibleForFree")
         if value is False or (isinstance(value, str) and value.lower() == "false"):
-            return True
-        # Restrição em parte da entidade correta também impede uso do corpo embutido.
-        return any(restricted(part) for part in walk(node.get("hasPart", [])))
-
-    if any(restricted(n) for n in selected):
-        return "", "restrição declarada na matéria solicitada; corpo não utilizado"
-    bodies = {n["articleBody"].strip() for n in selected if n.get("articleBody", "").strip()}
+            return "", "restrição declarada na matéria solicitada; corpo não utilizado"
+    bodies = {n["articleBody"].strip() for n in selected
+              if isinstance(n.get("articleBody"), str) and n["articleBody"].strip()}
     if len(bodies) > 1:
         return "", "entidades da matéria ambíguas; corpo não utilizado"
     if articles and not selected:

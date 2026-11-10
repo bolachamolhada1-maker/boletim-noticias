@@ -45,6 +45,9 @@ Utiliza **Google Gemini** e **GitHub Actions**, agendado todos os dias às 17h d
 ## 🛠️ Comandos Úteis
 
 ### Execução Local
+Execute os comandos a partir da pasta do projeto. O bot recusa outro diretório
+para que histórico, estado de entrega e trava sempre sejam os mesmos.
+
 ```bash
 # Instalar dependências
 pip install -r requirements.txt

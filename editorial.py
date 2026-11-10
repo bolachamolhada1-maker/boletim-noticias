@@ -173,11 +173,11 @@ def bind_item(raw, articles):
         evidence = " ".join(sources[x].get("body") or sources[x].get("summary", "") for x in ids)
         if not evidence.strip():  # só título não sustenta uma notícia desenvolvida
             return None
+        if not a.get("body") and not n["limitacao"]:
+            n["limitacao"] = "Base documental limitada ao trecho RSS; corpo integral não acessível."
         words = sum(len((n[k] or "").split()) for k in TEXT_FIELDS)
         if words > min(180, max(60, int(len(evidence.split()) * 1.7))):
             return None
-        if not a.get("body") and not n["limitacao"]:
-            n["limitacao"] = "Base documental limitada ao trecho RSS; corpo integral não acessível."
         n.update(fonte_nome=a["source"], fonte_url=normalize_url(a["url"]))
         if len(html.escape(n["fonte_url"], quote=True).encode("utf-16-le")) // 2 > config.TELEGRAM_MAX_CHARS - 512:
             return None
@@ -257,6 +257,9 @@ Preencha as vagas BR e MUNDO informadas quando houver evid?ncia eleg?vel; nunca 
 Respeite limites_palavras por ID, contando TODOS os campos de texto inclusive t?tulo e limita??o.
 Com evidence_ids adicionais, o teto ? min(180, max(60, int(palavras da evid?ncia conjunta * 1.7))).
 Selecione SOMENTE article_id de eligible_ids. IDs em excluded_ids já foram tentados ou rejeitados.
+Sem corpo integral, inclua em limitacao e no orçamento de palavras:
+"Base documental limitada ao trecho RSS; corpo integral não acessível."
+O teto vale para o texto final, incluindo esse aviso e o rótulo de recapitulação.
 """
 
 REVIEW_RULES = """Audite o rascunho inteiro contra as evidências associadas a cada ID.
