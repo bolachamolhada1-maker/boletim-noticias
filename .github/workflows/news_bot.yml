@@ -76,7 +76,7 @@ jobs:
 
       - name: Preservar estado para diagnóstico após falha
         if: failure() && github.event.inputs.preview != 'true'
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: delivery-state-${{ github.run_id }}
           path: |
