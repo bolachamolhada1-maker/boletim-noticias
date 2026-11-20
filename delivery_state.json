@@ -917,12 +917,15 @@
             "8d3ebe694d65bf75"
           ],
           "attempted_at": "2026-11-20T20:43:49.324587+00:00",
+          "chat_id": "8377161362",
           "id": "d43791d9908e3c0686773ae5:3",
-          "status": "sending",
+          "message_id": 14,
+          "sent_at": "2026-11-20T20:43:50.992452+00:00",
+          "status": "sent",
           "text": "<i>[Parte 3/3]</i>\n\n\n<b>7. Impasse orçamentário ameaça paralisação do governo dos EUA</b>\n<i>Internacional • Política</i>\nO governo dos EUA corre risco de paralisação parcial antes do Natal devido a divergências entre republicanos e democratas sobre o financiamento federal. O impasse envolve o pedido de Donald Trump por US$ 350 bilhões adicionais para gastos militares e a resistência democrata, que discute condicionar o apoio a restrições no uso da força militar na guerra contra o Irã. O prazo para um acordo termina em 11 de dezembro. Republicanos buscam evitar o shutdown, enquanto democratas debatem estratégias para pressionar o governo sem paralisar serviços essenciais.\n\n<b>Contexto:</b> A disputa ocorre em um momento de transição política e alta impopularidade da guerra, complicando as negociações orçamentárias no Congresso.\n\n<b>Limitação da evidência:</b> Base documental limitada ao trecho RSS; corpo integral não acessível.\n\n🔗 <a href=\"https://g1.globo.com/mundo/noticia/2026/11/20/impasse-sobre-guerra-e-gastos-militares-ameaca-paralisar-governo-dos-eua.ghtml\">G1</a>\n\n─────────────────────\n<i>Observações por feed nesta coleta: https://www.agencialupa.org/feed/: 0 candidatos na janela; https://www.economist.com/international/rss.xml: 0 candidatos na janela; https://www.economist.com/finance-and-economics/rss.xml: 0 candidatos na janela.</i>\n<i>Revisão de fidelidade às evidências concluída em 20/11/2026 às 17:43:37 (Brasília).</i>"
         }
       ],
-      "status": "partial"
+      "status": "complete"
     }
   ],
   "schema_version": 1
