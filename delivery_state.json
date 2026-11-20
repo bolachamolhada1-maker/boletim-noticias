@@ -1,0 +1,920 @@
+{
+  "editions": [
+    {
+      "created_at": "2026-11-20T20:43:37.240986+00:00",
+      "destination": "8377161362",
+      "editorial": {
+        "bulletin": {
+          "approval": {
+            "conjunto": "fb458082d15b2ca92bf382ee327279d2aeaa26226cc41784615043068229cc1e",
+            "events": {
+              "0f43032fc3936837": "governo-lula-ajuste-fiscal-brasil-2026-11-20",
+              "1e767229d014e94d": "governo-desmente-boato-pix-mei-brasil-2026-11-20",
+              "43355b8b605c4146": "eua-nomeacao-diretora-ciberseguranca-eua-2026-11-20",
+              "839db315aea4e5d3": "covid-19-aumento-casos-brasil-2026-11-20",
+              "8d3ebe694d65bf75": "impasse-orcamentario-shutdown-eua-2026-11-20",
+              "d020b8aa67dc2154": "trump-ameaca-centros-dados-ia-eua-2026-11-20",
+              "f45a42cc29594bdb": "stf-julgamento-van-hattem-brasil-2026-11-20"
+            },
+            "items": {
+              "0f43032fc3936837": "486473a71ad48ddd9049db9fb336ad5ad93a1300e85dc27532401ee1e0ce694d",
+              "1e767229d014e94d": "1dc0712a49309904655c37c1b20e460dfde6f1f2adef864c61a3dd8b50b0864c",
+              "43355b8b605c4146": "906f1b84d7ed0828eac62979561429313d70512b3c4933c3243e89bbbe4f4f68",
+              "839db315aea4e5d3": "ac2de0269dd2b11123fd92ab39a055968ce07acf24b3de2f9c807a106796817a",
+              "8d3ebe694d65bf75": "c62dd175fb32c618111c7038a5fc226494f714ac33286d96dbbd49c67b75a508",
+              "d020b8aa67dc2154": "eefbd06e4e43c808cd04a8d16a99790613839ba98ca9664415cd4ac842582f2d",
+              "f45a42cc29594bdb": "3bbaf5897f586988c2b386d4fc675b76c5593bf010253d770b61b6cac07fbca0"
+            },
+            "panorama": "71c6bbe70eb41da889f1ec210c2183afbe1ffeeeea3808177b145c119818fa88",
+            "reviewed_at": "2026-11-20T20:43:37.235756+00:00"
+          },
+          "noticias": [
+            {
+              "article_id": "0f43032fc3936837",
+              "consequencias": null,
+              "contexto": "O governo enfrenta pressão de sua base aliada menos de um mês após a vitória eleitoral, com parlamentares cobrando maior diálogo prévio sobre medidas econômicas.",
+              "divergencias": null,
+              "evidence_ids": [
+                "0f43032fc3936837"
+              ],
+              "fonte_nome": "G1",
+              "fonte_url": "https://g1.globo.com/politica/noticia/2026/11/20/briga-na-esquerda-e-governo-lula-4.ghtml",
+              "limitacao": "Base documental limitada ao trecho RSS; corpo integral não acessível.",
+              "pais": "BR",
+              "repercussao": null,
+              "resumo_desenvolvido": "O projeto de ajuste fiscal do governo Lula 4, aprovado pelo Senado, gerou atritos entre aliados do PT e parlamentares do PSOL. A proposta, que bloqueia despesas e limita o crescimento de gastos, enfrenta resistência de movimentos sociais e setores da esquerda que temem retrocessos. O presidente Lula atribuiu as críticas à falta de informação, enquanto o líder do governo, Randolfe Rodrigues, defendeu a necessidade de unidade diante de um Congresso com oposição fortalecida. O episódio expõe o desafio de conciliar demandas sociais com a realidade legislativa.",
+              "tema": "Política",
+              "titulo": "Divergências na esquerda sobre ajuste fiscal do governo Lula"
+            },
+            {
+              "article_id": "839db315aea4e5d3",
+              "consequencias": null,
+              "contexto": "A variante XFG, descendente da Ômicron, predomina nos registros atuais, em um contexto onde a vacinação perdeu prioridade na percepção pública.",
+              "divergencias": null,
+              "evidence_ids": [
+                "839db315aea4e5d3"
+              ],
+              "fonte_nome": "Deutsche Welle — DW",
+              "fonte_url": "https://www.dw.com/pt-br/casos-de-covid-crescem-no-brasil-mesmo-com-vacina-sobrando/a-80004772?maca=bra-rss-br-br-1031-rdf",
+              "limitacao": "Base documental limitada ao trecho RSS; corpo integral não acessível.",
+              "pais": "BR",
+              "repercussao": null,
+              "resumo_desenvolvido": "O Brasil registra alta de casos de covid-19 em 19 estados pelo sexto mês consecutivo. Especialistas apontam que a baixa procura pela imunização, com menos da metade das doses distribuídas em 2025 aplicadas, contribui para o cenário. Fatores como a redução da percepção de risco, desinformação sobre vacinas e dificuldades de acesso aos serviços de saúde são citados como causas. Embora o risco seja classificado como baixo, a Fiocruz alerta para o aumento de casos graves em diversas unidades da federação.",
+              "tema": "Segurança",
+              "titulo": "Casos de covid-19 crescem no Brasil com baixa adesão vacinal"
+            },
+            {
+              "article_id": "f45a42cc29594bdb",
+              "consequencias": null,
+              "contexto": "O caso envolve declarações de 2024 sobre relatórios da PF, com a defesa buscando assegurar sustentação oral ao vivo.",
+              "divergencias": null,
+              "evidence_ids": [
+                "f45a42cc29594bdb",
+                "c39560a25f6f38f2"
+              ],
+              "fonte_nome": "G1",
+              "fonte_url": "https://g1.globo.com/politica/noticia/2026/11/20/dino-vota-para-tornar-van-hattem-reu-por-calunia-e-injuria-contra-delegado-da-policia-federal.ghtml",
+              "limitacao": "Base documental limitada ao trecho RSS; corpo integral não acessível.",
+              "pais": "BR",
+              "repercussao": null,
+              "resumo_desenvolvido": "O ministro Cristiano Zanin, do STF, pediu destaque no julgamento da denúncia contra o deputado Marcel Van Hattem (Novo-RS), retirando o caso do ambiente virtual para a sessão presencial da 1ª Turma. O relator, Flávio Dino, havia votado pelo recebimento da denúncia da PGR por calúnia e injúria contra um delegado da PF. A defesa de Van Hattem alega imunidade parlamentar, enquanto Dino argumenta que as ofensas e a replicação em redes sociais extrapolam a crítica política. Não há data definida para a sessão presencial.",
+              "tema": "Política",
+              "titulo": "Zanin leva julgamento de Van Hattem ao plenário físico"
+            },
+            {
+              "article_id": "1e767229d014e94d",
+              "consequencias": null,
+              "contexto": "Publicações virais alegavam que o orçamento reservado seria insuficiente para cobrir a promessa de campanha, o que foi refutado pela Secom.",
+              "divergencias": null,
+              "evidence_ids": [
+                "1e767229d014e94d"
+              ],
+              "fonte_nome": "G1",
+              "fonte_url": "https://g1.globo.com/fato-ou-fake/noticia/2026/11/20/e-fake-que-pix-mei-de-ate-r-5-mil-tera-de-baixar-para-r-363-para-caber-no-orcamento-reservado-pelo-governo.ghtml",
+              "limitacao": "Base documental limitada ao trecho RSS; corpo integral não acessível.",
+              "pais": "BR",
+              "repercussao": null,
+              "resumo_desenvolvido": "O governo federal classificou como falsa a informação de que o valor do Pix MEI seria reduzido de R$ 5 mil para R$ 363. A medida, parte do programa Prospera MEI, prevê investimentos de R$ 5 bilhões para atender cerca de 1 milhão de microempreendedores a partir de 2027, com foco em mulheres e faturamento até R$ 40,5 mil. O recurso é destinado à aquisição de bens produtivos, como maquinários e ferramentas, e não será distribuído automaticamente a todos os MEIs registrados no país.",
+              "tema": "Economia",
+              "titulo": "Governo desmente boato sobre redução do Pix MEI"
+            },
+            {
+              "article_id": "43355b8b605c4146",
+              "consequencias": null,
+              "contexto": "A troca no comando da cibersegurança ocorre após a demissão de Sean Cairncross, que perdeu a confiança da administração Trump.",
+              "divergencias": null,
+              "evidence_ids": [
+                "43355b8b605c4146"
+              ],
+              "fonte_nome": "Poder360",
+              "fonte_url": "https://www.poder360.com.br/poder-internacional/governo-dos-eua-nomeia-nova-diretora-de-seguranca-cibernetica/",
+              "limitacao": "Base documental limitada ao trecho RSS; corpo integral não acessível.",
+              "pais": "MUNDO",
+              "repercussao": null,
+              "resumo_desenvolvido": "O governo dos EUA nomeou Kirsten A. Davies como Diretora Nacional de Segurança Cibernética da Casa Branca. A nomeação ocorre após uma série de falhas tecnológicas que afetaram voos, bancos e agências de inteligência no país. Davies, ex-diretora de informação do Pentágono, liderará o projeto 'América Primeiro', focado em resiliência cibernética e modernização tecnológica. A Casa Branca afirmou não haver indícios de ataques coordenados, mas o episódio intensificou debates sobre vulnerabilidades e o uso de inteligência artificial por hackers.",
+              "tema": "Tecnologia",
+              "titulo": "EUA nomeiam nova diretora de segurança cibernética"
+            },
+            {
+              "article_id": "d020b8aa67dc2154",
+              "consequencias": null,
+              "contexto": "A construção de centros de dados foi tema central nas eleições de meio de mandato, com preocupações sobre consumo de energia e regulação.",
+              "divergencias": null,
+              "evidence_ids": [
+                "d020b8aa67dc2154"
+              ],
+              "fonte_nome": "BBC News",
+              "fonte_url": "https://www.bbc.co.uk/news/articles/cmde1lw9y54ko?at_medium=RSS&at_campaign=rss",
+              "limitacao": "Base documental limitada ao trecho RSS; corpo integral não acessível.",
+              "pais": "MUNDO",
+              "repercussao": null,
+              "resumo_desenvolvido": "O presidente Donald Trump ameaçou impor impostos elevados a empresas de tecnologia dos EUA que construírem centros de dados de inteligência artificial fora do país. A medida visa manter a infraestrutura de IA em solo americano para evitar que a China obtenha vantagens competitivas. Embora a proposta ainda careça de detalhes e não tenha sido formalizada como política de governo, ela reflete a estratégia de Washington de restringir o acesso chinês a chips avançados e poder computacional, impactando investimentos globais de gigantes como Google e Meta.",
+              "tema": "Economia",
+              "titulo": "Trump ameaça proibir centros de dados de IA no exterior"
+            },
+            {
+              "article_id": "8d3ebe694d65bf75",
+              "consequencias": null,
+              "contexto": "A disputa ocorre em um momento de transição política e alta impopularidade da guerra, complicando as negociações orçamentárias no Congresso.",
+              "divergencias": null,
+              "evidence_ids": [
+                "8d3ebe694d65bf75"
+              ],
+              "fonte_nome": "G1",
+              "fonte_url": "https://g1.globo.com/mundo/noticia/2026/11/20/impasse-sobre-guerra-e-gastos-militares-ameaca-paralisar-governo-dos-eua.ghtml",
+              "limitacao": "Base documental limitada ao trecho RSS; corpo integral não acessível.",
+              "pais": "MUNDO",
+              "repercussao": null,
+              "resumo_desenvolvido": "O governo dos EUA corre risco de paralisação parcial antes do Natal devido a divergências entre republicanos e democratas sobre o financiamento federal. O impasse envolve o pedido de Donald Trump por US$ 350 bilhões adicionais para gastos militares e a resistência democrata, que discute condicionar o apoio a restrições no uso da força militar na guerra contra o Irã. O prazo para um acordo termina em 11 de dezembro. Republicanos buscam evitar o shutdown, enquanto democratas debatem estratégias para pressionar o governo sem paralisar serviços essenciais.",
+              "tema": "Política",
+              "titulo": "Impasse orçamentário ameaça paralisação do governo dos EUA"
+            }
+          ],
+          "panorama": "O cenário político brasileiro é marcado por divergências internas na base governista sobre o ajuste fiscal e por embates jurídicos envolvendo parlamentares no STF. Paralelamente, o país enfrenta um aumento nos casos de covid-19 impulsionado pela baixa adesão vacinal, enquanto o governo desmente boatos sobre o programa Pix MEI.",
+          "shortages": {
+            "BR": 0,
+            "MUNDO": 0
+          }
+        },
+        "catalog": [
+          {
+            "body": "",
+            "content_access": "não solicitado",
+            "country": "BR",
+            "evidence_level": "excerpt",
+            "feed_name": "G1 — Política",
+            "feed_url": "https://g1.globo.com/rss/g1/politica/",
+            "id": "0f43032fc3936837",
+            "published_at": "2026-11-20T03:00:01+00:00",
+            "selection_rank": 1,
+            "selection_reason": "assunto/relevância/atualidade/diversidade",
+            "source": "G1",
+            "summary": "Presidente Lula durante cerimônia no Palácio do Planalto nesta quinta-feira (19). Adriano Machado/Reuters Menos de um mês após a vitória de Lula (PT) sobre Flávio Bolsonaro (PL) no segundo turno, uma briga pública entre aliados do presidente expôs divergências na esquerda sobre os rumos econômicos e políticos do quarto mandato do petista, que começa em janeiro de 2027. O estopim foi o projeto de ajuste fiscal apresentado pelo governo, que provocou trocas de farpas entre integrantes do PT, críticas de parlamentares do PSOL e mobilizações de movimentos sociais contrários à proposta. Aprovado pelo Senado na quarta-feira (18), o projeto de ajuste fiscal apresentado pelo governo permite bloquear despesas para cumprir a meta fiscal e reduz, em determinadas situações, de 2,5% para 2% o limite de crescimento dos gastos acima da inflação a partir de 2027. O texto ainda precisa ser analisado pela Câmara, que deve começar a discutir a proposta na próxima segunda-feira (23). A disputa ultrapassou o Congresso e ganhou força nas redes sociais. De um lado, aliados de Lula acusaram os críticos do pacote de enfraquecer o governo antes mesmo do início do novo mandato. Do outro, parlamentares mais radicais da esquerda afirmaram que a vitória eleitoral não significa apoio irrestrito às propostas econômicas do presidente. André Janones durante cerimônia no Palácio do Planalto nesta quinta-feira (19). Adriano Machado/Reuters A mobilização também ganhou espaço no WhatsApp, plataforma que teve papel importante na campanha de reeleição de Lula no 2º turno. Durante a disputa eleitoral, o deputado André Janones (Rede-MG) utilizou o canal “Exército do Lula” para mobilizar apoiadores do presidente e disseminar conteúdos de campanha. No início de novembro, os deputados Glauber Braga (PSOL-RJ) e Jones Manoel (PSOL-PE), eleito em outubro, anunciaram, ao lado dos deputados estaduais eleitos Débora Camilo (PSOL-SP) e Kleber Rosa (PSOL-BA), a criação do canal “Exército da Revolução Brasileira”. A iniciativa reúne apoiadores identificados com uma esquerda mais radical e busca manter a mobilização nas redes para enfrentar a extrema direita, mas também pressionou o governo contra medidas de ajuste fiscal. Jones Manoel em seu canal no YouTube. Reprodução A repercussão das críticas levou o próprio Lula a comentar a divergência nesta quinta-feira (19). O presidente afirmou que pode ter faltado informação ou discussão sobre o projeto e defendeu o controle das contas públicas. Disse ainda que, enquanto estiver no cargo, “não haverá diminuição dos direitos que o povo brasileiro conquistou”. “Eu estava na Asean [Associação de Nações do Sudeste Asiático] quando fui avisado de que tinha uma confusão aqui no Brasil por causa de um PL que estava sendo votado no Senado para dar possibilidade do Orçamento brasileiro dar conta do recado do ano que vem. Na verdade, alguns companheiros, possivelmente por falta de informação completa, ou por falta de discussão, não entenderam o dado concreto”, afirmou Lula, durante agenda oficial em Brasília. O líder do governo no Congresso, Randolfe Rodrigues (PT-AP), também reconheceu a legitimidade das críticas, mas alertou que os setores da esquerda precisam considerar a correlação de forças no Legislativo, onde o governo enfrentará uma oposição fortalecida. “Não vencemos uma eleição presidencial com 60% dos votos. Temos uma oposição aguerrida, que venceu a eleição para o Congresso Nacional”, disse Randolfe, em entrevista ao Estúdio i, da GloboNews. O senador defendeu o diálogo com movimentos sociais, centrais sindicais e partidos aliados, mas ressaltou a necessidade de unidade para enfrentar a oposição. “Acho importante, por outro lado, termos disposição para dialogar com todos os setores sociais que levaram à eleição do presidente Lula. Conversar com a UNE, com a CUT, com todas as centrais sindicais, com o PSOL e com todos os parlamentares. Mas, ao mesmo tempo, é necessário chamar a atenção para a realidade, para o que temos hoje, para o Congresso que vamos enfrentar, sem criar nenhuma ilusão. Vamos precisar da mobilização popular unida para apoiar o governo”, afirmou. A troca de acusações, a reação do presidente e a mobilização de grupos à esquerda do PT antecipam um dos desafios do novo mandato: conciliar as demandas dos diferentes setores que contribuíram para a vitória de Lula com a necessidade de negociar medidas econômicas em um Congresso de maioria oposicionista. Cientistas políticos ouvidos pelo g1 avaliam que o episódio coloca à prova a capacidade histórica do PT de administrar divergências internas e aponta novos desafios para a articulação política do governo. Além das disputas sobre a política econômica, Lula terá de lidar com parlamentares de esquerda que construíram bases próprias de apoio nas redes sociais. A divergência dentro do PT Deputado federal Lindbergh Farias (PT-RJ). Vinicius Loures/Câmara dos Deputados O atrito entre o governo e seus aliados chegou à Comissão Mista de Orçamento do Congresso na semana passada, quando o deputado Lindbergh Farias (PT-RJ) cobrou do ministro do Planejamento, Bruno Moretti, que o projeto de ajuste fiscal fosse discutido previamente com a bancada petista. “Espero que os senhores tenham respeito com a base parlamentar também que elegeu o Lula”, afirmou Lindbergh. Em entrevista ao jornal \"Folha de S.Paulo\", Moretti afirmou que uma “fração sectária” da esquerda atrasava o combate a privilégios ao criticar o plano. Lindbergh entendeu a declaração como uma referência a ele e chamou a entrevista de “desonesta”. Em publicação no X, Lindbergh afirmou que conter despesas em meio à desaceleração da economia pode repetir erros do ajuste de 2015, conduzido por Joaquim Levy no segundo governo Dilma Rousseff. Deputado Lindbergh Farias sobre o pacote fiscal anunciado pelo governo, nas redes sociais reprodução O deputado defendeu concentrar o esforço fiscal na tributação dos mais ricos e retirar dos limites do arcabouço fiscal os investimentos públicos capazes de ele",
+            "title": "Briga na esquerda menos de um mês após eleição expõe divergências sobre rumos do governo Lula 4",
+            "topics": [
+              "política"
+            ],
+            "url": "https://g1.globo.com/politica/noticia/2026/11/20/briga-na-esquerda-e-governo-lula-4.ghtml"
+          },
+          {
+            "body": "O governo dos Estados Unidos nomeou na 5ª feira (19.nov.2026) Kirsten A. Davies como Diretora Nacional de Segurança Cibernética da Casa Branca. Ela assume o cargo para liderar o projeto \"América Primeiro\" que posiciona a cibersegurança como tema de segurança nacional e buscará manter o país norte-americano \"dominante e seguro no ciberespaço\". Leia a íntegra do anúncio divulgado nesta 6ª feira (20.nov) (PDF - 519 kB). Davies assume a cadeira que era ocupada por Sean Cairncross, que foi demitido do cargo depois de ter perdido a confiança do chefe de gabinete da Casa Branca, Stephen Miller, conforme noticiado pela imprensa norte-americana. A troca teve apoio do presidente Donald Trump (Republicano). [shortcode-newsletter] Cairncross deixa o posto depois de pouco mais de 1 ano na função. Segundo autoridades do governo ouvidas pela Axios, ele \"não tinha as sólidas credenciais em segurança cibernética necessárias para desempenhar a função\". O movimento vem poucos dias depois de os EUA terem registrado uma série de instabilidades tecnológicas que afetaram diversos setores da economia. Só na última semana, houve pane no sistema da Microsoft, uma falha técnica que paralisou todos os voos no país EUA por horas, problemas na NSA (Agência de Segurança Nacional) e interrupções que impactaram alguns maiores bancos norte-americanos. Apesar da sequência de ocorrências, a Casa Branca diz que não há indícios de ciberataque coordenado, atividade patrocinada por Estado estrangeiro ou criminosos por trás das falhas tecnológicas. O governo dos EUA defende que os incidentes foram episódios isolados, sem relação entre si. As ocorrências, contudo, levantaram preocupações no país quanto à aplicação da inteligência artificial para descobrir vulnerabilidades em sistemas e a possibilidade de uso dessas tecnologias por hackers. Os democratas criticaram a resposta do governo aos episódios e alertaram que as defesas cibernéticas dos EUA estão ficando defasadas em relação às ameaças impulsionadas pela IA. SEGURANÇA CIBERNÉTICA NOS EUA O Gabinete do Diretor Nacional de Segurança Cibernética é responsável por coordenar a política e a estratégia de segurança cibernética em todo o governo dos EUA. A indicação para o cargo precisa ser confirmada pelo do Senado, mas Davies já recebeu aval dos congressistas quando foi nomeada como Diretora de Informação do Pentágono, cargo que ocupava anteriormente. Em publicação no X, a diretora agradeceu Trump, Miller e o secretário de Guerra, Pete Hegseth, de quem é aliada próxima, atuando como principal assessora do Pentágono para assuntos relacionados à tecnologia da informação e segurança cibernética. \"Nossa nação está na encruzilhada das tecnologias analógicas, digitais e quânticas, e nosso modo de vida americano está cada vez mais interconectado. Nossa oportunidade é dominar o cenário cibernético pelas próximas gerações... Mas somente se modernizarmos e fortalecermos a resiliência das bases sobre as quais nossa grande nação se sustenta, além de desenvolvermos talentos cibernéticos para o nosso futuro\", escreveu Davies.",
+            "content_access": "corpo público extraído",
+            "country": "MUNDO",
+            "evidence_level": "body",
+            "feed_name": "Poder360",
+            "feed_url": "https://www.poder360.com.br/feed/",
+            "id": "43355b8b605c4146",
+            "published_at": "2026-11-20T20:20:44+00:00",
+            "selection_rank": 2,
+            "selection_reason": "assunto/relevância/atualidade/diversidade",
+            "source": "Poder360",
+            "summary": "Kirsten Davies, do Pentágono, assume cargo que era ocupado por Sean Cairncross depois de episódios de interrupções tecnológicas que afetaram o país",
+            "title": "Governo dos EUA nomeia nova diretora de segurança cibernética",
+            "topics": [
+              "política",
+              "economia"
+            ],
+            "url": "https://www.poder360.com.br/poder-internacional/governo-dos-eua-nomeia-nova-diretora-de-seguranca-cibernetica/"
+          },
+          {
+            "body": "",
+            "content_access": "restrição declarada na matéria solicitada; corpo não utilizado",
+            "country": "BR",
+            "evidence_level": "excerpt",
+            "feed_name": "Folha de S.Paulo — Poder",
+            "feed_url": "https://feeds.folha.uol.com.br/poder/rss091.xml",
+            "id": "f90e2a6d84c55eb6",
+            "published_at": "2026-11-20T16:13:00+00:00",
+            "selection_rank": 3,
+            "selection_reason": "assunto/relevância/atualidade/diversidade",
+            "source": "Folha de S.Paulo",
+            "summary": "O presidente do STF (Supremo Tribunal Federal), Edson Fachin , retirou nesta sexta-feira (20) o sigilo do relatório da Polícia Federal sobre as menções ao ministro André Mendonça no caso do Banco Master . A decisão atendeu a um pedido do próprio Mendonça . O documento é um dos quatro que a PGR (Procuradoria-Geral da República) vai examinar para decidir se pede a abertura de investigação. Leia mais (11/20/2026 - 13h13)",
+            "title": "Entenda o que se sabe sobre relatórios da PF a respeito de ministros do STF e o que acontece agora",
+            "topics": [
+              "política"
+            ],
+            "url": "https://www1.folha.uol.com.br/poder/2026/11/entenda-o-que-se-sabe-sobre-relatorios-da-pf-a-respeito-de-ministros-do-stf-e-o-que-acontece-agora.shtml"
+          },
+          {
+            "body": "",
+            "content_access": "HTTP 401",
+            "country": "MUNDO",
+            "evidence_level": "excerpt",
+            "feed_name": "The Wall Street Journal — World",
+            "feed_url": "https://feeds.content.dowjones.io/public/rss/RSSWorldNews",
+            "id": "48a8f0534bdf2267",
+            "published_at": "2026-11-20T07:41:00+00:00",
+            "selection_rank": 4,
+            "selection_reason": "assunto/relevância/atualidade/diversidade",
+            "source": "The Wall Street Journal",
+            "summary": "Spain’s economy continues to boast growth rates that are the envy of Europe. But as discontent continues to mount over living standards ahead of next week’s elections, it is clear that not everyone is celebrating.",
+            "title": "Spain Remains Europe’s Star Economy. Why Don’t People Feel Richer?",
+            "topics": [
+              "política",
+              "economia",
+              "segurança",
+              "tecnologia"
+            ],
+            "url": "https://www.wsj.com/economy/spain-remains-europes-star-economy-why-dont-people-feel-richer-cfa35091?mod=rss_worldnews"
+          },
+          {
+            "body": "Os casos de covid-19 voltaram a crescer no Brasil em 19 estados e já registram alta há seis semanas consecutivas, segundo o Ministério da Saúde. Embora o cenário siga classificado como de baixo risco, especialistas alertam que o aumento da circulação do vírus ocorre em um momento de baixa adesão à vacinação : menos da metade das doses distribuídas em 2025 foi aplicada. Entre os motivos para a falta de interesse na imunização estão a redução da percepção de risco, o desconhecimento sobre a necessidade de doses de reforço, a falta de campanhas regulares de conscientização, dificuldades de acesso aos serviços de saúde e a disseminação de desinformação sobre a segurança e a eficácia das vacinas. Entre 1º de janeiro e 15 de novembro, foram notificados 135.740 casos de síndrome gripal por covid-19. O número, porém, é considerado subnotificado, porque nem todas as infecções são diagnosticadas ou registradas. O boletim InfoGripe, da Fundação Oswaldo Cruz (Fiocruz), divulgado semanalmente, aponta sinais de aumento de casos graves da doença em Mato Grosso, Distrito Federal, Santa Catarina, Bahia, Minas Gerais, Paraná, Rio de Janeiro e São Paulo. Até 9 de novembro, o Ministério da Saúde havia registrado 3.641 casos graves da doença no país este ano, com 445 mortes. A circulação do coronavírus, no entanto, não significa necessariamente que o país esteja diante de uma nova emergência sanitária. A covid-19 passou a integrar o conjunto de infecções respiratórias que circulam ao longo do ano, com períodos de maior transmissão. \"O vírus que causa a covid-19 tem como característica uma grande capacidade de mudanças genéticas que podem alterar um pouco o seu comportamento. A variante que está circulando apresenta uma característica de maior transmissibilidade, isso faz com que a maioria dos estados brasileiros tenha um aumento do número de casos\", explica Rosana Richrmann, infectologista do Instituto Emílio Ribas e Grupo Santa Joana. A variante predominante da neste ano no Brasil é a XFG, uma descendente da Ômicron. Segundo o Ministério da Saúde, ela é responsável por cerca de 90% dos casos registrados. Diferentemente de outros vírus respiratórios, como o da influenza, que apresenta um padrão de maior circulação em determinadas épocas do ano, o SARS-CoV-2, vírus causador da covid-19, não tem uma sazonalidade bem definida. Isso significa que novas ondas podem ocorrer em diferentes momentos, dependendo da circulação de variantes, da imunidade da população e das condições de transmissão. Outro fator que influencia diretamente no número de casos da doença é a duração da proteção imunológica. Tanto a imunidade adquirida pela vacinação quanto aquela produzida após uma infecção podem diminuir com o passar do tempo. Além disso, as mutações no vírus podem reduzir a capacidade dos anticorpos de reconhecer determinadas variantes. Com isso, pessoas que já foram vacinadas ou tiveram covid podem voltar a se infectar. Isso não significa, porém, que a vacinação tenha perdido sua importância. A principal função dos imunizantes disponíveis atualmente é reduzir o risco de evolução para formas graves da doença, internações e mortes. \"As vacinas continuam eficazes mesmo para essas novas variantes, porque a estrutura genealógica do vírus é a mesma. O que a gente vê nessas variantes são descendentes de uma mesma estrutura, então, mesmo que não seja específica, as vacinas conseguem fabricar anticorpos que neutralizam essas novas variantes\", acrescenta Richrmann. Desde 2024, a vacina contra a covid-19 faz parte do calendário básico de vacinação de crianças, idosos e gestantes. Pessoas com 60 anos ou mais têm recomendação de doses semestrais. Grupos especiais, como pessoas imunossuprimidas, também devem receber reforços periódicos. Em 2025, o Ministério da Saúde distribuiu 21,9 milhões de doses a estados e municípios, mas apenas 8 milhões foram aplicadas, segundo a pasta. O número fica bem abaixo da projeção do órgão, que era a aplicação de 15 milhões de doses no ano. Os números mostram que a disponibilidade do imunizante, por si só, não garante a vacinação. A redução da percepção de risco está entre as explicações para esse comportamento. Durante a fase mais grave da pandemia, a vacinação era associada à possibilidade de evitar hospitalizações e mortes em um cenário de alta circulação do vírus. Com a diminuição dos casos graves e a retomada das atividades, a doença passou a ocupar menos espaço no cotidiano. O resultado é uma mudança na percepção coletiva. Para quem não convive diretamente com pessoas internadas ou não conhece casos recentes de complicações, a covid pode parecer uma infecção semelhante a um resfriado. Essa percepção, entretanto, não considera as diferenças de risco entre os grupos populacionais. \"A redução das hospitalizações e mortes criou uma falsa sensação de que a covid-19 deixou de representar um problema. Muitas pessoas passaram a enxergar a vacinação como desnecessária, principalmente depois de receberem as primeiras doses. Existe também desconhecimento sobre a necessidade de atualização vacinal entre os grupos prioritários\", explica Igor Marinho, infectologista dos Hospitais São Camilo de São Paulo. To view this video please enable JavaScript, and consider upgrading to a web browser that supports HTML5 video A existência de movimentos antivacina é outro fator que contribui para o cenário de baixa procura pelo imunizante. Durante a pandemia, informações falsas sobre a segurança e a eficácia das vacinas ganharam força nas redes sociais e em manifestações de lideranças de certos grupos políticos. Mesmo depois da emergência sanitária, parte dessas mensagens continuou influenciando a confiança da população no sistema de vacinação. \"O Brasil sempre foi um país em que a população aderiu muito bem à vacinação, porém, esse cenário vem se modificando desde o início da pandemia, com movimentos que contribuem com a desinformação e que criam desconfiança na população em relação à segurança das vacinas. E isso tem ocorri",
+            "content_access": "corpo público extraído",
+            "country": "BR",
+            "evidence_level": "body",
+            "feed_name": "Deutsche Welle — Brasil",
+            "feed_url": "https://rss.dw.com/rdf/rss-br-br",
+            "id": "839db315aea4e5d3",
+            "published_at": "2026-11-20T17:10:00+00:00",
+            "selection_rank": 5,
+            "selection_reason": "assunto/relevância/atualidade/diversidade",
+            "source": "Deutsche Welle — DW",
+            "summary": "Aumento de casos em 19 estados ocorre em meio à baixa procura pela imunização; especialistas apontam redução da percepção de risco e disseminação de desinformação sobre a segurança e a eficácia das vacinas.",
+            "title": "Casos de covid crescem no Brasil mesmo com vacina sobrando",
+            "topics": [
+              "política",
+              "economia",
+              "segurança",
+              "tecnologia"
+            ],
+            "url": "https://www.dw.com/pt-br/casos-de-covid-crescem-no-brasil-mesmo-com-vacina-sobrando/a-80004772?maca=bra-rss-br-br-1031-rdf"
+          },
+          {
+            "body": "Donald Trump has said he will ban US companies from building AI data centres overseas, threatening a \"tremendous tax\" for tech firms who do so. \"We're going to keep it all in this country,\" the US president said, while providing little detail on the potential policy he said others in his cabinet were hearing about for the first time. Data centres were a central issue in the midterm elections earlier in November, with many Democratic candidates promising tougher regulation on their construction. Tech giants including Meta and Google have entered agreements to build data centres overseas. It remains unclear how such a policy would be enforced if it was brought in. \"We're not going to allow our companies to build data centres outside of our country,\" Trump told reporters in a press briefing following his return from his trip to Asia. \"Because China will take all of them, and we're not allowing that to happen.\" But whether that idea will become policy remains unclear. \"I don't know if that's a breaking story, but I haven't even said that to my people. But I'm telling them now, they're here,\" he said. Trump floated the policy after saying the US was leading on data centre construction, and he would not allow China to beat the US when it came to AI - which he calls super intelligence, or SI. It also follows an announcement earlier this week that would restrict the export of advanced computer chips and who can access the computing power provided by them. Washington on Monday announced firms would require a licence to buy advanced chips, so US officials can monitor whether they are being used to serve Chinese companies or they are being smuggled into China. The move will impact South East Asian countries that have invested heavily in data centres, as Chinese companies seek to rent computing power from overseas. Why Canada is embracing AI data centres while the US pushes back Data centres are crucial to the AI boom. The vast warehouse-style buildings house the advanced computer chips and servers that are needed to run AI programmes such as Claude and ChatGPT. As of April there were about 3,000 data centres across the US, with another 1,500 in various stages of approval and construction, according to the Pew Research Centre. Many of them are built in rural areas, and concerns about issues including noise pollution and energy consumption helped drive Democratic candidates promising tougher rules on data centre construction to wins on 3 November. \"You ought to take advantage of the the data centres. Make them pay you, make them pay your community, but take advantage don't shut them off,\" Trump said. \"We have a lot of places that want them badly, and they're great places. They have energy and they have everything. They're tremendous assets.\" Canada has made moves to step in to offer itself as an alternative location for these sites, with less local pushback against projects so far. Large tech firms - often called AI hyperscalers due to the size of their investments in AI - have also been branching out. In September Google announced a €13bn ($15bn: £11bn) investment in AI infrastructure in Finland, which included funding for three data centres. Last month, building work for two of those centres was halted due to concerns over the clearance of more than 300 hectares of forest. Trump called out the build in Finland specifically, saying his administration was \"not allowing that to happen\". Google has been contacted for comment.",
+            "content_access": "corpo público extraído",
+            "country": "MUNDO",
+            "evidence_level": "body",
+            "feed_name": "BBC News — World",
+            "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+            "id": "d020b8aa67dc2154",
+            "published_at": "2026-11-20T20:35:26+00:00",
+            "selection_rank": 6,
+            "selection_reason": "assunto/relevância/atualidade/diversidade",
+            "source": "BBC News",
+            "summary": "The US president provided little detail on the potential policy, saying others in his team were hearing about it for the first time.",
+            "title": "Trump threatens ban on US firms building AI data centres overseas",
+            "topics": [
+              "política",
+              "economia",
+              "segurança"
+            ],
+            "url": "https://www.bbc.co.uk/news/articles/cmde1lw9y54ko?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "body": "",
+            "content_access": "não solicitado",
+            "country": "BR",
+            "evidence_level": "excerpt",
+            "feed_name": "Nexo Jornal",
+            "feed_url": "https://www.nexojornal.com.br/rss.xml",
+            "id": "c7562e6c29a852ad",
+            "published_at": "2026-11-19T21:37:21+00:00",
+            "selection_rank": 7,
+            "selection_reason": "assunto/relevância/atualidade/diversidade",
+            "source": "Nexo Jornal",
+            "summary": "Estudo com dados do IBGE e do Censo Escolar mostra quem deixou a escola sem concluir o ensino médio e como a Educação de Jovens e Adultos encolheu   Cerca de 7,9 milhões de brasileiros de 15 a 29 anos não frequentavam a escola nem tinham concluído o ensino médio em 2025. O número caiu quase pela metade desde 2012. Em 2012 eram 14,8 milhões de jovens fora da escola Cada cadeira vazia no gráfico representa 100 mil jovens fora da escola Em 2025, caiu para 7,9 milhões de jovens fora da escola Em 2025, havia 6,9 milhões de jovens a menos fora da escola do que em 2012, uma queda de 46,6% Um estudo da Ação Educativa, organização da sociedade civil que atua em educação, cultura e juventude, analisou quem são esses jovens com dados da Pnad Contínua, do IBGE.   Pessoas negras são 60,3% dos jovens de 15 a 29 anos. Entre os que estão fora da escola sem o ensino médio, são 72,1%. Jovens de 15 a 29 anos, por cor ou raça Em % do total do grupo, em 2024 negros brancos outros Todos os jovens de 15 a 29 anos 60,3% 38,7% Fora da escola, sem o ensino médio 72,1% 26,7% Proporção de jovens negros é maior entre os que estão fora da escola ou não têm ensino médio do que na população Para a Ação Educativa, deixar a escola é o fim de um percurso com reprovações, atraso escolar e afastamento progressivo. O estudo associa a saída dos rapazes negros à entrada precoce no trabalho. Entre as moças negras, pesam as tarefas domésticas e o cuidado de crianças.   A principal porta de volta para quem saiu sem concluir a educação básica é a EJA (educação de jovens e adultos), modalidade voltada a quem não concluiu a educação básica na idade esperada.   Esta modalidade tinha 2,25 milhões de matrículas em 2025, sendo que dois em cada três estudantes são negros, proporção maior que na educação básica como um todo. Matrículas por cor ou raça do estudante Na EJA e em toda a educação básica, em %, em 2025 Sem declaração Amarelos e indígenas negros brancos EJA 66,0% das matrículas 16,7% 15,8% Toda a educação básica 13,6% 50,3% 34,9% Na EJA, 15,8% das matrículas não têm cor ou raça declarada A modalidade, porém, perdeu alunos nos últimos anos. De 2014 a 2025, as matrículas caíram 40% na EJA do ensino fundamental e 35,4% na do ensino médio. Entre os estudantes mais jovens, a queda foi maior. Matrículas na EJA de 2014 a 2025 Por etapa, todas as idades e estudantes de 15 a 29 anos, em milhões até 29 anos Todas as idades EJA do ensino fundamental 2,34 mi 2 mi 1,36 mi -40% 1,41 mi 1 mi -67% 0,44 mi 0 2014 2019 2022 2025 EJA do ensino médio Os estudantes de 15 a 29 anos eram 62% das matrículas da EJA em 2014. Em 2025, eram 44% 2 mi 1,31 mi 1 mi 0,85 mi -35% 0,92 mi 0,54 mi -41% 0 2014 2019 2022 2025 A queda não quer dizer que menos gente precise da EJA. Em 2025, 63 milhões de brasileiros com mais de 18 anos não estudavam nem tinham concluído a educação básica. A Ação Educativa associa a retração ao fechamento de turmas, à concentração da oferta em menos escolas e a horários difíceis de conciliar com trabalho e cuidado. Observações: Pessoas negras são a soma das pessoas pretas e pardas. “Outros” são amarelos e indígenas. A distribuição de toda a educação básica por cor ou raça vem de um outro estudo, publicado pelo Nexo na mesma cobertura. A participação dos estudantes de até 29 anos na EJA foi calculada pelo Nexo a partir das tabelas do estudo.   Fonte: Ação Educativa, estudo por Roberto Catelli Jr., Raquel Souza, Carolinne Mendes, Gabriel Di Pierro, Silvane Silva e Vitória Benedito. Dados da Pnad Contínua, do IBGE (Instituto Brasileiro de Geografia e Estatística) e do Censo Escolar, do Inep (Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira). Leia a análise completa (PDF, 42 páginas) Evasão e abandono dos jovens da educação básica e a perpetuação das desigualdades educacionais e sociais no Brasil: a interseccionalidade raça, gênero e classe Cerca de 7,9 milhões de brasileiros de 15 a 29 anos não frequentavam a escola nem tinham concluído o ensino médio em 2025. O número caiu quase pela metade desde 2012. Em 2012 eram 14,8 milhões de jovens fora da escola Cada cadeira vazia no gráfico representa 100 mil jovens fora da escola Em 2025, caiu para 7,9 milhões de jovens fora da escola Em 2025, havia 6,9 milhões de jovens a menos fora da escola do que em 2012, uma queda de 46,6% Um estudo da Ação Educativa, organização da sociedade civil que atua em educação, cultura e juventude, analisou quem são esses jovens com dados da Pnad Contínua, do IBGE.   Pessoas negras são 60,3% dos jovens de 15 a 29 anos. Entre os que estão fora da escola sem o ensino médio, são 72,1%. Jovens de 15 a 29 anos, por cor ou raça Em % do total do grupo, em 2024 negros brancos outros Todos os jovens de 15 a 29 anos 60,3% 38,7% Fora da escola, sem o ensino médio 72,1% 26,7% Proporção de jovens negros é maior entre os que estão fora da escola ou não têm ensino médio do que na população Para a Ação Educativa, deixar a escola é o fim de um percurso com reprovações, atraso escolar e afastamento progressivo. O estudo associa a saída dos rapazes negros à entrada precoce no trabalho. Entre as moças negras, pesam as tarefas domésticas e o cuidado de crianças.   A principal porta de volta para quem saiu sem concluir a educação básica é a EJA (educação de jovens e adultos), modalidade voltada a quem não concluiu a educação básica na idade esperada.   Esta modalidade tinha 2,25 milhões de matrículas em 2025, sendo que dois em cada três estudantes são negros, proporção maior que na educação básica como um todo. Matrículas por cor ou raça do estudante Na EJA e em toda a educação básica, em %, em 2025 negros brancos Sem declaração Amarelos e indígenas EJA 66,0% das matrículas 16,7% 15,8% Toda a educação básica 13,6% 50,3% 34,9% Na EJA, 15,8% das matrículas não têm cor ou raça declarada A modalidade, porém, perdeu alunos nos últimos anos. De 2014 a 2025, as matrículas caíram 40% na EJA do ensino fundamental e 35,4% na do ensino médio. Entre os estudantes mais jovens,",
+            "title": "A dimensão racial da Educação de Jovens e Adultos",
+            "topics": [
+              "política",
+              "economia",
+              "segurança",
+              "tecnologia"
+            ],
+            "url": "https://www.nexojornal.com.br/grafico/2026/11/19/negros-fora-da-escola-ensino-medio-matricula-eja-ibge-censo-escolar"
+          },
+          {
+            "body": "",
+            "content_access": "HTTP 403",
+            "country": "MISTO",
+            "evidence_level": "excerpt",
+            "feed_name": "Financial Times — World",
+            "feed_url": "https://www.ft.com/rss/world",
+            "id": "77f57f6cfd31a3d1",
+            "published_at": "2026-11-20T15:43:27+00:00",
+            "selection_rank": 8,
+            "selection_reason": "assunto/relevância/atualidade/diversidade",
+            "source": "Financial Times",
+            "summary": "His report throws down a gauntlet to the Labour Party but also provides it with an argument",
+            "title": "The Milburn review is no substitute for an economic plan",
+            "topics": [
+              "política",
+              "economia",
+              "tecnologia"
+            ],
+            "url": "https://www.ft.com/content/ce91c75c-0cf9-447c-ad9a-47b3f19b8844?syn-25a6b1a6=1"
+          },
+          {
+            "body": "O ministro Cristiano Zanin, do Supremo Tribunal Federal, pediu destaque no julgamento da denúncia contra o deputado federal e senador eleito Marcel van Hattem (Novo-RS). Com a decisão, a análise do caso será retirada do ambiente virtual e reiniciada em sessão presencial da 1ª Turma da Corte. O pedido foi feito nesta 6ª feira (20.nov.2026), depois de o relator do caso, ministro Flávio Dino, votar pelo recebimento da denúncia da PGR (Procuradoria-Geral da República). O órgão acusa o congressista dos crimes de calúnia e injúria contra o delegado da Polícia Federal Fábio Alvarez Shor. [shortcode-newsletter] O pedido de destaque interrompe o julgamento virtual e determina que o caso seja analisado em sessão presencial. A decisão de Zanin atende a uma reivindicação da defesa de Van Hattem e da OAB (Ordem dos Advogados do Brasil), que solicitaram a transferência do julgamento para assegurar aos advogados a possibilidade de fazer a sustentação oral ao vivo. No ambiente virtual, os advogados podem apresentar sustentações orais previamente gravadas em áudio ou vídeo. O julgamento virtual havia começado nesta 6ª feira (20.nov) e terminaria em 30 de novembro. Dino havia mantido o caso no ambiente virtual, apesar do pedido da defesa. Ainda não há data anunciada para a sessão presencial. Caberá à presidente da 1ª Turma, ministra Cármen Lúcia, incluir o processo na pauta. ENTENDA O CASO A denúncia da PGR, apresentada em 3 de março de 2026, tem como base 4 episódios de 2024 que envolvem declarações de Van Hattem na Câmara dos Deputados e publicações nas redes sociais. Em um discurso na tribuna da Câmara, em 14 de agosto de 2024, o congressista exibiu uma foto de Shor e disse que ele produziu “relatórios absolutamente fraudulentos contra pessoas inocentes”, entre elas Filipe Martins, ex-assessor do ex-presidente Jair Bolsonaro (PL). A defesa de Van Hattem sustenta que as declarações estão protegidas pela imunidade parlamentar, estabelecida no artigo 53 da Constituição Federal, que assegura a inviolabilidade civil e penal de deputados e senadores por suas opiniões, palavras e votos. Dino considerou, no entanto, que as manifestações podem ter extrapolado os limites da crítica política. O relator também levou em consideração a reprodução das declarações nas redes sociais do deputado, com a publicação de vídeos e recortes de imprensa acompanhados de legendas autorais. Na avaliação do ministro, essas circunstâncias impedem o reconhecimento imediato da imunidade parlamentar nesta fase do processo. Van Hattem afirmou que considera uma violação das prerrogativas constitucionais dos congressistas. Além de Dino e Zanin, integram a 1ª Turma do Supremo os ministros Alexandre de Moraes e Cármen Lúcia, presidente do colegiado. Quando o julgamento for retomado, a Turma decidirá se aceita a denúncia da PGR e torna Van Hattem réu. Nesta etapa, não há julgamento sobre a culpa ou a inocência do deputado.",
+            "content_access": "corpo público extraído",
+            "country": "BR",
+            "evidence_level": "body",
+            "feed_name": "Poder360",
+            "feed_url": "https://www.poder360.com.br/feed/",
+            "id": "c39560a25f6f38f2",
+            "published_at": "2026-11-20T20:10:31+00:00",
+            "selection_rank": 9,
+            "selection_reason": "assunto/relevância/atualidade/diversidade",
+            "source": "Poder360",
+            "summary": "Ministro pediu destaque depois de voto de Dino para tornar réu o deputado; defesa e OAB pediram sustentação oral ao vivo",
+            "title": "Zanin leva julgamento de Van Hattem a sessão presencial do STF",
+            "topics": [
+              "política",
+              "economia"
+            ],
+            "url": "https://www.poder360.com.br/poder-justica/zanin-leva-julgamento-de-van-hattem-a-sessao-presencial-do-stf/"
+          },
+          {
+            "body": "",
+            "content_access": "HTTP 403",
+            "country": "MUNDO",
+            "evidence_level": "excerpt",
+            "feed_name": "The New York Times — World",
+            "feed_url": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+            "id": "6fea7a123d901d39",
+            "published_at": "2026-11-20T20:30:59+00:00",
+            "selection_rank": 10,
+            "selection_reason": "assunto/relevância/atualidade/diversidade",
+            "source": "The New York Times",
+            "summary": "There were no injuries or damage from three incidents that the Polish authorities called a likely “provocation” from Russia during military exercises by Ukraine’s allies.",
+            "title": "‘Russian Objects’ Crashed in Poland, Officials Say. Here’s What We Can See.",
+            "topics": [
+              "política",
+              "economia",
+              "segurança"
+            ],
+            "url": "https://www.nytimes.com/2026/11/20/world/europe/poland-russia-airspace-missile.html"
+          },
+          {
+            "body": "",
+            "content_access": "restrição declarada na matéria solicitada; corpo não utilizado",
+            "country": "BR",
+            "evidence_level": "excerpt",
+            "feed_name": "Folha de S.Paulo — Poder",
+            "feed_url": "https://feeds.folha.uol.com.br/poder/rss091.xml",
+            "id": "e35be52b08e501a5",
+            "published_at": "2026-11-20T15:42:00+00:00",
+            "selection_rank": 11,
+            "selection_reason": "assunto/relevância/atualidade/diversidade",
+            "source": "Folha de S.Paulo",
+            "summary": "O ministro do STF (Supremo Tribunal Federal) Alexandre de Moraes votou nesta sexta-feira (20) para manter o cancelamento dos passaportes de Flávio Bolsonaro (PL) e proibição de que o senador deixe o país. O voto foi em resposta a defesa de Flávio, que pediu à Corte a revogação das medidas cautelares determinadas pelo próprio magistrado. Leia mais (11/20/2026 - 12h42)",
+            "title": "Moraes vota no STF para manter passaportes de Flávio Bolsonaro cancelados",
+            "topics": [
+              "política"
+            ],
+            "url": "https://www1.folha.uol.com.br/poder/2026/11/moraes-vota-no-stf-para-manter-passaportes-de-flavio-bolsonaro-cancelados.shtml"
+          },
+          {
+            "body": "",
+            "content_access": "não solicitado",
+            "country": "MUNDO",
+            "evidence_level": "excerpt",
+            "feed_name": "G1 — Economia",
+            "feed_url": "https://g1.globo.com/rss/g1/economia/",
+            "id": "8d3ebe694d65bf75",
+            "published_at": "2026-11-20T13:34:36+00:00",
+            "selection_rank": 12,
+            "selection_reason": "assunto/relevância/atualidade/diversidade",
+            "source": "G1",
+            "summary": "O governo dos Estados Unidos corre o risco de paralisar parte de suas atividades antes do Natal, caso republicanos e democratas não cheguem a um acordo sobre o financiamento de órgãos federais. O impasse envolve divergências sobre a guerra com o Irã e o pedido do presidente Donald Trump de US$ 350 bilhões adicionais para gastos militares. ✅ Clique aqui para seguir o canal de notícias internacionais do g1 no WhatsApp O prazo para evitar uma nova paralisação termina em 11 de dezembro, quando vence a autorização atual para o funcionamento de parte do governo. Os parlamentares têm cerca de três semanas para chegar a um acordo, mas ainda estão distantes de um entendimento. 🔎 Conhecida como shutdown, a paralisação acontece quando o Congresso não aprova a liberação de recursos para manter o governo em funcionamento. Com isso, órgãos federais podem suspender atividades consideradas não essenciais, e funcionários públicos podem ser dispensados temporariamente ou obrigados a trabalhar sem receber até que o impasse seja resolvido. Agora no g1 Republicanos e democratas tentam negociar uma solução provisória para manter as atividades do governo até o início do próximo ano, quando os democratas devem assumir o controle das duas Casas do Congresso, após a vitória nas eleições legislativas de novembro. Outra possibilidade é aprovar parte dos projetos de financiamento que garantiriam recursos para órgãos federais durante todo o ano fiscal, que termina em 30 de setembro. O avanço das negociações, porém, enfrenta obstáculos dentro dos dois partidos. Os republicanos estão divididos sobre como atender ao pedido de Trump por mais recursos para a defesa e quais despesas deveriam ser incluídas no pacote. Já os democratas discutem se devem condicionar seu apoio à inclusão de restrições ao uso da força militar pelo presidente na guerra contra o Irã, mesmo que isso aumente o risco de uma paralisação. 'Não queremos financiar a guerra' Os republicanos tentam responsabilizar os democratas pelo risco de uma nova paralisação, que seria a quarta interrupção parcial do financiamento do governo durante o segundo mandato de Trump. Segundo os parlamentares republicanos, os adversários não demonstraram disposição para negociar um pacote de recursos antes da eleição para a liderança democrata no Senado, marcada para 1º de dezembro. A disputa será entre o atual líder do partido na Casa, Chuck Schumer, e o senador Chris Van Hollen. “O povo norte-americano não precisa de outra paralisação do governo”, disse o líder da maioria republicana no Senado, John Thune, a jornalistas nesta semana. “Acho que isso seria um erro colossal e um verdadeiro desserviço ao povo deste país.” Os democratas do Senado, por sua vez, admitem que discutem se devem exigir a inclusão de uma cláusula que limite o uso da força militar de Trump contra o Irã. A maioria dos republicanos rejeita essa possibilidade. A discussão coloca o partido diante de um dilema: tentar restringir os recursos destinados à guerra, mesmo correndo o risco de deixar órgãos federais sem financiamento, ou apoiar um acordo que não imponha essas limitações. “O grande obstáculo é que não queremos financiar a guerra, não queremos uma paralisação; como resolver isso?”, disse o senador Peter Welch, democrata de Vermont. “Esse é o nó górdio.” Desde que Trump voltou ao poder, em janeiro de 2025, os democratas já provocaram três paralisações, incluindo a mais longa da história dos Estados Unidos. No início deste ano, eles bloquearam recursos para o Departamento de Segurança Interna depois que agentes federais de imigração mataram a tiros dois cidadãos americanos em Minneapolis. O senador John Hickenlooper, democrata do Colorado, evitou dizer se apoiaria uma nova interrupção do financiamento. Ele, porém, afirmou que o impacto da guerra sobre as famílias americanas, especialmente por causa da alta dos preços da energia, pode justificar uma medida desse tipo. “Uma paralisação do governo logo antes das festas de fim de ano é uma decisão difícil. Ninguém faria isso se a situação não fosse grave. E a situação é bastante grave. A guerra já dura há muito tempo, e acho que vimos nas eleições que ela é muito impopular”, disse Hickenlooper a jornalistas. Parte dos democratas, no entanto, é contra usar o financiamento do governo como instrumento de pressão para tentar interromper a guerra. “Paralisar o governo não acaba com a guerra”, disse a deputada Rosa DeLauro, principal democrata na Comissão de Apropriações da Câmara, responsável por discutir a liberação de recursos federais. “Todos têm uma opinião muito forte. Eles querem acabar com essa guerra... Como agir estrategicamente para conseguir isso? Sem paralisar o governo — essa é a minha posição sobre essa questão.” O Capitólio dos EUA em 30 de setembro de 2025 Alex Wroblewski/AFP 'Vamos ficar sem tempo' Enquanto os democratas discutem como condicionar seu apoio ao financiamento do governo, os republicanos também não chegaram a um consenso sobre como atender ao pedido de Trump por US$ 350 bilhões adicionais para a defesa. Uma das alternativas seria recorrer a um mecanismo chamado reconciliação orçamentária, que permite aprovar determinadas medidas relacionadas ao Orçamento por maioria simples no Senado, sem precisar dos 60 votos normalmente exigidos para avançar com um pacote de financiamento negociado entre os dois partidos. Após uma reunião a portas fechadas que durou mais de uma hora nesta semana, os republicanos decidiram priorizar as negociações com os democratas sobre um projeto de financiamento da defesa de US$ 1,1 trilhão. A proposta, apresentada pelos republicanos, inclui apenas US$ 69 bilhões dos recursos adicionais solicitados por Trump. O partido, porém, não descartou recorrer à reconciliação orçamentária, o que pode dificultar as negociações com os democratas. “Vamos ficar sem tempo se não acelerarmos as comunicações com ambos os lados do plenário ou se não conseguirmos chegar a um consenso sobre exatamente o que estaria incluído em um pr",
+            "title": "Impasse sobre guerra e gastos militares ameaça paralisar governo dos EUA",
+            "topics": [
+              "economia"
+            ],
+            "url": "https://g1.globo.com/mundo/noticia/2026/11/20/impasse-sobre-guerra-e-gastos-militares-ameaca-paralisar-governo-dos-eua.ghtml"
+          },
+          {
+            "body": "",
+            "content_access": "entidade da matéria solicitada não identificada",
+            "country": "BR",
+            "evidence_level": "excerpt",
+            "feed_name": "Deutsche Welle — Brasil",
+            "feed_url": "https://rss.dw.com/rdf/rss-br-br",
+            "id": "bddce2f304efdb3d",
+            "published_at": "2026-11-20T15:03:00+00:00",
+            "selection_rank": 13,
+            "selection_reason": "assunto/relevância/atualidade/diversidade",
+            "source": "Deutsche Welle — DW",
+            "summary": "De 28 episódios em 2024, 23 aconteceram na região. América do Sul é segundo lugar mais propício do mundo a estas tempestades, que podem aumentar com mudanças climáticas.",
+            "title": "Por que o Sul é a região mais propensa a tornados no Brasil?",
+            "topics": [
+              "política",
+              "economia",
+              "segurança",
+              "tecnologia"
+            ],
+            "url": "https://www.dw.com/pt-br/por-que-o-sul-é-a-região-mais-propensa-a-tornados-no-brasil/a-74701998?maca=bra-rss-br-br-1031-rdf"
+          },
+          {
+            "body": "",
+            "content_access": "HTTP 403",
+            "country": "MUNDO",
+            "evidence_level": "excerpt",
+            "feed_name": "The New York Times — World",
+            "feed_url": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+            "id": "5468ed6efa238620",
+            "published_at": "2026-11-20T20:26:11+00:00",
+            "selection_rank": 14,
+            "selection_reason": "assunto/relevância/atualidade/diversidade",
+            "source": "The New York Times",
+            "summary": "Eva Yi Xie was detained on her way back to New Jersey from a neuroscience conference in Washington this week, the latest in a string of researcher arrests.",
+            "title": "Chinese-Born Neuroscientist Is Detained by ICE While Traveling From Conference",
+            "topics": [
+              "política",
+              "economia",
+              "segurança"
+            ],
+            "url": "https://www.nytimes.com/2026/11/20/science/chinese-scientist-detained-ice-princeton-eva-yi-xie-.html"
+          },
+          {
+            "body": "",
+            "content_access": "corpo não identificado ou ambíguo",
+            "country": "BR",
+            "evidence_level": "excerpt",
+            "feed_name": "BBC News Brasil",
+            "feed_url": "https://feeds.bbci.co.uk/portuguese/rss.xml",
+            "id": "864ba45ea1be84ac",
+            "published_at": "2026-11-20T14:11:01+00:00",
+            "selection_rank": 15,
+            "selection_reason": "assunto/relevância/atualidade/diversidade",
+            "source": "BBC News Brasil",
+            "summary": "Ação popular pede mudança de nome do Hospital Nina Rodrigues, em São Luís, por reparação histórica, e será julgada na segunda instância em dezembro.",
+            "title": "A batalha na Justiça para apagar homenagem a expoente do racismo científico no Brasil",
+            "topics": [
+              "política",
+              "economia",
+              "segurança",
+              "tecnologia"
+            ],
+            "url": "https://www.bbc.com/portuguese/articles/cm4gn08l5ldeo?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "body": "",
+            "content_access": "HTTP 401",
+            "country": "MISTO",
+            "evidence_level": "excerpt",
+            "feed_name": "The Wall Street Journal — World",
+            "feed_url": "https://feeds.content.dowjones.io/public/rss/RSSWorldNews",
+            "id": "efbd0f5c74bd40b5",
+            "published_at": "2026-11-20T20:16:00+00:00",
+            "selection_rank": 16,
+            "selection_reason": "assunto/relevância/atualidade/diversidade",
+            "source": "The Wall Street Journal",
+            "summary": "Images show a new extension attached to the main enrichment hall at the Yongbyon nuclear complex, according to an analysis by The Wall Street Journal.",
+            "title": "New Satellite Photos Show Expansion of North Korean Uranium-Enrichment Plant",
+            "topics": [
+              "política",
+              "economia",
+              "segurança",
+              "tecnologia"
+            ],
+            "url": "https://www.wsj.com/world/asia/new-satellite-photos-show-expansion-of-north-korean-uranium-enrichment-plant-f23c5512?mod=rss_worldnews"
+          },
+          {
+            "body": "",
+            "content_access": "corpo não identificado ou ambíguo",
+            "country": "BR",
+            "evidence_level": "excerpt",
+            "feed_name": "Nexo Jornal",
+            "feed_url": "https://www.nexojornal.com.br/rss.xml",
+            "id": "8ccd1313eb74207d",
+            "published_at": "2026-11-19T21:08:33+00:00",
+            "selection_rank": 17,
+            "selection_reason": "assunto/relevância/atualidade/diversidade",
+            "source": "Nexo Jornal",
+            "summary": "No Dia da Consciência Negra, 15 brasileiras que marcaram a política, a literatura, a ciência e a música estão escondidas na grade. Teste seus conhecimentos sobre o tema",
+            "title": "Palavras Cruzadas do ‘Nexo’: mulheres negras icônicas do país",
+            "topics": [
+              "política",
+              "economia",
+              "segurança",
+              "tecnologia"
+            ],
+            "url": "https://www.nexojornal.com.br/interativo/2026/11/19/palavras-cruzadas-nexo-mulheres-negras-historia-brasil"
+          },
+          {
+            "body": "",
+            "content_access": "não solicitado",
+            "country": "MUNDO",
+            "evidence_level": "excerpt",
+            "feed_name": "Financial Times — World",
+            "feed_url": "https://www.ft.com/rss/world",
+            "id": "9aaccc607a67081a",
+            "published_at": "2026-11-20T19:32:15+00:00",
+            "selection_rank": 18,
+            "selection_reason": "assunto/relevância/atualidade/diversidade",
+            "source": "Financial Times",
+            "summary": "US officials keen to secure agreement between Vladimir Putin and Volodymyr Zelenskyy before Democrats take over Congress",
+            "title": "Trump seeks Ukraine peace deal before January",
+            "topics": [
+              "política",
+              "economia",
+              "tecnologia"
+            ],
+            "url": "https://www.ft.com/content/6c1b8a64-35f9-4aba-8605-45a4abdce6b8?syn-25a6b1a6=1"
+          },
+          {
+            "body": "",
+            "content_access": "não solicitado",
+            "country": "BR",
+            "evidence_level": "excerpt",
+            "feed_name": "G1 — Política",
+            "feed_url": "https://g1.globo.com/rss/g1/politica/",
+            "id": "f45a42cc29594bdb",
+            "published_at": "2026-11-20T14:21:48+00:00",
+            "selection_rank": 19,
+            "selection_reason": "assunto/relevância/atualidade/diversidade",
+            "source": "G1",
+            "summary": "O ministro Flávio Dino, do Supremo Tribunal Federal (STF), votou pelo recebimento da denúncia apresentada pela Procuradoria-Geral da República (PGR) contra o deputado federal Marcel Van Hattem (Novo-RS) pelos crimes de calúnia e injúria contra um delegado da Polícia Federal. Após o voto de Dino, o ministro Cristiano Zanin pediu destaque e levou o caso para análise do plenário físico da Primeira Turma do STF. Caso o voto do relator seja acompanhado pelos demais integrantes da Primeira Turma, o parlamentar, que foi eleito senador em 2026, passará à condição de réu no processo que apura ofensas dirigidas ao delegado Fábio Shor. 🎤Em nota, Van Hattem classificou a decisão como perseguição e violação a prerrogativas constitucionais. Ele afirmou que o discurso denunciava supostas fraudes na prisão de Filipe Martins. Disse ainda que acionará as presidências da Câmara e do Senado para tentar reverter o julgamento. Na manifestação como relator do caso, Dino destacou que a acusação envolve quatro episódios registrados em 2024, nos dias 14 e 16 de agosto, 15 de outubro e 3 de dezembro. De acordo com a denúncia oferecida pela PGR em 3 de março de 2026, as declarações ocorreram durante discursos no plenário da Câmara e na Comissão de Segurança Pública, sendo posteriormente compartilhadas na internet. Agora no g1 Segundo o Ministério Público Federal, Van Hattem exibiu uma fotografia do delegado e afirmou que ele teria elaborado \"relatórios absolutamente fraudulentos contra pessoas inocentes\", no âmbito de investigações no STF, com o objetivo de manter ilegalmente uma prisão. Além da imputação de suposto abuso de autoridade, que consta da acusação de calúnia, a PGR aponta que o deputado chamou o policial de \"bandido\", \"covarde\" e \"fora da lei\", o que configuraria injúria. Em defesa preliminar, os advogados de Van Hattem pediram a rejeição da denúncia sob o argumento de que as falas estão protegidas pela imunidade parlamentar, prevista na Constituição, por terem sido proferidas no exercício do mandato. Ao analisar o caso, Flávio Dino rejeitou alegações da defesa. Para o relator, a denúncia descreveu de forma clara todas as circunstâncias, datas e meios de divulgação dos fatos. Sobre a imunidade parlamentar, o ministro ponderou que a prerrogativa constitucional busca garantir o livre exercício do mandato, mas não pode ser convertida em privilégio pessoal para proteger imputações criminosas e ofensas desproporcionais, especialmente quando replicadas nas redes sociais. “No caso, as manifestações atribuídas ao denunciado, aparentemente, não se limitaram à crítica política ou à atuação funcional da autoridade pública. Segundo a denúncia, foram imputadas ao delegado de Polícia Federal condutas criminosas, acompanhadas de expressões ofensivas, posteriormente reproduzidas em redes sociais”, declarou Dino. “A replicação e a propagação dessas manifestações em ambiente virtual, em perfis de redes sociais, mediante a postagem de vídeos e de recortes de imprensa acompanhados de legendas autorais, não permitem, ao menos nesta fase processual, reconhecer de plano a incidência da proteção constitucional”, acrescentou o ministro. Marcel van Hattem (Novo) concorre ao Senado Federal na chapa encabeçada por Luciano Zucco (PL) Kayo Magalhães/Câmara dos Deputados",
+            "title": "Dino vota para tornar Van Hattem réu por calúnia e injúria contra delegado da PF; Zanin leva caso ao plenário físico do STF",
+            "topics": [
+              "política"
+            ],
+            "url": "https://g1.globo.com/politica/noticia/2026/11/20/dino-vota-para-tornar-van-hattem-reu-por-calunia-e-injuria-contra-delegado-da-policia-federal.ghtml"
+          },
+          {
+            "body": "",
+            "content_access": "não solicitado",
+            "country": "MUNDO",
+            "evidence_level": "excerpt",
+            "feed_name": "Poder360",
+            "feed_url": "https://www.poder360.com.br/feed/",
+            "id": "5afe152842bed6fc",
+            "published_at": "2026-11-20T20:33:28+00:00",
+            "selection_rank": 20,
+            "selection_reason": "assunto/relevância/atualidade/diversidade",
+            "source": "Poder360",
+            "summary": "Risco-país deve fechar acima de 1.000 pontos nesta 6ª feira (20.nov), segundo a Bloomberg; mercado teme agenda econômica",
+            "title": "Títulos soberanos da Argentina caem mais de US$ 0,02 em Nova York",
+            "topics": [
+              "política",
+              "economia"
+            ],
+            "url": "https://www.poder360.com.br/poder-internacional/titulos-soberanos-da-argentina-caem-mais-de-us-002-em-nova-york/"
+          },
+          {
+            "body": "",
+            "content_access": "não solicitado",
+            "country": "BR",
+            "evidence_level": "excerpt",
+            "feed_name": "Folha de S.Paulo — Poder",
+            "feed_url": "https://feeds.folha.uol.com.br/poder/rss091.xml",
+            "id": "718989496a4fd0a5",
+            "published_at": "2026-11-20T13:01:00+00:00",
+            "selection_rank": 21,
+            "selection_reason": "assunto/relevância/atualidade/diversidade",
+            "source": "Folha de S.Paulo",
+            "summary": "O PSD recorreu ao STF (Supremo Tribunal Federal) para pedir um segundo turno entre Douglas Ruas ( PL ) e Eduardo Paes (PSD) na eleição para governador do Rio de Janeiro . Em 12 de novembro, o ministro Cristiano Zanin havia negado o pedido de liminar do partido . Leia mais (11/20/2026 - 10h01)",
+            "title": "PSD recorre ao STF e volta a pedir segundo turno entre Paes e Ruas no RJ",
+            "topics": [
+              "política"
+            ],
+            "url": "https://www1.folha.uol.com.br/poder/2026/11/psd-recorre-ao-stf-e-volta-a-pedir-segundo-turno-entre-paes-e-ruas-no-rio.shtml"
+          },
+          {
+            "body": "",
+            "content_access": "não solicitado",
+            "country": "MUNDO",
+            "evidence_level": "excerpt",
+            "feed_name": "The New York Times — World",
+            "feed_url": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+            "id": "03eb8dde151d689a",
+            "published_at": "2026-11-20T20:22:13+00:00",
+            "selection_rank": 22,
+            "selection_reason": "assunto/relevância/atualidade/diversidade",
+            "source": "The New York Times",
+            "summary": "The United Kingdom is removing barriers with the European Union a decade after it voted to leave. Global turmoil, and the disruptive policies of President Trump, helped push them back together.",
+            "title": "Britain and Brussels Have Begun a Brexit Rollback. How Far Will It Go?",
+            "topics": [
+              "política",
+              "economia",
+              "segurança"
+            ],
+            "url": "https://www.nytimes.com/2026/11/20/world/europe/britain-and-brussels-have-begun-a-brexit-rollback-how-far-will-it-go.html"
+          },
+          {
+            "body": "",
+            "content_access": "não solicitado",
+            "country": "BR",
+            "evidence_level": "excerpt",
+            "feed_name": "BBC News Brasil",
+            "feed_url": "https://feeds.bbci.co.uk/portuguese/rss.xml",
+            "id": "dc428df76cdafbbf",
+            "published_at": "2026-11-20T11:56:44+00:00",
+            "selection_rank": 23,
+            "selection_reason": "assunto/relevância/atualidade/diversidade",
+            "source": "BBC News Brasil",
+            "summary": "É constante a reclamação, por parte de ativistas, de que negros e negras proeminentes na história brasileira continuam sendo deixados de lado nas aulas de História. Conheça alguns deles.",
+            "title": "Sueli Carneiro, Milton Santos e Carolina Maria de Jesus: as negras e negros que deveriam ser mais estudados nas escolas",
+            "topics": [
+              "política",
+              "economia",
+              "segurança",
+              "tecnologia"
+            ],
+            "url": "https://www.bbc.com/portuguese/articles/c78drpvdl93o?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "body": "",
+            "content_access": "não solicitado",
+            "country": "MISTO",
+            "evidence_level": "excerpt",
+            "feed_name": "Financial Times — World",
+            "feed_url": "https://www.ft.com/rss/world",
+            "id": "c38c6f41a3630763",
+            "published_at": "2026-11-20T20:00:42+00:00",
+            "selection_rank": 24,
+            "selection_reason": "assunto/relevância/atualidade/diversidade",
+            "source": "Financial Times",
+            "summary": "Workers and students protest against rising living costs and crumbling public services as Italian prime minister seeks re-election next year",
+            "title": "General strike hits Italy as anger at Meloni grows",
+            "topics": [
+              "política",
+              "economia",
+              "tecnologia"
+            ],
+            "url": "https://www.ft.com/content/ced898eb-d752-414e-aeba-c85ce9717677?syn-25a6b1a6=1"
+          },
+          {
+            "body": "",
+            "content_access": "não solicitado",
+            "country": "BR",
+            "evidence_level": "excerpt",
+            "feed_name": "Deutsche Welle — Brasil",
+            "feed_url": "https://rss.dw.com/rdf/rss-br-br",
+            "id": "1b2e3c41e7d90789",
+            "published_at": "2026-11-20T08:57:00+00:00",
+            "selection_rank": 25,
+            "selection_reason": "assunto/relevância/atualidade/diversidade",
+            "source": "Deutsche Welle — DW",
+            "summary": "Data de sua morte se tornou o Dia da Consciência Negra no Brasil. No auge, território de escravizados fugidos teria reunido 30 mil pessoas em uma área do tamanho de Portugal",
+            "title": "Quem foi Zumbi dos Palmares: o maior líder quilombola brasileiro",
+            "topics": [
+              "política",
+              "economia",
+              "segurança",
+              "tecnologia"
+            ],
+            "url": "https://www.dw.com/pt-br/quem-foi-zumbi-dos-palmares-o-maior-líder-quilombola-brasileiro/a-70820888?maca=bra-rss-br-br-1031-rdf"
+          },
+          {
+            "body": "",
+            "content_access": "não solicitado",
+            "country": "MUNDO",
+            "evidence_level": "excerpt",
+            "feed_name": "The Wall Street Journal — World",
+            "feed_url": "https://feeds.content.dowjones.io/public/rss/RSSWorldNews",
+            "id": "64ac45562e39806c",
+            "published_at": "2026-11-20T20:22:00+00:00",
+            "selection_rank": 26,
+            "selection_reason": "assunto/relevância/atualidade/diversidade",
+            "source": "The Wall Street Journal",
+            "summary": "The most-watched aspect of the case was how the International Court of Justice would determine Myanmar’s intent to commit genocide against the Rohingya.",
+            "title": "How the Myanmar Genocide Ruling Raises the Stakes for Israel",
+            "topics": [
+              "política",
+              "economia",
+              "segurança",
+              "tecnologia"
+            ],
+            "url": "https://www.wsj.com/world/middle-east/how-the-myanmar-genocide-ruling-raises-the-stakes-for-israel-476feb2f?mod=rss_worldnews"
+          },
+          {
+            "body": "",
+            "content_access": "não solicitado",
+            "country": "BR",
+            "evidence_level": "excerpt",
+            "feed_name": "Folha de S.Paulo — Poder",
+            "feed_url": "https://feeds.folha.uol.com.br/poder/rss091.xml",
+            "id": "b096800ddd5e75c0",
+            "published_at": "2026-11-20T11:44:00+00:00",
+            "selection_rank": 27,
+            "selection_reason": "assunto/relevância/atualidade/diversidade",
+            "source": "Folha de S.Paulo",
+            "summary": "O ministro André Mendonça , do STF (Supremo Tribunal Federal), pediu nesta sexta-feira (20) que seja retirado o sigilo do relatório da Polícia Federal que reúne informações sobre ele no caso Banco Master . O magistrado afirmou que renuncia expressamente ao sigilo e solicitou ao presidente da corte, Edson Fachin , que disponibilize a íntegra do processo para consulta pública. Leia mais (11/20/2026 - 08h44)",
+            "title": "André Mendonça pede ao STF abertura de sigilo de relatório da PF sobre ele",
+            "topics": [
+              "política"
+            ],
+            "url": "https://www1.folha.uol.com.br/poder/2026/11/andre-mendonca-pede-ao-stf-abertura-de-sigilo-de-relatorio-da-pf-sobre-ele.shtml"
+          },
+          {
+            "body": "",
+            "content_access": "não solicitado",
+            "country": "MUNDO",
+            "evidence_level": "excerpt",
+            "feed_name": "G1 — Tecnologia",
+            "feed_url": "https://pox.globo.com/rss/g1/tecnologia/",
+            "id": "9d4eced452f379e3",
+            "published_at": "2026-11-19T21:50:15+00:00",
+            "selection_rank": 28,
+            "selection_reason": "assunto/relevância/atualidade/diversidade",
+            "source": "G1",
+            "summary": "O Presidente dos EUA, Donald Trump, entrega a Medalha Nacional da Ciência ao CEO da Nvidia, Jensen Huang, durante a cúpula \"Uma Nova Era de Ouro\" no Instituto da Paz dos EUA, renomeado Instituto da Paz Donald J. Trump pela administração Trump, em Washington, DC, EUA, 8 de outubro de 2026. REUTERS/Evan Vucci/Foto de arquivo A administração do presidente dos Estados Unidos, Donald Trump, autorizou o envio de 879 mil chips avançados de inteligência artificial (IA) das fabricantes Nvidia e AMD para empresas chinesas entre dezembro de 2025 e maio de 2026, informou nesta quinta-feira (19) o Comitê de Relações Exteriores da Câmara dos Deputados dos EUA. Entre as empresas beneficiadas estão: Alibaba, que recebeu autorização para 75 mil chips; Tencent, para 150 mil; Baidu, para 43 mil; e A BYD, para 4 mil. Ao todo, empresas solicitaram permissão para exportar 3,4 milhões de unidades para a China no período, segundo documentos do comitê. 🗒️ Tem alguma sugestão de reportagem? Envie para o g1 As quatro companhias citadas fazem parte de uma lista do Departamento de Defesa dos EUA que reúne empresas suspeitas de manter vínculos com as Forças Armadas chinesas. Agora no g1 A divulgação dos dados ocorre em meio ao aumento da pressão sobre o governo Trump em relação à transferência de tecnologia americana para a China. O assunto ganhou força após revelações sobre um suposto relacionamento extraconjugal entre o ex-presidente-executivo da Nvidia, Jensen Huang, e uma mulher apontada como possível espiã chinesa. O caso reacendeu os pedidos por uma postura mais rigorosa dos EUA diante dos riscos relacionados ao avanço tecnológico chinês. Segundo o comitê, o presidente do colegiado, Brian Mast, utilizou poderes previstos na Lei de Reforma do Controle de Exportações para tornar públicas informações sobre os pedidos de licença para exportação de chips da Nvidia e da AMD destinados à China. Não está claro, porém, quantos dos chips autorizados chegaram efetivamente ao país. Entre os modelos incluídos nas permissões estão o H200, da Nvidia, e o MI325X, da AMD. Em nota, a Nvidia afirmou que as autorizações estavam sujeitas a condições rigorosas e limitadas a determinados volumes. A empresa acrescentou que, apesar de ter recebido algumas licenças, interrompeu posteriormente os envios de chips H200 para a China. A AMD não respondeu imediatamente ao pedido de comentário.",
+            "title": "Governo Trump liberou quase 900 mil chips avançados de IA para empresas chinesas, diz comitê dos EUA",
+            "topics": [
+              "tecnologia"
+            ],
+            "url": "https://g1.globo.com/tecnologia/noticia/2026/11/19/governo-trump-liberou-quase-900-mil-chips-avancados-de-ia-para-empresas-chinesas-diz-comite-dos-eua.ghtml"
+          },
+          {
+            "body": "",
+            "content_access": "não solicitado",
+            "country": "BR",
+            "evidence_level": "excerpt",
+            "feed_name": "Poder360",
+            "feed_url": "https://www.poder360.com.br/feed/",
+            "id": "c4c6a727614d5ed8",
+            "published_at": "2026-11-20T19:54:07+00:00",
+            "selection_rank": 29,
+            "selection_reason": "assunto/relevância/atualidade/diversidade",
+            "source": "Poder360",
+            "summary": "O Brasil terá só mais um feriado nacional em 2026; data cai em uma 6ª feira e permitirá fim de semana prolongado",
+            "title": "Feriados em 2026: saiba as folgas que ainda restam no 2º semestre",
+            "topics": [
+              "política",
+              "economia"
+            ],
+            "url": "https://www.poder360.com.br/poder-brasil/feriados-em-2026-saiba-as-folgas-que-ainda-restam-no-2o-semestre-2/"
+          },
+          {
+            "body": "",
+            "content_access": "não solicitado",
+            "country": "MUNDO",
+            "evidence_level": "excerpt",
+            "feed_name": "The New York Times — World",
+            "feed_url": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+            "id": "ade6296b88477175",
+            "published_at": "2026-11-20T20:20:51+00:00",
+            "selection_rank": 30,
+            "selection_reason": "assunto/relevância/atualidade/diversidade",
+            "source": "The New York Times",
+            "summary": "President Trump called Russia’s leader his “friend” and marveled at China’s warm welcome for his first-ever trilateral summit. But there were no breakthroughs on nuclear control, the war in Ukraine or A.I.",
+            "title": "Trump Flaunts Camaraderie With Xi and Putin but Has Little to Show for It",
+            "topics": [
+              "política",
+              "economia",
+              "segurança"
+            ],
+            "url": "https://www.nytimes.com/2026/11/19/world/asia/trump-xi-putin.html"
+          },
+          {
+            "body": "",
+            "content_access": "não solicitado",
+            "country": "BR",
+            "evidence_level": "excerpt",
+            "feed_name": "G1 — Política",
+            "feed_url": "https://g1.globo.com/rss/g1/politica/",
+            "id": "ab1945ecb0ae913e",
+            "published_at": "2026-11-20T11:01:26+00:00",
+            "selection_rank": 31,
+            "selection_reason": "assunto/relevância/atualidade/diversidade",
+            "source": "G1",
+            "summary": "Mendonça abre mão de sigilo de documentos O ministro André Mendonça , do Supremo Tribunal Federal (STF), pediu nesta sexta-feira (20) ao presidente da Corte, Edson Fachin, que \"dê ampla publicidade\" ao relatório da Polícia Federal com menções a Mendonça no caso Master. Após o pedido, Fachin atendeu à solicitação e retirou o sigilo do relatório sobre Mendonça, que estava em segredo por determinação do presidente do STF. Os relatórios que tratam de outros ministros do STF seguem sob sigilo. O relatório sobre Mendonça é um dos documentos enviados pela PF à presidência da Corte nesta semana e que estão no centro da crise do Master no Supremo. Os relatórios geraram uma crise também na Polícia Federal – que levou ao afastamento de dois delegados e a críticas à direção-geral do órgão em relação à autonomia de investigadores. \"Nesse contexto, considerando que [o relatório] Pet nº 17.146 diz respeito exclusivamente à minha pessoa, registro que renuncio expressamente ao sigilo relacionado às informações ali contidas e, por conseguinte, solicito à Vossa Excelência que dê ampla publicidade à íntegra dos autos da Pet nº 17.146, franqueando o acesso aos autos a qualquer do povo\", disse Mendonça no pedido para que esse documento seja tornado público. Relatório detalha tentativa de aproximação com Vorcaro O blog apurou que medida foi lida, internamente, na Corte, como uma forma de o ministro declarar que menções a ele não têm indicação de suposta prática de crimes. E, segundo interlocutores, que o caso dele é diferente do de outros magistrados, que têm mensagens e outros indícios que demandam mais explicações e podem até gerar a abertura de investigação criminal. Outros ministros receberam relatórios André Mendonça em sessão plenária do STF - 15/10/2026 Gustavo Moreno/STF Nesta semana, o presidente do STF enviou cópia dos relatórios produzidos pela PF sobre as relações do banqueiro Daniel Vorcaro, ex-dono do Banco Master, aos ministros que foram citados no material. Ao menos cinco ministros confirmaram que o material foi disponibilizado pela presidência do STF. Segundo esses relatos, os documentos só trazem citações a eles. Não há informações sobre colegas. Ao todo, a PF entregou 10 relatórios a Fachin. Desses, seis já foram arquivados. O presidente do STF encaminhou à Procuradoria-Geral da República (PGR) quatro \"para exame e avaliação das providências que entender cabíveis\" em 15 dias. Caberá à PGR avaliar se o conteúdo justifica a abertura de uma apuração, se é preciso aprofundar os fatos narrados com novas diligências, se há dados para medidas mais gravosas, como uma denúncia, ou se é o caso de arquivamento. Além disso, Fachin informou que as informações recebidas serão mantidas, no momento, em sigilo. Mendonça se antecipou e pediu a divulgação do documento que tem menções a ele. O diretor-geral da PF, Andrei Rodrigues, se reuniu na noite de quarta-feira (18) com Fachin para entregar os relatórios citando os ministros do tribunal mencionados ou que trocaram mensagens com o ex-banqueiro Daniel Vorcaro. O material deve detalhar menções e citações aos ministros sem avançar sobre condutas criminosas ou não. Os documentos chegaram ao STF quando a primeira fase da Operação Compliance Zero, que investiga as fraudes do Master e suas conexões, completou um ano.",
+            "title": "Caso Master: Mendonça pede, e Fachin torna público relatório da PF com menções ao ministro do STF",
+            "topics": [
+              "política"
+            ],
+            "url": "https://g1.globo.com/politica/blog/camila-bomfim/post/2026/11/20/caso-master-mendonca-pede-a-presidencia-do-stf-que-torne-publico-relatorio-da-pf-com-mencoes-a-ele.ghtml"
+          },
+          {
+            "body": "",
+            "content_access": "não solicitado",
+            "country": "MISTO",
+            "evidence_level": "excerpt",
+            "feed_name": "BBC News — World",
+            "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+            "id": "53ba164e0140f69f",
+            "published_at": "2026-11-20T20:00:53+00:00",
+            "selection_rank": 32,
+            "selection_reason": "assunto/relevância/atualidade/diversidade",
+            "source": "BBC News",
+            "summary": "Other tech companies have also taken a hit as share markets broadly slump.",
+            "title": "Anthropic shares fall after blockbuster opening as wider tech sell-off continues",
+            "topics": [
+              "política",
+              "economia",
+              "segurança"
+            ],
+            "url": "https://www.bbc.co.uk/news/articles/c6808ym10vzgo?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "body": "",
+            "content_access": "não solicitado",
+            "country": "BR",
+            "evidence_level": "excerpt",
+            "feed_name": "Folha de S.Paulo — Poder",
+            "feed_url": "https://feeds.folha.uol.com.br/poder/rss091.xml",
+            "id": "1fae8d5764f3154b",
+            "published_at": "2026-11-20T02:03:00+00:00",
+            "selection_rank": 33,
+            "selection_reason": "assunto/relevância/atualidade/diversidade",
+            "source": "Folha de S.Paulo",
+            "summary": "A PGR (Procuradoria-Geral da República) terá um núcleo formado por ao menos quatro procuradores da cúpula da instituição para avaliar os relatórios entregues pela Polícia Federal com citações aos nomes de ministros do STF (Supremo Tribunal Federal) nas investigações do caso do Banco Master . Leia mais (11/19/2026 - 23h03)",
+            "title": "PGR terá núcleo com Gonet para avaliar relatórios sobre ministros do STF e deve superar prazo de 15 dias",
+            "topics": [
+              "política"
+            ],
+            "url": "https://www1.folha.uol.com.br/poder/2026/11/pgr-tera-nucleo-com-gonet-para-avaliar-relatorios-sobre-ministros-do-stf-e-deve-superar-prazo-de-15-dias.shtml"
+          },
+          {
+            "body": "",
+            "content_access": "não solicitado",
+            "country": "MUNDO",
+            "evidence_level": "excerpt",
+            "feed_name": "The Wall Street Journal — World",
+            "feed_url": "https://feeds.content.dowjones.io/public/rss/RSSWorldNews",
+            "id": "c726200f0d4f418f",
+            "published_at": "2026-11-20T19:55:00+00:00",
+            "selection_rank": 34,
+            "selection_reason": "assunto/relevância/atualidade/diversidade",
+            "source": "The Wall Street Journal",
+            "summary": "Washington’s newfound hawkishness won’t survive U.S. business’s taste for open-weight Chinese AI.",
+            "title": "Opinion | Chips Aren’t a Magic Bullet for China Risks",
+            "topics": [
+              "política",
+              "economia",
+              "segurança",
+              "tecnologia"
+            ],
+            "url": "https://www.wsj.com/opinion/chips-arent-a-magic-bullet-for-china-risks-772e6d4a?mod=rss_worldnews"
+          },
+          {
+            "body": "",
+            "content_access": "não solicitado",
+            "country": "BR",
+            "evidence_level": "excerpt",
+            "feed_name": "G1 — Economia",
+            "feed_url": "https://g1.globo.com/rss/g1/economia/",
+            "id": "1e767229d014e94d",
+            "published_at": "2026-11-20T07:00:01+00:00",
+            "selection_rank": 35,
+            "selection_reason": "assunto/relevância/atualidade/diversidade",
+            "source": "G1",
+            "summary": "Não é verdde que assistência a MEIs será reduzida de R$ 5 mil para R$ 363 g1 Circulam nas redes sociais publicações sugerindo que o Pix MEI, proposta de incentivo financeiro de até R$ 5 mil a microempreendedores individuais anunciada por Lula (PT) durante a campanha à reeleição, terá de baixar para R$ 363 caber no \"orçamento\" reservado pelo governo. É #FAKE. ✅ Siga o canal de Fato ou Fake no WhatsApp Selo Fake (Horizontal) g1 🔴 Como são os posts? Publicações que viralizaram a partir de 2 de novembro no Facebook, no X e no TikTok exibem uma foto do presidente acompanhada da seguinte mensagem: \"Pix de R$ 5.000 prometido por Lula na campanha para agradar Microempreendedores Individuais (MEIs) pode acabar sendo de apenas R$ 363\". Veja um exemplo de legenda: \"O Pix de R$ 5 mil prometido por Lula aos MEIs durante sua campanha para a reeleição pode ter um valor muito menor. Com mais de 17 milhões de MEls registrados e mais de 13 milhões ativos, o governo precisaria de quase R$ 70 bilhões para cumprir a promessa do petista. Entretanto, o governo fala em reservar R$ 5 bilhões, que, se [forem] distribuídos a cada MEI, o valor real seria de apenas R$ 363\". Mas a lei aprovada pelo Congresso e sancionada por Lula não prevê repasses a todos os 13,8 milhões de números ativos no Cadastro Nacional da Pessoa Jurídica (CNPJs) que se enquadram na categoria MEI. Na verdade, trata-se de 7,5% dessa cifra, como informou ao Fato ou Fake a Secretaria de Comunicação Social da Presidência (Secom), em nota enviada por e-mail. Leia a resposta: \"A política pública prevê o atendimento de cerca de 1 milhão de microempreendedores a partir de 2027, somando R$ 5 bilhões em investimentos produtivos, com acompanhamento do Sebrae [Serviço Brasileiro de Apoio às Micro e Pequenas Empresas]. A seleção dará prioridade no atendimento a mulheres empreendedoras — que já respondem por 48% dos registros de MEI no país — e a MEIs com faturamento de até R$ 40,5 mil\". Leia mais detalhes abaixo. O Pix MEI integra o Prospera MEI, um pacote de assistência ao microempreendedor anunciado pelo governo em 14 de outubro, entre o primeiro e o segundo turno das eleições 2026, que terminou com a vitória de Lula (PT) sobre Flávio Bolsonaro (PL). A iniciativa prevê, entre outros pontos, o aumento do teto de faturamento anual de R$ 81 mil para R$ 110 mil em 2027 e R$ 140 mil em 2028; o perdão de dívidas tributárias federais; e a contratação de até dois funcionários por MEI. ⚠️ Por que é #FAKE? Ao Fato ou Fake, a Secom detalhou: \"O dinheiro deve ser aplicado obrigatoriamente na aquisição de bens que gerem desenvolvimento produtivo. Maquinários, ferramentas profissionais, bancadas de trabalho e a reforma e adaptação de veículos utilitários e de entrega são alguns exemplos de projetos que serão aprovados. [...] A transferência direta de até R$ 5 mil por beneficiário ocorrerá na modalidade de capital semente a fundo perdido. Diferentemente de empréstimos bancários, os recursos não precisarão ser devolvidos e não haverá cobrança de juros\". A resposta cita ainda que o Pix MEI está em fase de estruturação e que detalhes da operação, como a forma de inscrição no programa, serão divulgados até o final deste ano. O site oficial do Ministério das Mulheres divulgou, em 21 de outubro, uma nota intitulada \"Do alívio nas dívidas ao investimento no negócio, conheça as medidas do Prospera MEI para mulheres\". O comunicado menciona que a previsão inicial não era a de que a medida incluiria automaticamente todos os MEIs do país: \"O incentivo não será pago automaticamente a todas as pessoas registradas como MEI. Será necessário observar os critérios, os prazos e os procedimentos de seleção que forem publicados\". Não é verdde que assistência a MEIs será reduzida de R$ 5 mil para R$ 363 g1 Veja também Vídeo mostra homem tomando 'banho com fogo' em fonte natural de água na Rússia É #FATO: Vídeo mostra 'banho com fogo' em fonte de água na Rússia VÍDEOS: Os mais vistos agora no g1 Agora no g1 VÍDEOS: Fato ou Fake explica VEJA outras checagens feitas pela equipe do FATO ou FAKE Adicione nosso número de WhatsApp +55 (21) 97305-9827 (após adicionar o número, mande uma saudação para ser inscrito) GloboPop: clique para ver vídeos do palco de Fato ou Fake",
+            "title": "É #FAKE que Pix MEI de até R$ 5 mil terá de baixar para R$ 363 para 'caber' no orçamento reservado pelo governo",
+            "topics": [
+              "economia"
+            ],
+            "url": "https://g1.globo.com/fato-ou-fake/noticia/2026/11/20/e-fake-que-pix-mei-de-ate-r-5-mil-tera-de-baixar-para-r-363-para-caber-no-orcamento-reservado-pelo-governo.ghtml"
+          }
+        ],
+        "lookback_hours": 24
+      },
+      "id": "d43791d9908e3c0686773ae5",
+      "key": "2026-11-20",
+      "manifest_hash": "5406cdfcd838fc573b9ea6bde82015e3a99b406fcf132fe3340a7ddae2189df7",
+      "parts": [
+        {
+          "article_ids": [
+            "0f43032fc3936837",
+            "839db315aea4e5d3",
+            "f45a42cc29594bdb"
+          ],
+          "id": "d43791d9908e3c0686773ae5:1",
+          "status": "pending",
+          "text": "<i>[Parte 1/3]</i>\n📰 <b>Boletim de notícias — 20/11/2026</b>\n<i>Cobertura: últimas 24 horas.</i>\n\n<b>Panorama:</b>\nO cenário político brasileiro é marcado por divergências internas na base governista sobre o ajuste fiscal e por embates jurídicos envolvendo parlamentares no STF. Paralelamente, o país enfrenta um aumento nos casos de covid-19 impulsionado pela baixa adesão vacinal, enquanto o governo desmente boatos sobre o programa Pix MEI.\n\n<b>1. Divergências na esquerda sobre ajuste fiscal do governo Lula</b>\n<i>Brasil • Política</i>\nO projeto de ajuste fiscal do governo Lula 4, aprovado pelo Senado, gerou atritos entre aliados do PT e parlamentares do PSOL. A proposta, que bloqueia despesas e limita o crescimento de gastos, enfrenta resistência de movimentos sociais e setores da esquerda que temem retrocessos. O presidente Lula atribuiu as críticas à falta de informação, enquanto o líder do governo, Randolfe Rodrigues, defendeu a necessidade de unidade diante de um Congresso com oposição fortalecida. O episódio expõe o desafio de conciliar demandas sociais com a realidade legislativa.\n\n<b>Contexto:</b> O governo enfrenta pressão de sua base aliada menos de um mês após a vitória eleitoral, com parlamentares cobrando maior diálogo prévio sobre medidas econômicas.\n\n<b>Limitação da evidência:</b> Base documental limitada ao trecho RSS; corpo integral não acessível.\n\n🔗 <a href=\"https://g1.globo.com/politica/noticia/2026/11/20/briga-na-esquerda-e-governo-lula-4.ghtml\">G1</a>\n\n<b>2. Casos de covid-19 crescem no Brasil com baixa adesão vacinal</b>\n<i>Brasil • Segurança</i>\nO Brasil registra alta de casos de covid-19 em 19 estados pelo sexto mês consecutivo. Especialistas apontam que a baixa procura pela imunização, com menos da metade das doses distribuídas em 2025 aplicadas, contribui para o cenário. Fatores como a redução da percepção de risco, desinformação sobre vacinas e dificuldades de acesso aos serviços de saúde são citados como causas. Embora o risco seja classificado como baixo, a Fiocruz alerta para o aumento de casos graves em diversas unidades da federação.\n\n<b>Contexto:</b> A variante XFG, descendente da Ômicron, predomina nos registros atuais, em um contexto onde a vacinação perdeu prioridade na percepção pública.\n\n<b>Limitação da evidência:</b> Base documental limitada ao trecho RSS; corpo integral não acessível.\n\n🔗 <a href=\"https://www.dw.com/pt-br/casos-de-covid-crescem-no-brasil-mesmo-com-vacina-sobrando/a-80004772?maca=bra-rss-br-br-1031-rdf\">Deutsche Welle — DW</a>\n\n<b>3. Zanin leva julgamento de Van Hattem ao plenário físico</b>\n<i>Brasil • Política</i>\nO ministro Cristiano Zanin, do STF, pediu destaque no julgamento da denúncia contra o deputado Marcel Van Hattem (Novo-RS), retirando o caso do ambiente virtual para a sessão presencial da 1ª Turma. O relator, Flávio Dino, havia votado pelo recebimento da denúncia da PGR por calúnia e injúria contra um delegado da PF. A defesa de Van Hattem alega imunidade parlamentar, enquanto Dino argumenta que as ofensas e a replicação em redes sociais extrapolam a crítica política. Não há data definida para a sessão presencial.\n\n<b>Contexto:</b> O caso envolve declarações de 2024 sobre relatórios da PF, com a defesa buscando assegurar sustentação oral ao vivo.\n\n<b>Limitação da evidência:</b> Base documental limitada ao trecho RSS; corpo integral não acessível.\n\n🔗 <a href=\"https://g1.globo.com/politica/noticia/2026/11/20/dino-vota-para-tornar-van-hattem-reu-por-calunia-e-injuria-contra-delegado-da-policia-federal.ghtml\">G1</a>"
+        },
+        {
+          "article_ids": [
+            "1e767229d014e94d",
+            "43355b8b605c4146",
+            "d020b8aa67dc2154"
+          ],
+          "id": "d43791d9908e3c0686773ae5:2",
+          "status": "pending",
+          "text": "<i>[Parte 2/3]</i>\n\n\n<b>4. Governo desmente boato sobre redução do Pix MEI</b>\n<i>Brasil • Economia</i>\nO governo federal classificou como falsa a informação de que o valor do Pix MEI seria reduzido de R$ 5 mil para R$ 363. A medida, parte do programa Prospera MEI, prevê investimentos de R$ 5 bilhões para atender cerca de 1 milhão de microempreendedores a partir de 2027, com foco em mulheres e faturamento até R$ 40,5 mil. O recurso é destinado à aquisição de bens produtivos, como maquinários e ferramentas, e não será distribuído automaticamente a todos os MEIs registrados no país.\n\n<b>Contexto:</b> Publicações virais alegavam que o orçamento reservado seria insuficiente para cobrir a promessa de campanha, o que foi refutado pela Secom.\n\n<b>Limitação da evidência:</b> Base documental limitada ao trecho RSS; corpo integral não acessível.\n\n🔗 <a href=\"https://g1.globo.com/fato-ou-fake/noticia/2026/11/20/e-fake-que-pix-mei-de-ate-r-5-mil-tera-de-baixar-para-r-363-para-caber-no-orcamento-reservado-pelo-governo.ghtml\">G1</a>\n\n<b>5. EUA nomeiam nova diretora de segurança cibernética</b>\n<i>Internacional • Tecnologia</i>\nO governo dos EUA nomeou Kirsten A. Davies como Diretora Nacional de Segurança Cibernética da Casa Branca. A nomeação ocorre após uma série de falhas tecnológicas que afetaram voos, bancos e agências de inteligência no país. Davies, ex-diretora de informação do Pentágono, liderará o projeto &#x27;América Primeiro&#x27;, focado em resiliência cibernética e modernização tecnológica. A Casa Branca afirmou não haver indícios de ataques coordenados, mas o episódio intensificou debates sobre vulnerabilidades e o uso de inteligência artificial por hackers.\n\n<b>Contexto:</b> A troca no comando da cibersegurança ocorre após a demissão de Sean Cairncross, que perdeu a confiança da administração Trump.\n\n<b>Limitação da evidência:</b> Base documental limitada ao trecho RSS; corpo integral não acessível.\n\n🔗 <a href=\"https://www.poder360.com.br/poder-internacional/governo-dos-eua-nomeia-nova-diretora-de-seguranca-cibernetica/\">Poder360</a>\n\n<b>6. Trump ameaça proibir centros de dados de IA no exterior</b>\n<i>Internacional • Economia</i>\nO presidente Donald Trump ameaçou impor impostos elevados a empresas de tecnologia dos EUA que construírem centros de dados de inteligência artificial fora do país. A medida visa manter a infraestrutura de IA em solo americano para evitar que a China obtenha vantagens competitivas. Embora a proposta ainda careça de detalhes e não tenha sido formalizada como política de governo, ela reflete a estratégia de Washington de restringir o acesso chinês a chips avançados e poder computacional, impactando investimentos globais de gigantes como Google e Meta.\n\n<b>Contexto:</b> A construção de centros de dados foi tema central nas eleições de meio de mandato, com preocupações sobre consumo de energia e regulação.\n\n<b>Limitação da evidência:</b> Base documental limitada ao trecho RSS; corpo integral não acessível.\n\n🔗 <a href=\"https://www.bbc.co.uk/news/articles/cmde1lw9y54ko?at_medium=RSS&amp;at_campaign=rss\">BBC News</a>"
+        },
+        {
+          "article_ids": [
+            "8d3ebe694d65bf75"
+          ],
+          "id": "d43791d9908e3c0686773ae5:3",
+          "status": "pending",
+          "text": "<i>[Parte 3/3]</i>\n\n\n<b>7. Impasse orçamentário ameaça paralisação do governo dos EUA</b>\n<i>Internacional • Política</i>\nO governo dos EUA corre risco de paralisação parcial antes do Natal devido a divergências entre republicanos e democratas sobre o financiamento federal. O impasse envolve o pedido de Donald Trump por US$ 350 bilhões adicionais para gastos militares e a resistência democrata, que discute condicionar o apoio a restrições no uso da força militar na guerra contra o Irã. O prazo para um acordo termina em 11 de dezembro. Republicanos buscam evitar o shutdown, enquanto democratas debatem estratégias para pressionar o governo sem paralisar serviços essenciais.\n\n<b>Contexto:</b> A disputa ocorre em um momento de transição política e alta impopularidade da guerra, complicando as negociações orçamentárias no Congresso.\n\n<b>Limitação da evidência:</b> Base documental limitada ao trecho RSS; corpo integral não acessível.\n\n🔗 <a href=\"https://g1.globo.com/mundo/noticia/2026/11/20/impasse-sobre-guerra-e-gastos-militares-ameaca-paralisar-governo-dos-eua.ghtml\">G1</a>\n\n─────────────────────\n<i>Observações por feed nesta coleta: https://www.agencialupa.org/feed/: 0 candidatos na janela; https://www.economist.com/international/rss.xml: 0 candidatos na janela; https://www.economist.com/finance-and-economics/rss.xml: 0 candidatos na janela.</i>\n<i>Revisão de fidelidade às evidências concluída em 20/11/2026 às 17:43:37 (Brasília).</i>"
+        }
+      ],
+      "status": "pending"
+    }
+  ],
+  "schema_version": 1
+}
