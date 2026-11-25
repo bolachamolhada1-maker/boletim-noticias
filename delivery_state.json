@@ -926,6 +926,921 @@
         }
       ],
       "status": "complete"
+    },
+    {
+      "created_at": "2026-11-25T03:24:47.224205+00:00",
+      "destination": "8377161362",
+      "editorial": {
+        "bulletin": {
+          "approval": {
+            "conjunto": "48e18f27476ce56f553dd4f61f82d9df8ead20dd64ae0222e44347d31b6e155e",
+            "events": {
+              "340988c9b78fdbdd": "CNI-contestacao-STF-fim-escala-6x1-2026-11-24",
+              "48b220aea078ba0b": "STF-julgamento-retomada-extrajudicial-veiculos-2026-11-24",
+              "762ce6d7fedd6d19": "Huawei-condenacao-EUA-segredos-comerciais-2026-11-24",
+              "9e718fc3226f7343": "Anthropic-queda-acoes-IPO-2026-11-24",
+              "a2bcfd9010c48e23": "Argentina-recessao-tecnica-2026-11-24",
+              "e80b00ee9ee720af": "Brasil-impacto-inflacionario-reforma-tributaria-fim-6x1-2026-11-25",
+              "eb3fde211768fe68": "SP-estatisticas-feminicidio-medidas-protetivas-2026-11-25"
+            },
+            "items": {
+              "340988c9b78fdbdd": "4e1638ab3396d8fa7315fb8c97c6bd17a9f7e1b6f678253e1640b59ed0b321b3",
+              "48b220aea078ba0b": "117b9d69dec95ebd5665e4da4e7cffc51cdc34cd7eae244600aa6cb08c9284ce",
+              "762ce6d7fedd6d19": "9b6e509c5c1e948d5506f9bd8372b1823374976ecb237a7e5644df5fe34bfba1",
+              "9e718fc3226f7343": "3ee18949490a8a9eeeee5cd594eef43aa646410fc88559d5286afa18daf4a6e1",
+              "a2bcfd9010c48e23": "e6cd4c2c3c5790d30a6da7101e1fb581fab949ebed6fe9475e32f2a7103b937e",
+              "e80b00ee9ee720af": "26b57bd742a3afdccafa8d8927bc2318a41be07fb1dca9b0b70855139f12ae44",
+              "eb3fde211768fe68": "6b3c29ed6b6e5756c0080691f57823fba19002801780c6c50a012d6f31ebbf1a"
+            },
+            "panorama": "1593b370cf8553a0896e8eb4b63815407caeddbbf71cb25de2a9c023650c994d",
+            "reviewed_at": "2026-11-25T03:24:47.218234+00:00"
+          },
+          "noticias": [
+            {
+              "article_id": "340988c9b78fdbdd",
+              "consequencias": null,
+              "contexto": "A disputa jurídica ocorre após a Emenda Constitucional 141 de 2026, que alterou a jornada de trabalho no país.",
+              "divergencias": null,
+              "evidence_ids": [
+                "340988c9b78fdbdd"
+              ],
+              "fonte_nome": "Poder360",
+              "fonte_url": "https://www.poder360.com.br/poder-brasil/cni-protocola-nova-acao-no-stf-contra-a-regulamentacao-do-fim-da-6-x-1/",
+              "limitacao": "Base documental limitada ao trecho RSS; corpo integral não acessível.",
+              "pais": "BR",
+              "repercussao": null,
+              "resumo_desenvolvido": "A Confederação Nacional da Indústria (CNI) protocolou nova ação no Supremo Tribunal Federal (STF) buscando a inconstitucionalidade de decretos e portarias do governo federal sobre o fim da escala 6x1. A entidade argumenta que o Executivo extrapolou competências ao definir regras que deveriam ser legisladas pelo Congresso, como compensação de horas e remuneração de repouso. O ministro Flávio Dino, relator, já havia concedido liminar com normas provisórias, permitindo jornadas de até 8 horas e 24 minutos em 5 dias semanais, sem horas extras, na ausência de acordos coletivos. Base documental limitada ao trecho RSS; corpo integral não acessível.",
+              "tema": "Política",
+              "titulo": "CNI contesta regulamentação do fim da escala 6x1 no STF"
+            },
+            {
+              "article_id": "48b220aea078ba0b",
+              "consequencias": null,
+              "contexto": "O setor busca maior segurança jurídica para expandir o financiamento de veículos no Brasil.",
+              "divergencias": null,
+              "evidence_ids": [
+                "48b220aea078ba0b"
+              ],
+              "fonte_nome": "Poder360",
+              "fonte_url": "https://www.poder360.com.br/poder-economia/financiamento-de-veiculos-pode-triplicar-com-retomada-extrajudicial/",
+              "limitacao": "Base documental limitada ao trecho RSS; corpo integral não acessível.",
+              "pais": "BR",
+              "repercussao": null,
+              "resumo_desenvolvido": "Estudo da Acrefi aponta que a retomada extrajudicial de veículos inadimplentes pode elevar a carteira de crédito automotivo de R$ 520 bilhões para R$ 1,5 trilhão. O mecanismo, previsto no Marco Legal das Garantias, permite a recuperação do bem sem ação judicial, reduzindo riscos bancários. Contudo, a eficácia da medida depende de desfecho no STF sobre a atuação dos Detrans no processo. O julgamento, que conta com votos favoráveis à regulamentação via CNJ, foi transferido para o plenário físico após pedido de destaque do ministro Flávio Dino. Instituições financeiras suspenderam projetos-piloto devido à insegurança jurídica atual. Base documental limitada ao trecho RSS; corpo integral não acessível.",
+              "tema": "Economia",
+              "titulo": "Retomada extrajudicial de veículos pode triplicar crédito automotivo"
+            },
+            {
+              "article_id": "eb3fde211768fe68",
+              "consequencias": null,
+              "contexto": "O debate sobre a eficácia das medidas protetivas e o monitoramento de agressores é recorrente no estado.",
+              "divergencias": null,
+              "evidence_ids": [
+                "eb3fde211768fe68"
+              ],
+              "fonte_nome": "G1",
+              "fonte_url": "https://g1.globo.com/sp/sao-paulo/noticia/2026/11/25/medidas-protetivas-crescem-11percent-em-sp-mas-estado-registra-188-feminicidios-no-ano-vitima-foi-morta-3-dias-apos-decisao-judicial.ghtml",
+              "limitacao": "Base documental limitada ao trecho RSS; corpo integral não acessível.",
+              "pais": "BR",
+              "repercussao": null,
+              "resumo_desenvolvido": "O estado de São Paulo registrou um aumento de 11% nas solicitações de medidas protetivas entre janeiro e outubro de 2026, totalizando 117 mil pedidos. Apesar do reforço nos mecanismos de proteção, como o uso de tornozeleiras eletrônicas, o estado contabilizou 188 feminicídios no período. Um caso recente ilustra a vulnerabilidade: uma mulher foi assassinada três dias após obter medida protetiva contra o ex-namorado. A promotora Fabiana Dalmas aponta um descompasso entre a demanda por proteção e a disponibilidade de equipamentos de monitoramento. A Secretaria da Segurança Pública afirma possuir tornozeleiras suficientes para a demanda atual, com 572 homens monitorados. Base documental limitada ao trecho RSS; corpo integral não acessível.",
+              "tema": "Segurança",
+              "titulo": "Aumento de medidas protetivas em SP não impede feminicídios"
+            },
+            {
+              "article_id": "a2bcfd9010c48e23",
+              "consequencias": null,
+              "contexto": "O país enfrenta estagnação econômica prolongada sob a gestão de Javier Milei.",
+              "divergencias": null,
+              "evidence_ids": [
+                "a2bcfd9010c48e23"
+              ],
+              "fonte_nome": "G1",
+              "fonte_url": "https://g1.globo.com/economia/noticia/2026/11/24/economia-da-argentina-encolhe-e-entra-em-recessao-tecnica-apontam-dados-preliminares.ghtml",
+              "limitacao": "Base documental limitada ao trecho RSS; corpo integral não acessível.",
+              "pais": "MUNDO",
+              "repercussao": null,
+              "resumo_desenvolvido": "Dados do Instituto Nacional de Estatística e Censos (Indec) da Argentina indicam que a economia do país entrou em recessão técnica, com dois trimestres consecutivos de contração. A atividade econômica recuou 1,2% em setembro na comparação anual. Economistas estimam uma queda de 1,8% no terceiro trimestre, após retração de 0,6% entre abril e junho. O governo de Javier Milei pondera que a confirmação oficial depende da divulgação do PIB em dezembro. Setores como pesca e intermediação financeira registraram as maiores quedas, enquanto a extração mineral avançou. Base documental limitada ao trecho RSS; corpo integral não acessível.",
+              "tema": "Economia",
+              "titulo": "Argentina entra em recessão técnica após queda na atividade"
+            },
+            {
+              "article_id": "762ce6d7fedd6d19",
+              "consequencias": null,
+              "contexto": "O caso é um marco nas tensões tecnológicas e comerciais entre Estados Unidos e China.",
+              "divergencias": null,
+              "evidence_ids": [
+                "762ce6d7fedd6d19"
+              ],
+              "fonte_nome": "BBC News",
+              "fonte_url": "https://www.bbc.co.uk/news/articles/cmy49ngydqzpo?at_medium=RSS&at_campaign=rss",
+              "limitacao": "Base documental limitada ao trecho RSS; corpo integral não acessível.",
+              "pais": "MUNDO",
+              "repercussao": null,
+              "resumo_desenvolvido": "Um júri em Nova York condenou a gigante chinesa Huawei por conspiração para roubar segredos comerciais e fraude bancária. A empresa foi considerada culpada em 10 das 12 acusações, incluindo violação de sanções dos EUA. Contudo, foi absolvida da acusação de extorsão (racketeering), que alegava que a companhia operava como uma organização criminosa. A defesa da Huawei classificou a acusação de extorsão como um excesso e planeja recorrer da decisão. O julgamento, que durou dois meses, concluiu um processo iniciado em 2019. A sentença está prevista para setembro de 2027. Base documental limitada ao trecho RSS; corpo integral não acessível.",
+              "tema": "Segurança",
+              "titulo": "Huawei é condenada por roubo de segredos comerciais nos EUA"
+            },
+            {
+              "article_id": "9e718fc3226f7343",
+              "consequencias": null,
+              "contexto": "O mercado de tecnologia dos EUA apresenta volatilidade após períodos de valorização intensa.",
+              "divergencias": null,
+              "evidence_ids": [
+                "9e718fc3226f7343"
+              ],
+              "fonte_nome": "Folha de S.Paulo",
+              "fonte_url": "https://c-level.folha.uol.com.br/negocios/2026/11/anthropic-fecha-abaixo-do-preco-do-ipo-pela-primeira-vez-com-desaceleracao-de-acoes-de-tecnologia.shtml",
+              "limitacao": "Base documental limitada ao trecho RSS; corpo integral não acessível.",
+              "pais": "MUNDO",
+              "repercussao": null,
+              "resumo_desenvolvido": "As ações da Anthropic fecharam abaixo do preço de sua estreia na Bolsa pela primeira vez nesta terça-feira (24). O movimento reflete uma desaceleração no setor de tecnologia nos Estados Unidos, que vinha de uma forte alta impulsionada pelo desempenho da Nvidia. Base documental limitada ao trecho RSS; corpo integral não acessível.",
+              "tema": "Tecnologia",
+              "titulo": "Ações da Anthropic caem abaixo do preço de IPO"
+            },
+            {
+              "article_id": "e80b00ee9ee720af",
+              "consequencias": null,
+              "contexto": "O país enfrenta incertezas sobre a magnitude dos impactos inflacionários em um cenário de juros elevados e desaceleração econômica.",
+              "divergencias": null,
+              "evidence_ids": [
+                "e80b00ee9ee720af"
+              ],
+              "fonte_nome": "G1",
+              "fonte_url": "https://g1.globo.com/economia/noticia/2026/11/25/reforma-tributaria-e-fim-da-escala-6x1-podem-pressionar-inflacao-em-2027-bc-e-equipe-economica-monitoram-impactos.ghtml",
+              "limitacao": "Base documental limitada ao trecho RSS; corpo integral não acessível.",
+              "pais": "BR",
+              "repercussao": null,
+              "resumo_desenvolvido": "Economistas alertam que a transição para o novo sistema tributário e o fim da escala 6x1 podem pressionar a inflação brasileira em 2027. O Banco Central monitora o fim da escala 6x1 como um choque de oferta. O ministro da Fazenda, Dario Durigan, reconheceu um possível impacto inicial, mas aposta na adaptação dos empresários. Especialistas divergem sobre a necessidade de juros altos por mais tempo, com o Copom aguardando sinais de convergência da inflação antes de retomar a flexibilização monetária. Base documental limitada ao trecho RSS; corpo integral não acessível.",
+              "tema": "Economia",
+              "titulo": "Reforma tributária e fim da escala 6x1 podem pressionar inflação em 2027"
+            }
+          ],
+          "panorama": "O cenário brasileiro é marcado por impasses jurídicos sobre a regulamentação do fim da escala 6x1 e a retomada extrajudicial de veículos, enquanto a economia enfrenta pressões inflacionárias e recessão técnica na Argentina. Paralelamente, o aumento de medidas protetivas em São Paulo não tem sido suficiente para conter os índices de feminicídio no estado.",
+          "shortages": {
+            "BR": 0,
+            "MUNDO": 0
+          }
+        },
+        "catalog": [
+          {
+            "body": "",
+            "content_access": "não solicitado",
+            "country": "BR",
+            "evidence_level": "excerpt",
+            "feed_name": "G1 — Política",
+            "feed_url": "https://g1.globo.com/rss/g1/politica/",
+            "id": "e80b00ee9ee720af",
+            "published_at": "2026-11-25T03:00:00+00:00",
+            "selection_rank": 1,
+            "selection_reason": "assunto/relevância/atualidade/diversidade",
+            "source": "G1",
+            "summary": "O início do novo imposto sobre o consumo previsto na reforma tributária e o fim da escala 6x1 são apontados por economistas como fatores que podem pressionar a inflação no Brasil no começo de 2027. No caso da reforma tributária, a avaliação é que a transição para o novo sistema tende a provocar mudanças nos preços de alguns produtos e, principalmente, de serviços. Já o fim da escala 6x1 pode elevar o custo da mão de obra para parte das empresas, com possível repasse aos preços. ▶️Veja o detalhamento mais abaixo nessa reportagem dos possíveis efeitos da reforma tributária e do fim da escala 6 por 1 na inflação. ▶️Na ata da última reunião do Copom, o BC classificou o fim da escala 6x1 como um choque de oferta, ou seja, uma mudança que afeta os custos de produção e pode pressionar os preços da economia, mas que não decorre diretamente de um aumento da demanda por bens e serviços. \"O Comitê avalia que a desaceleração mais acentuada da demanda agregada, com projeções de crescimento do PIB abaixo do seu potencial, sugere a possibilidade de redução do risco de transmissão desses choques [de oferta] para efeitos secundários, que poderiam se propagar e gerar pressões inflacionárias mais persistentes\", informou o BC. A autoridade monetária não citou ainda, porém, os efeitos da reforma tributária apontados pelos economistas na inflação. O Banco Central olha para as expectativas de inflação dos próximos anos. Se avaliar que o fim da escala 6x1 e as mudanças de preços decorrentes da reforma tributária podem elevar a inflação à frente, com propagação pela economia, poderá optar por uma política de juros mais dura do que a prevista atualmente. Atualmente, a taxa básica da economia, a Selic, está em 13,75% ao ano após a instituição interromper o ciclo de corte dos juros neste mês. Em termos reais, é a maior taxa do mundo. ▶️Já o ministro da Fazenda, Dario Durigan, admitiu que a reforma tributária pode gerar um \"pequeno impacto\" na inflação. A declaração foi dada em audiência pública no Senado, na semana passada. Ele explicou que esse possível efeito está relacionado à implementação do sistema não cumulativo, já adotado em grande parte do mundo. Isso significa que o imposto será recolhido em cada etapa da cadeia produtiva, mas as empresas poderão abater os valores pagos nas etapas anteriores. \"Pode ter um pequeno impacto na inflação. Estamos passando por um processo em que os empresários vão aprender a precificar, considerando o que há de crédito e débito de sua responsabilidade. Ao entender bem essa precificação, vamos ter redução do impacto inflacionário\", declarou o ministro a senadores. O que dizem os economistas Alex Agostini, economista-chefe da Austin Rating, avaliou que esses fatores devem impactar a inflação nos próximos meses, que já sofre pressão da alta do dólar, mas que ainda há \"incertezas grandes\" sobre sua magnitude em um cenário de juros elevados e desaceleração da economia. \"A gente já está em uma politica monetária muito restritiva [juros altos]. O problema é que o governo continua falando que não vai fazer ajustes [fiscais], está difícil\", disse Alex Agostini. Para o economista Arnaldo Lima, que lidera a área de relações institucionais da gestora Polo Capital, o risco de propagação dos reajustes para outros preços e de uma \"desancoragem\" maior das expectativas de inflação poderá exigir a manutenção de uma política monetária restritiva por mais tempo. Ou seja, juros altos por mais tempo. \"A desaceleração da atividade econômica tende a limitar a capacidade de repasse dos custos aos consumidores, reduzindo o risco de efeitos de segunda ordem. Assim, avaliamos que o principal risco não é necessariamente uma nova elevação da Selic, mas o adiamento da retomada do ciclo de redução dos juros\", afirmou Arnaldo Lima. \"Nesse contexto, acreditamos que o Copom deverá aguardar sinais mais consistentes de convergência da inflação à meta, especialmente nos serviços e nas medidas subjacentes, antes de retomar a flexibilização monetária, o que, em nosso cenário, deverá ocorrer apenas em março de 2027\", acrescentou o analista. Reforma tributária TCU propôs alíquota de 11,3% pra imposto sobre o consumo. A reforma tributária sobre o consumo contempla o início da CBS, imposto do governo federal, com alíquota proposta de 11,3% em janeiro. Esse valor ainda terá de ser confirmado pelo Senado. Segundo especialistas, a reforma tributária pode provocar mudanças nos preços de alguns produtos e, principalmente, de serviços no começo do próximo ano. Atualmente, empresas submetidas ao regime não cumulativo recolhem, em regra, 9,25% de PIS/Cofins, enquanto aquelas enquadradas no regime cumulativo estão sujeitas à alíquota conjunta de 3,65%. O advogado tributarista Thiago Glucksmann, sócio-fundador da Glucksmann Associados, observou, porém, que a comparação direta com os 11,3% previstos para a CBS em janeiro, não traduz necessariamente o impacto sobre a carga tributária, já que o novo modelo amplia as possibilidades de aproveitamento de créditos e altera a forma de cálculo. “A recomendação é que as empresas trabalhem com valores líquidos, separando os componentes tributários para entender o custo real de cada operação”, disse Thiago Glucksmann. De acordo com o especialista, o impacto da reforma tributária sobre os preços não é uniforme, variando de setor para setor. Veja a análise: Indústrias e empresas com cadeias mais extensas de fornecimento poderão se beneficiar das regras mais amplas de creditamento, conforme a natureza das aquisições e as condições previstas na legislação. Já empresas de serviços intensivas em mão de obra, como consultorias, tecnologia, limpeza, segurança e agências, podem enfrentar maior pressão sobre as margens, uma vez que os salários não geram créditos ordinários de CBS. ▶️Além disso, também entra em vigor em fevereiro de 2027 o imposto seletivo, conhecido como imposto do pecado, para produtos ou atividades que causam danos à saúde ou ao meio ambiente, como bebidas alcoólicas, tabaco, bebida",
+            "title": "Reforma tributária e fim da escala 6x1 podem pressionar inflação em 2027; BC e equipe econômica monitoram impactos",
+            "topics": [
+              "política"
+            ],
+            "url": "https://g1.globo.com/economia/noticia/2026/11/25/reforma-tributaria-e-fim-da-escala-6x1-podem-pressionar-inflacao-em-2027-bc-e-equipe-economica-monitoram-impactos.ghtml"
+          },
+          {
+            "body": "",
+            "content_access": "restrição declarada na matéria solicitada; corpo não utilizado",
+            "country": "MUNDO",
+            "evidence_level": "excerpt",
+            "feed_name": "Folha de S.Paulo — Mercado",
+            "feed_url": "https://feeds.folha.uol.com.br/mercado/rss091.xml",
+            "id": "9e718fc3226f7343",
+            "published_at": "2026-11-25T01:00:00+00:00",
+            "selection_rank": 2,
+            "selection_reason": "assunto/relevância/atualidade/diversidade",
+            "source": "Folha de S.Paulo",
+            "summary": "As ações de tecnologia dos Estados Unidos caíram nesta terça-feira (24), levando a Anthropic a ficar abaixo de seu preço de estreia na Bolsa pela primeira vez. O desempenho ocorre na esteira da desaceleração de uma forte alta, impulsionada pelo retorno de Jensen Huang ao comando da Nvidia . Leia mais (11/24/2026 - 22h00)",
+            "title": "Anthropic fecha abaixo do preço do IPO pela primeira vez com desaceleração de ações de tecnologia",
+            "topics": [
+              "economia"
+            ],
+            "url": "https://c-level.folha.uol.com.br/negocios/2026/11/anthropic-fecha-abaixo-do-preco-do-ipo-pela-primeira-vez-com-desaceleracao-de-acoes-de-tecnologia.shtml"
+          },
+          {
+            "body": "A Confederação Nacional da Indústria protocolou, nesta 3ª feira (24.nov.2026), uma nova ação no Supremo Tribunal Federal contra a regulamentação do fim da escala 6 X 1. A entidade pede que o decreto e a portaria editados pelo governo do presidente Luiz Inácio Lula da Silva (PT) sejam declarados integralmente inconstitucionais. Segundo a CNI, o Executivo extrapolou suas competências ao estabelecer regras que deveriam ser definidas pelo Congresso Nacional por meio de lei. A entidade afirma ainda que os atos conferem poderes normativos indevidos ao Ministério do Trabalho e Emprego. Os atos tratam de temas como turnos ininterruptos de revezamento, compensação de horas, cálculo do salário-hora, pagamento de horas extras, remuneração do repouso semanal e aplicação de normas coletivas. AÇÃO ANTERIOR A CNI já havia recorrido ao STF em 4 de novembro para contestar a Emenda Constitucional 141 de 2026, que reduziu a jornada de trabalho e estabeleceu o fim da escala 6 X 1. O ministro Flávio Dino, relator do processo no STF, concedeu uma liminar que estabeleceu regras provisórias para a implementação da emenda. A decisão foi tomada depois de uma audiência de conciliação com representantes dos setores envolvidos. A liminar permite a distribuição das 42 horas semanais em 5 dias de trabalho, com jornadas diárias de até 8 horas e 24 minutos, sem pagamento de horas extras pelos minutos excedentes, na ausência de negociação coletiva. Dino também estabeleceu prazo de 90 dias para a revisão de contrapartidas previstas em acordos e convenções coletivas. Para a adequação de contratos administrativos, o ministro fixou prazo de até 180 dias.",
+            "content_access": "corpo público extraído",
+            "country": "BR",
+            "evidence_level": "body",
+            "feed_name": "Poder360",
+            "feed_url": "https://www.poder360.com.br/feed/",
+            "id": "340988c9b78fdbdd",
+            "published_at": "2026-11-25T00:39:34+00:00",
+            "selection_rank": 3,
+            "selection_reason": "assunto/relevância/atualidade/diversidade",
+            "source": "Poder360",
+            "summary": "Confederação Nacional da Indústria pede que decreto e portaria editados pelo governo federal sejam declarados inconstitucionais",
+            "title": "CNI protocola nova ação no STF contra a regulamentação do fim da 6 X 1",
+            "topics": [
+              "política",
+              "economia"
+            ],
+            "url": "https://www.poder360.com.br/poder-brasil/cni-protocola-nova-acao-no-stf-contra-a-regulamentacao-do-fim-da-6-x-1/"
+          },
+          {
+            "body": "",
+            "content_access": "HTTP 403",
+            "country": "MUNDO",
+            "evidence_level": "excerpt",
+            "feed_name": "The New York Times — World",
+            "feed_url": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+            "id": "ef70e50f72f0fe0e",
+            "published_at": "2026-11-24T19:54:59+00:00",
+            "selection_rank": 4,
+            "selection_reason": "assunto/relevância/atualidade/diversidade",
+            "source": "The New York Times",
+            "summary": "Presidents before him have bailed out companies in times of national crisis. Mr. Trump went further: He staked the fortunes of the United States on those of a favored chief executive.",
+            "title": "Trump’s Nvidia Push Shows Companies’ Importance in Global Economic War",
+            "topics": [
+              "política",
+              "economia",
+              "segurança"
+            ],
+            "url": "https://www.nytimes.com/2026/11/24/business/economy/trump-nvidia-national-security-us-economics.html"
+          },
+          {
+            "body": "",
+            "content_access": "restrição declarada na matéria solicitada; corpo não utilizado",
+            "country": "BR",
+            "evidence_level": "excerpt",
+            "feed_name": "Nexo Jornal",
+            "feed_url": "https://www.nexojornal.com.br/rss.xml",
+            "id": "7e27689448cff543",
+            "published_at": "2026-11-25T00:03:09+00:00",
+            "selection_rank": 5,
+            "selection_reason": "assunto/relevância/atualidade/diversidade",
+            "source": "Nexo Jornal",
+            "summary": "Lula sanciona ajuste fiscal enquanto Ministério da Fazenda revê projeções para o PIB e para a inflação. Economistas avaliam o cenário O presidente Luiz Inácio Lula da Silva (PT) sancionou nesta terça-feira (24) o projeto de lei com medidas de ajuste fiscal. O pacote pode gerar economia de até R$ 56 bilhões em 2027. A proposta, que já havia passado pelo Senado, foi aprovada na segunda-feira (23) pela Câmara dos Deputados. Horas antes disso, o Ministério da Fazenda revisou para baixo a projeção do PIB (Produto Interno Bruto) de 2026 e para cima a da inflação – isso em um momento de alta do dólar e juros elevados.",
+            "title": "O que as projeções econômicas prenunciam para Lula 4",
+            "topics": [
+              "política",
+              "economia",
+              "segurança",
+              "tecnologia"
+            ],
+            "url": "https://www.nexojornal.com.br/expresso/2026/11/24/ajuste-fiscal-lula-governo-brasil-dolar-pib-divida"
+          },
+          {
+            "body": "",
+            "content_access": "HTTP 403",
+            "country": "MUNDO",
+            "evidence_level": "excerpt",
+            "feed_name": "Financial Times — World",
+            "feed_url": "https://www.ft.com/rss/world",
+            "id": "6977fbe81cce13f2",
+            "published_at": "2026-11-24T16:30:35+00:00",
+            "selection_rank": 6,
+            "selection_reason": "assunto/relevância/atualidade/diversidade",
+            "source": "Financial Times",
+            "summary": "China, the EU, Japan and South Korea expected to be hit by levies as US president doubles down on trade strategy",
+            "title": "Trump readies raft of new tariffs on major economies",
+            "topics": [
+              "política",
+              "economia",
+              "tecnologia"
+            ],
+            "url": "https://www.ft.com/content/335b593d-1478-4550-ab0a-71fec6280eb0?syn-25a6b1a6=1"
+          },
+          {
+            "body": "",
+            "content_access": "entidade da matéria solicitada não identificada",
+            "country": "BR",
+            "evidence_level": "excerpt",
+            "feed_name": "Deutsche Welle — Brasil",
+            "feed_url": "https://rss.dw.com/rdf/rss-br-br",
+            "id": "2ace2a03d623bea9",
+            "published_at": "2026-11-24T20:43:00+00:00",
+            "selection_rank": 7,
+            "selection_reason": "assunto/relevância/atualidade/diversidade",
+            "source": "Deutsche Welle — DW",
+            "summary": "Às vésperas de o STF definir limites às emendas estaduais, 24 estados já adotam o orçamento impositivo. Outros discutem criar o mecanismo ou ampliar a fatia de recursos sob controle dos deputados.",
+            "title": "Assembleias imitam Congresso e ampliam controle parlamentar sobre verbas públicas",
+            "topics": [
+              "política",
+              "economia",
+              "segurança",
+              "tecnologia"
+            ],
+            "url": "https://www.dw.com/pt-br/assembleias-imitam-congresso-e-ampliam-controle-parlamentar-sobre-verbas-públicas/a-80029634?maca=bra-rss-br-br-1031-rdf"
+          },
+          {
+            "body": "",
+            "content_access": "HTTP 401",
+            "country": "MISTO",
+            "evidence_level": "excerpt",
+            "feed_name": "The Wall Street Journal — World",
+            "feed_url": "https://feeds.content.dowjones.io/public/rss/RSSWorldNews",
+            "id": "258d23f8e387f8e5",
+            "published_at": "2026-11-24T15:30:00+00:00",
+            "selection_rank": 8,
+            "selection_reason": "assunto/relevância/atualidade/diversidade",
+            "source": "The Wall Street Journal",
+            "summary": "The police searched the estate where Prince William and Kate have a country home.",
+            "title": "British Police Arrest Two Men Over Suspected Burglary at Royal Estate",
+            "topics": [
+              "política",
+              "economia",
+              "segurança",
+              "tecnologia"
+            ],
+            "url": "https://www.wsj.com/world/uk/british-police-arrest-two-men-over-suspected-burglary-at-royal-estate-58221065?mod=rss_worldnews"
+          },
+          {
+            "body": "",
+            "content_access": "corpo não identificado ou ambíguo",
+            "country": "BR",
+            "evidence_level": "excerpt",
+            "feed_name": "BBC News Brasil",
+            "feed_url": "https://feeds.bbci.co.uk/portuguese/rss.xml",
+            "id": "59d3a7a8377554e6",
+            "published_at": "2026-11-24T08:35:43+00:00",
+            "selection_rank": 9,
+            "selection_reason": "assunto/relevância/atualidade/diversidade",
+            "source": "BBC News Brasil",
+            "summary": "Levantamento inédito indica que ao menos 11 crianças mortas durante operações de segurança na região metropolitana do Rio de Janeiro ficaram fora das estatísticas oficiais de letalidade policial.",
+            "title": "Por que o RJ não sabe quantas crianças são mortas pela polícia",
+            "topics": [
+              "política",
+              "economia",
+              "segurança",
+              "tecnologia"
+            ],
+            "url": "https://www.bbc.com/portuguese/articles/cx24e9z27q30o?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "body": "",
+            "content_access": "HTTP 403",
+            "country": "MUNDO",
+            "evidence_level": "excerpt",
+            "feed_name": "The Economist — Finance and Economics",
+            "feed_url": "https://www.economist.com/finance-and-economics/rss.xml",
+            "id": "ca80a1f4476479a3",
+            "published_at": "2026-11-24T20:34:14+00:00",
+            "selection_rank": 10,
+            "selection_reason": "assunto/relevância/atualidade/diversidade",
+            "source": "The Economist",
+            "summary": "Mapping the vulnerabilities in global commerce",
+            "title": "Are America’s supply chains really more vulnerable than China’s?",
+            "topics": [
+              "economia"
+            ],
+            "url": "https://www.economist.com/finance-and-economics/2026/11/24/are-americas-supply-chains-really-more-vulnerable-than-chinas"
+          },
+          {
+            "body": "Circula no WhatsApp e Threads uma lista de 12 países que não teriam reconhecido a vitória de Luiz Inácio Lula da Silva (PT) nas eleições presidenciais de 2026. É falso.&nbsp; Por WhatsApp, leitores sugeriram que o conteúdo fosse analisado. Confira a seguir o trabalho de verificação da Lupa​: “12 PAÍSES QUE NÃO RECONHECERAM A \"VITÓRIA\" DE LULA: Japão, ESTADOS UNIDOS, REINO UNIDO, AUSTRÁLIA, ALEMANHA, CANADÁ/COREIA DO SUL, ARGENTINA, COLÔMBIA/PERU,El Salvador e Equador ” Legenda do post que circula no Threads A maior parte dos países citados reconheceu a vitória do presidente Lula nas eleições deste ano. O Tribunal Superior Eleitoral (TSE) publicou, no site oficial, dezenas de manifestações de países e organizações internacionais sobre os resultados eleitorais. A base de dados do TSE mostra que nove dos países citados no post desinformativo – Alemanha, Austrália, Canadá, Colômbia, Coreia do Sul, Equador, Japão (1 e 2), Peru e Reino Unido&nbsp; – reconheceram publicamente a vitória de Lula. Jornais como Folha de São Paulo, CNN e Metrópoles noticiaram, no dia 28 de outubro, que o presidente de El Salvador, Nayib Bukele, mandou felicitações ​a Lula por carta.&nbsp;&nbsp; O presidente dos Estados Unidos, Donald Trump, chegou a dizer em uma entrevista que a eleição brasileira pareceu fraudada, mas não apresentou qualquer prova. “Eu não governo o Brasil. Eu governo os Estados Unidos. Gosto do Lula. Me dou muito bem com ele, mas a prorrogação concedida foi muito estranha”, disse em fala no dia 26 de outubro, um dia após a divulgação do resultado das eleições. A embaixada dos EUA se posicionou afirmando que a vitória de Lula foi “surpreendente, mas definitiva”, segundo notícias publicadas por veículos como O Globo e Folha de São Paulo.&nbsp; A Lupa não identificou manifestações públicas do presidente da Argentina, Javier Milei, sobre a vitória de Lula no segundo turno. Adrián Ravier, porta-voz da Casa Rosada, disse em uma coletiva de imprensa no dia 27 de outubro que o governo argentino “tomou conhecimento do resultado eleitoral do Brasil\".&nbsp; No dia 28, a senadora argentina aliada de Milei, Patricia Bullrich, publicou no X que a vontade do povo, expressa nas urnas, deve ser respeitada: “O povo decide nas urnas e sua vontade é respeitada. Esse é o princípio fundamental de toda democracia. Temos profundas diferenças políticas com o novo governo do Brasil, mas nossos países compartilham uma história, interesses estratégicos e enormes oportunidades de cooperação”. Todos os conteúdos da Lupa são gratuitos, mas precisamos da sua ajuda para seguir dessa forma. Clique aqui para fazer parte do Contexto e apoiar o nosso trabalho contra a desinformação. Leia mais",
+            "content_access": "corpo público extraído",
+            "country": "BR",
+            "evidence_level": "body",
+            "feed_name": "Agência Lupa",
+            "feed_url": "https://www.agencialupa.org/feed/",
+            "id": "385fec313f6caf48",
+            "published_at": "2026-11-24T22:39:35+00:00",
+            "selection_rank": 11,
+            "selection_reason": "assunto/relevância/atualidade/diversidade",
+            "source": "Agência Lupa",
+            "summary": "Post cita 12 países, no entanto, maior parte se manifestou publicamente sobre a vitória do líder brasileiro",
+            "title": "É falsa lista de ‘países que não reconheceram vitória de Lula’",
+            "topics": [
+              "política",
+              "segurança"
+            ],
+            "url": "https://www.agencialupa.org/verificacao/2026/11/24/e-falsa-lista-de-paises-que-nao-reconheceram-vitoria-de-lula/"
+          },
+          {
+            "body": "",
+            "content_access": "restrição declarada na matéria solicitada; corpo não utilizado",
+            "country": "MUNDO",
+            "evidence_level": "excerpt",
+            "feed_name": "Folha de S.Paulo — Mercado",
+            "feed_url": "https://feeds.folha.uol.com.br/mercado/rss091.xml",
+            "id": "1da42969c56087cc",
+            "published_at": "2026-11-24T22:50:00+00:00",
+            "selection_rank": 12,
+            "selection_reason": "assunto/relevância/atualidade/diversidade",
+            "source": "Folha de S.Paulo",
+            "summary": "A atividade econômica da Argentina caiu 1,8% entre julho e setembro na comparação com o período de três meses anterior, segundo um indicador aproximado do PIB (Produto Interno Bruto) divulgado nesta terça-feira (24) pelo Indec (Instituto Nacional de Estatística e Censos da Argentina). Leia mais (11/24/2026 - 19h50)",
+            "title": "Atividade econômica da Argentina cai pelo segundo trimestre consecutivo",
+            "topics": [
+              "economia"
+            ],
+            "url": "https://www1.folha.uol.com.br/mercado/2026/11/argentina-entra-em-recessao-tecnica-apos-resultados-do-terceiro-trimestre.shtml"
+          },
+          {
+            "body": "",
+            "content_access": "não solicitado",
+            "country": "BR",
+            "evidence_level": "excerpt",
+            "feed_name": "G1 — Brasil e Cidades",
+            "feed_url": "https://g1.globo.com/rss/g1/",
+            "id": "0beead169b604707",
+            "published_at": "2026-11-25T03:00:00+00:00",
+            "selection_rank": 13,
+            "selection_reason": "assunto/relevância/atualidade/diversidade",
+            "source": "G1",
+            "summary": "Pexels O projeto de desenvolvimento de vacinas terapêuticas contra o câncer que poderá começar a ser testado em pacientes brasileiros em 2027 terá como alvo diferentes tipos de linfoma e tumores de estômago associados ao vírus Epstein-Barr (EBV). A pesquisa envolve duas tecnologias: uma utiliza um adenovírus geneticamente modificado e a outra emprega RNA mensageiro (mRNA), plataforma que ganhou destaque durante a pandemia de Covid-19. Os detalhes foram esclarecidos com exclusividade ao g1 por pesquisadores do A.C.Camargo Cancer Center, em São Paulo, instituição que liderará a pesquisa no Brasil em parceria com a Universidade de Oxford, no Reino Unido. Segundo José Humberto Fregnani, superintendente de Ensino e Pesquisa do A.C.Camargo, e Marjorie Vieira Batista, infectologista e pesquisadora que lidera o projeto na instituição, a proposta é desenvolver vacinas capazes de estimular o sistema imunológico a reconhecer e combater células tumorais que apresentam proteínas do Epstein-Barr. Vacinas contra câncer feitas sob medida: o que o avanço no melanoma indica sobre o futuro O objetivo não é prevenir o câncer em pessoas saudáveis, mas tratar pacientes que já desenvolveram a doença, ajudando o organismo a combater o tumor e, potencialmente, reduzindo o risco de que ele volte após o tratamento. A previsão inicial é incluir aproximadamente 30 pacientes em um estudo clínico de fase 1/2, dedicado principalmente à avaliação da segurança, da tolerabilidade e da capacidade de estimular uma resposta imunológica contra as células cancerígenas. As vacinas, no entanto, ainda estão em desenvolvimento pré-clínico, e nenhum paciente começou a ser recrutado. O anúncio da parceria foi feito na segunda-feira (23) pelo ministro da Saúde, Alexandre Padilha, durante uma agenda em Londres. Segundo o ministério, a expectativa é iniciar estudos clínicos no Brasil no primeiro semestre de 2027, com participação da Fundação Oswaldo Cruz (Fiocruz), do A.C.Camargo e de outras instituições brasileiras. Os pesquisadores ressaltam que as próximas etapas ainda dependem da conclusão de testes laboratoriais, da preparação das vacinas para uso em humanos e de autorizações éticas e regulatórias. Para quais tipos de câncer? Ao contrário de uma vacina destinada a combater um único tipo de tumor, o projeto busca atingir diferentes cânceres que compartilham uma característica: a presença de antígenos do vírus Epstein-Barr nas células tumorais. Os antígenos são estruturas reconhecidas pelo sistema imunológico e podem funcionar como alvos para as células de defesa. Entre as doenças que poderão ser estudadas estão: Linfoma de Burkitt: tipo de linfoma não Hodgkin que costuma apresentar crescimento rápido. Linfoma de Hodgkin: câncer que afeta o sistema linfático e que, em parte dos casos, está associado ao Epstein-Barr. Linfoma difuso de grandes células B: um dos tipos mais comuns de linfoma não Hodgkin. Linfomas de células T e NK: grupo de tumores que afetam células do sistema imunológico. Doenças linfoproliferativas pós-transplante: alterações que podem surgir em pessoas que receberam transplantes e utilizam medicamentos para reduzir a atividade do sistema imunológico. Câncer gástrico associado ao EBV: subtipo de câncer de estômago cujas células tumorais apresentam o vírus. Isso não significa que todos os pacientes com esses diagnósticos poderão receber a vacina. Para participar do estudo, será necessário demonstrar, por meio de exames específicos no tecido tumoral, que o câncer apresenta associação com o Epstein-Barr. A estratégia busca aproveitar uma característica compartilhada por tumores que, embora surjam em órgãos ou tecidos diferentes, podem apresentar alvos virais semelhantes. Ao g1, os pesquisadores afirmam que o objetivo é desenvolver uma estratégia terapêutica que possa beneficiar pacientes com diferentes tipos de câncer que compartilham a expressão de antígenos desse vírus nas células tumorais. O que é o vírus Epstein-Barr e por que ele está ligado ao câncer? O Epstein-Barr é um vírus da família dos herpesvírus, extremamente comum na população. Estima-se que mais de 90% dos adultos em todo o mundo já tenham sido infectados. A transmissão ocorre principalmente pelo contato com a saliva. Em muitos casos, a infecção não provoca sintomas ou causa manifestações leves. O vírus também é conhecido por provocar a mononucleose infecciosa, popularmente chamada de doença do beijo. Depois da infecção, o Epstein-Barr pode permanecer no organismo por toda a vida, geralmente de forma latente, sem provocar problemas de saúde. Ter o vírus, porém, não significa que a pessoa desenvolverá câncer. A maioria dos infectados nunca terá um tumor relacionado ao EBV. Em determinadas circunstâncias, o vírus pode contribuir para alterações no funcionamento e na multiplicação das células, favorecendo o aparecimento de alguns tipos de câncer. Esse processo depende de diferentes fatores, incluindo características do organismo, do sistema imunológico e das próprias células infectadas. O Epstein-Barr está associado a alguns linfomas, ao carcinoma de nasofaringe e a uma parcela dos casos de câncer de estômago, entre outras doenças. É justamente essa relação que os pesquisadores pretendem explorar: se determinadas células cancerígenas apresentam proteínas produzidas pelo vírus, essas proteínas podem se tornar alvos de uma resposta imunológica estimulada pela vacina. Como as vacinas vão funcionar? As duas tecnologias em desenvolvimento seguem o mesmo princípio: fornecer ao sistema imunológico informações que permitam reconhecer proteínas do Epstein-Barr presentes nas células tumorais. A intenção é estimular principalmente os linfócitos T, células de defesa capazes de identificar e destruir células infectadas ou alteradas. Os pesquisadores trabalham com duas plataformas diferentes: 1. ChAdOx2-EBVvax: vacina com vetor adenoviral Desenvolvida pela Universidade de Oxford, essa tecnologia utiliza um adenovírus geneticamente modificado, incapaz de se replicar. O ad",
+            "title": "Vacina contra o câncer que será testada no Brasil terá duas tecnologias e será voltada a linfomas e tumores de estômago; entenda",
+            "topics": [
+              "segurança",
+              "política"
+            ],
+            "url": "https://g1.globo.com/saude/noticia/2026/11/25/vacina-contra-o-cancer-que-sera-testada-no-brasil-tera-duas-tecnologias-e-sera-voltada-a-linfomas-e-tumores-de-estomago-entenda.ghtml"
+          },
+          {
+            "body": "",
+            "content_access": "HTTP 403",
+            "country": "MUNDO",
+            "evidence_level": "excerpt",
+            "feed_name": "The New York Times — World",
+            "feed_url": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+            "id": "9ba2b8dc1cc89b61",
+            "published_at": "2026-11-24T14:13:17+00:00",
+            "selection_rank": 14,
+            "selection_reason": "assunto/relevância/atualidade/diversidade",
+            "source": "The New York Times",
+            "summary": "The killing of Nahel Merzouk, 17, sparked nationwide unrest. The case against the officer accused of involvement has undergone repeated twists and turns.",
+            "title": "Murder Charge Reinstated for French Police Officer in Teen’s Shooting",
+            "topics": [
+              "política",
+              "economia",
+              "segurança"
+            ],
+            "url": "https://www.nytimes.com/2026/11/24/world/europe/france-nahel-merzouk.html"
+          },
+          {
+            "body": "",
+            "content_access": "não solicitado",
+            "country": "BR",
+            "evidence_level": "excerpt",
+            "feed_name": "Nexo Jornal",
+            "feed_url": "https://www.nexojornal.com.br/rss.xml",
+            "id": "f0d32dcc149c11c2",
+            "published_at": "2026-11-24T21:38:42+00:00",
+            "selection_rank": 15,
+            "selection_reason": "assunto/relevância/atualidade/diversidade",
+            "source": "Nexo Jornal",
+            "summary": "Empresa de Peter Thiel emplacou projeto-piloto na Advocacia-Geral da União. Agência Brasileira de Inteligência vê risco à soberania nacional <media:content url=\"https://midia-cdn.nexojornal.com.br/wp-content/uploads/images/2026/11/images-5.webp\" type=\"image/webp\" medium=\"image\"> <media:title> Peter Thiel, cofundador da Palantir </media:title> <media:credit> Gage Skidmore / Wikimedia Commons </media:credit> </media:content> Desde a gestão Jair Bolsonaro (PL), uma empresa fundada pelo bilionário Peter Thiel com apoio da CIA tem aprofundado seu lobby junto ao governo federal. Nos últimos cinco anos, representantes da Palantir Technologies tiveram ao menos 73 reuniões com pastas estratégicas que lidam com ações judiciais do governo, petróleo, terras raras e que mantêm vastos bancos de dados sensíveis e sigilosos sobre a população e a economia do Brasil. Até aqui, o esforço rendeu frutos. Durante a gestão Lula (PT), a Advocacia-Geral da União (AGU) passou a utilizar tecnologias da Palantir em um “projeto-piloto”. É o que revela uma apuração inédita da Agência Pública. Para o pesquisador em Direito da Informação e Comunicação da Universidade de Hamburgo André Ramiro, o grande número de reuniões com o governo já é um sinal de alerta. Para ele, a big tech atua como um emissário do governo dos EUA ao redor do mundo com o que ele define como uma “agenda tecno-autoritária”. “Uma reunião de tratativa ou apenas uma sugestão de um contrato futuro já é um ativo para a Palantir, porque é um mapeamento de uma demanda do poder público brasileiro”, disse Ramiro à Pública. “Esse mapeamento já é uma estratégia de lobby, que pode fazer parte da estratégia de negócios da empresa… ainda que, no fim das contas, não haja um ‘aperto de mãos’ ou um contrato assinado, a Palantir consegue criar um mapeamento de demandas que pode ser compartilhado com o governo dos Estados Unidos, ameaçando nossa soberania digital”, afirmou ainda o pesquisador. O software Foundry, da Palantir, foi usado pelo Ministério da Educação (MEC) e também pela AGU. No MEC, o programa foi usado para gerir o transporte escolar em nível nacional, mas o uso foi descontinuado em agosto de 2026 depois de muito questionamento, inclusive pela base do governo Lula (PT). A Pública identificou que a AGU também usa o Foundry, além da Inteligência Artificial da Palantir (AIP), por meio de um contrato de dois anos no valor de R$ 3,7 milhões. A AGU confirmou à reportagem o uso de programas da Palantir em “projetos-piloto e provas de conceito nas áreas de ontologia e gestão do conhecimento” por meio do serviço de nuvem AWS, da Amazon. Questionada pela Pública, a pasta afirmou que o contrato vence em dezembro e que não será renovado. “A Palantir e a AWS não participaram do desenvolvimento dos modelos, artefatos e protótipos produzidos pela AGU a partir do uso da plataforma”, disse ainda a AGU. A reportagem apurou que o governo usou programas da Palantir apesar da Agência Brasileira de Inteligência (Abin) ter pregado cautela quanto ao acesso de softwares da companhia a dados brasileiros. Em julho de 2022, na reta final do governo Bolsonaro, a Abin iniciou tratativas com a Palantir para adquirir programas da empresa usados na área de inteligência e espionagem, mas em maio de 2023, já no governo Lula, a Abin desistiu da compra por enxergar estes mesmos softwares como um “risco” à “soberania digital” brasileira. Procurado, o órgão confirmou ter tido “reuniões técnicas” com a Palantir, mas não forneceu detalhes, como datas dos encontros, lista de participantes ou relatórios e atas do que foi discutido com a big tech. Consultados pela Pública, dados do governo organizados pela agência Fiquem Sabendo mostram que ao menos 49 servidores dos governos Lula e Bolsonaro se reuniram com representantes da Palantir desde 2021. As agendas mostram que a maior parte dos encontros de representantes da Palantir aconteceram após a posse do presidente Lula (PT), em janeiro de 2023. Representantes da Palantir que se reuniram com o governo Henrique Valer (ex-vice-presidente da Palantir no Brasil): reuniu-se com servidores do Ministério da Saúde [4 reuniões durante o governo Bolsonaro], da AGU [2 reuniões durante o governo Lula], do MEC (FNDE) [1 reunião durante o governo Lula] e do Ministério da Fazenda [1 reunião durante o governo Lula]. Marvin Grossi (engenheiro de software da Palantir no Brasil): reuniu-se com servidores do Ministério da Saúde [4 reuniões, todas durante o governo Bolsonaro] e do MEC (FNDE) [9 reuniões, todas durante o governo Lula]. Tiago Fetter (chefe de vendas da Palantir no Brasil): reuniu-se com servidores do MEC (FNDE) [10 reuniões], da AGU [3 reuniões], do Ministério da Defesa [1 reunião], do Ministério do Desenvolvimento, Indústria, Comércio e Serviços (MDIC) [1 reunião], da Anvisa [1 reunião] e da ANM [1 reunião], todas realizadas durante o governo Lula. Marcelo Faustino (ex-chefe de vendas da Palantir no Brasil – 03/22 a 07/23): reuniu-se com servidores do Ministério da Saúde [5 reuniões durante o governo Bolsonaro e 1 durante o governo Lula], do MEC (FNDE) [5 reuniões durante o governo Lula] e do Ministério da Fazenda [1 reunião durante o governo Lula]. Consuelo Remmert (conselheira sênior da Palantir no Brasil e América Latina): reuniu-se com membros do Ministério da Defesa e das Forças Armadas do governo Lula (PT), incluindo dirigentes do Censipam, órgão do ministério responsável pelo monitoramento da Amazônia. Servidores do governo que se reuniram com a Palantir Alessandra Maria Costa e Lima (ex-coordenadora-geral de Sistemas e Aplicações (CGSA), atual Coordenadora-Geral de Soluções Digitais (CGSD) do MEC): servidora com o segundo maior número de reuniões com a Palantir no período [11 reuniões entre 2023 e 2024], todas relacionadas à parceria entre o FNDE e o MEC. Cláudio Azevedo Costa (ex-auditor-geral da Auditoria do Sistema Único de Saúde (DENASUS)): servidor público com o terceiro maior número de reuniões com a Palantir no período [10 reuniões, toda",
+            "title": "Como a Palantir se aproximou do governo brasileiro",
+            "topics": [
+              "política",
+              "economia",
+              "segurança",
+              "tecnologia"
+            ],
+            "url": "https://www.nexojornal.com.br/externo/2026/11/24/palantir-peter-thiel-governo-lula-agu-abin-ia"
+          },
+          {
+            "body": "Defence lawyer Brian Heberlig makes closing arguments at the Huawei Technologies trial at Brooklyn federal court on November 17. Huawei has been found guilty of conspiracy to steal trade secrets and bank fraud, but not guilty of the more serious overarching racketeering charge in a landmark case in the US. In a two-month trial, prosecutors accused the Chinese technology and telecommunications giant of lying, cheating and stealing to gain any competitive advantage. Huawei's defence team argued that prosecutors had decided Huawei was a criminal organisation and built its case from there, but the firm's success was due to its own innovation. Huawei said , external the racketeering acquittal \"confirms that these allegations lack factual basis\", adding that it would \"take all necessary legal actions to defend our rights and interests\". Jurors in a Brooklyn court found Huawei guilty of 10 out of 12 counts, which included conspiracy to violate US sanctions. However, the jury declined to convict Huawei of the racketeering conspiracy charge, which required members to find the firm acted like a criminal enterprise. Federal prosecutors first announced the charges against Huawei in 2019, after the dramatic arrest in late 2018 of senior executive Meng Wanzhou in Canada. Meng, also known as Cathy Meng, was held for three years in Canada before she was released to return to China through a deal with US prosecutors. During closing arguments last week, assistant US attorney Meredith Arfa told jurors Huawei spent 20 years doing whatever it took to expand its business, including lying to banks about its business dealings in Iran and stealing technology secrets from rival firms to ensure it had a competitive edge. \"For decades, Huawei and three of its subsidiaries conducted their business in the United States on the basis of lies and theft,\" US Attorney General Todd Blanche said in statement , external . \"Thanks to the work of the FBI and our federal prosecutors, those who engaged in these criminal activities will be held accountable.\" However, defence attorney Brian Heberlig said it was by dint of hard work that Huawei's business had expanded with operations in 170 countries and more than 200,000 staff. Following the verdict, Heberlig told the BBC that Huawei was gratified that the jury had rejected the racketeering charge. \"The RICO [Racketeer Influenced and Corrupt Organizations Act] count that alleged that Huawei was a corrupt organisation, with a corporate culture and policy of committing crime. That was, in our view, a significant overreach, and the jury soundly rejected it,\" he said. \"Of course, we have mixed emotions about the rest of the verdict ... [we] thought that Huawei was deserving of acquittals across the board.\" Sentencing is planned for September 2027. Heberlig said there will be \"significant advocacy\" to achieve the lowest sentence possible. Following that, he said he fully expects Huawei to appeal. \"If I know Huawei, that fight will continue, and the company's not going to rest until it's pursued every last argument it can through appeal, and hopefully, ultimately toward vindication,\" he said.",
+            "content_access": "corpo público extraído",
+            "country": "MISTO",
+            "evidence_level": "body",
+            "feed_name": "BBC News — World",
+            "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+            "id": "762ce6d7fedd6d19",
+            "published_at": "2026-11-25T02:59:27+00:00",
+            "selection_rank": 16,
+            "selection_reason": "assunto/relevância/atualidade/diversidade",
+            "source": "BBC News",
+            "summary": "The verdict follows a months-long trial in New York.",
+            "title": "Huawei found guilty of stealing trade secrets but acquitted of racketeering",
+            "topics": [
+              "política",
+              "economia",
+              "segurança"
+            ],
+            "url": "https://www.bbc.co.uk/news/articles/cmy49ngydqzpo?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "body": "A carteira de financiamento de veículos no Brasil tem potencial para quase triplicar, dos R$ 520 bilhões registrados em 2025 para R$ 1,5 trilhão, com a adoção da retomada extrajudicial de veículos em casos de inadimplência. A estimativa consta de estudo apresentado pela Acrefi (Associação Nacional das Instituições de Crédito, Financiamento e Investimento) na 3ª feira (24.nov.2026). A retomada extrajudicial permite que instituições financeiras recuperem veículos dados como garantia em contratos de financiamento sem a necessidade de ingressar com uma ação judicial. A diminuição do tempo e dos custos de recuperação dos bens reduz os riscos assumidos pelos bancos e, consequentemente, amplia a oferta de crédito, segundo o estudo. [shortcode-newsletter] O mecanismo foi instituído pelo Marco Legal das Garantias, sancionado em outubro de 2023. A norma permite que a retomada do veículo seja realizada por cartórios e Detrans (departamentos estaduais de trânsito). A atuação dos órgãos de trânsito, entretanto, é questionada no Supremo Tribunal Federal. Para que o procedimento extrajudicial seja realizado, é necessário que esteja no contrato de financiamento. O devedor deve ser notificado e tem prazo de 20 dias para pagar a dívida. A legislação também assegura ao consumidor a possibilidade de recorrer à Justiça. Segundo o estudo, aproximadamente 30% dos veículos comercializados no Brasil são financiados. O percentual é inferior ao registrado em outros países da América Latina, como o Chile, onde a proporção varia de 75% a 80%. No Reino Unido, chega a 90%. Para estimar o potencial de expansão do crédito automotivo, o levantamento utilizou como referência o mercado imobiliário brasileiro, que dispõe de mecanismos de recuperação extrajudicial de imóveis desde 1997. O número de imóveis financiados no país passou de 61.000 em 1994 para mais de 1,1 milhão em 2024, segundo o estudo. A expansão do crédito imobiliário nas últimas 3 décadas também decorreu de outros fatores. A estimativa para o setor automotivo considera uma fração desse crescimento, mas não define um prazo para que a carteira de financiamento de veículos alcance R$ 1,5 trilhão. A diretora-executiva da Acrefi, Cintia Falcão, afirmou durante a apresentação do estudo que o valor representa um potencial de crescimento do mercado, e não uma expansão garantida. IMPACTO PARA O CONSUMIDOR O economista Carlos Eduardo Figueiredo Cabral, professor da PUC-SP (Pontifícia Universidade Católica de São Paulo) e autor do estudo, afirmou que a maior segurança na recuperação das garantias pode permitir que os bancos flexibilizem as condições exigidas para a concessão de financiamentos, como o valor mínimo de entrada. Segundo Cabral, a demora na recuperação dos veículos representa um risco adicional para as instituições financeiras, uma vez que os automóveis perdem valor ao longo do tempo. Esse risco é considerado pelos bancos na análise dos pedidos de crédito. A possibilidade de recuperar o bem mais rapidamente poderia incentivar as instituições a financiar uma parcela maior do valor dos veículos e ampliar o número de consumidores com acesso ao crédito. O economista disse que a medida poderia beneficiar, por exemplo, motoristas de aplicativos que dependem do aluguel de veículos para trabalhar por não conseguirem aprovação de financiamento ou não disporem dos recursos exigidos para a entrada. A redução dos juros cobrados nos financiamentos também é apontada como um possível efeito da medida pela Acrefi. O estudo, entretanto, não apresenta estimativas de quanto as taxas poderiam cair. JULGAMENTO NO STF A implementação da retomada extrajudicial de veículos pelos Detrans enfrenta um impasse jurídico. O Supremo analisa recursos apresentados nas ADIs (Ações Diretas de Inconstitucionalidade) 7.600, 7.601 e 7.608, que questionam dispositivos do Marco Legal das Garantias. Em 30 de junho de 2025, o STF validou, por maioria, a recuperação extrajudicial de bens, desde que respeitados os direitos e as garantias constitucionais dos devedores. Na ocasião, o ministro Flávio Dino divergiu especificamente sobre a possibilidade de os Detrans realizarem o procedimento. O julgamento foi retomado em outubro de 2025, depois da apresentação de embargos de declaração (recursos utilizados para esclarecer decisões judiciais). O relator, ministro Dias Toffoli, mudou seu entendimento e votou pela inconstitucionalidade da atuação dos Detrans. Foi acompanhado pelo ministro Cristiano Zanin. Gilmar Mendes pediu vista (mais tempo para análise) e interrompeu o julgamento. Em março de 2026, depois da apresentação do voto de Gilmar Mendes, Toffoli reajustou novamente seu entendimento. O relator passou a defender a possibilidade de os Detrans realizarem a recuperação extrajudicial, desde que submetidos à regulamentação e à fiscalização do CNJ (Conselho Nacional de Justiça), por meio de um acordo de cooperação com a Senatran (Secretaria Nacional de Trânsito). Zanin também passou a acompanhar o novo entendimento do relator. Os ministros Alexandre de Moraes, Edson Fachin e Gilmar Mendes votaram no mesmo sentido. Cármen Lúcia acompanhou Toffoli com ressalvas. Com 6 votos favoráveis à atuação dos Detrans, Flávio Dino pediu destaque, interrompendo o julgamento no plenário virtual e transferindo a discussão para o plenário físico. Diante da insegurança jurídica, segundo a Acrefi, as instituições financeiras suspenderam os projetos-pilotos de recuperação extrajudicial realizados em São Paulo e Mato Grosso do Sul, embora a legislação continue em vigor. A associação participa do julgamento na condição de amicus curiae (entidade admitida no processo para fornecer informações que auxiliem na decisão) e pretende apresentar os resultados do estudo aos ministros do Supremo.",
+            "content_access": "corpo público extraído",
+            "country": "BR",
+            "evidence_level": "body",
+            "feed_name": "Poder360",
+            "feed_url": "https://www.poder360.com.br/feed/",
+            "id": "48b220aea078ba0b",
+            "published_at": "2026-11-25T03:01:08+00:00",
+            "selection_rank": 17,
+            "selection_reason": "assunto/relevância/atualidade/diversidade",
+            "source": "Poder360",
+            "summary": "Estudo da Acrefi estima potencial de expansão da carteira de crédito automotivo para R$ 1,5 tri; atuação dos Detrans é questionada no STF",
+            "title": "Financiamento de veículos pode triplicar com retomada extrajudicial",
+            "topics": [
+              "política",
+              "economia"
+            ],
+            "url": "https://www.poder360.com.br/poder-economia/financiamento-de-veiculos-pode-triplicar-com-retomada-extrajudicial/"
+          },
+          {
+            "body": "",
+            "content_access": "não solicitado",
+            "country": "MUNDO",
+            "evidence_level": "excerpt",
+            "feed_name": "The Wall Street Journal — World",
+            "feed_url": "https://feeds.content.dowjones.io/public/rss/RSSWorldNews",
+            "id": "1bb8ecbd5606b57f",
+            "published_at": "2026-11-25T03:13:00+00:00",
+            "selection_rank": 18,
+            "selection_reason": "assunto/relevância/atualidade/diversidade",
+            "source": "The Wall Street Journal",
+            "summary": "Chen Jining, the party secretary of Shanghai, has been placed under investigation on suspicion of severe violations of party discipline and state laws.",
+            "title": "China Takes Down Shanghai Party Boss Once Seen as Potential Leader",
+            "topics": [
+              "política",
+              "economia",
+              "segurança",
+              "tecnologia"
+            ],
+            "url": "https://www.wsj.com/world/china/china-takes-down-shanghai-party-boss-once-seen-as-potential-leader-5d6d06e0?mod=rss_worldnews"
+          },
+          {
+            "body": "",
+            "content_access": "não solicitado",
+            "country": "BR",
+            "evidence_level": "excerpt",
+            "feed_name": "Agência Lupa",
+            "feed_url": "https://www.agencialupa.org/feed/",
+            "id": "611f4844271b658c",
+            "published_at": "2026-11-24T20:48:50+00:00",
+            "selection_rank": 19,
+            "selection_reason": "assunto/relevância/atualidade/diversidade",
+            "source": "Agência Lupa",
+            "summary": "PF investiga suspeitas de irregularidades em operações de crédito rural, mas não cita o Banco do Brasil nem o valor bilionário.",
+            "title": "É falso que Banco do Brasil tenha sido alvo de fraude de R$ 256 bilhões",
+            "topics": [
+              "política",
+              "segurança"
+            ],
+            "url": "https://www.agencialupa.org/jornalismo/2026/11/24/e-falso-que-banco-do-brasil-tenha-sido-alvo-de-fraude-de-r-256-bilhoes/"
+          },
+          {
+            "body": "",
+            "content_access": "não solicitado",
+            "country": "MUNDO",
+            "evidence_level": "excerpt",
+            "feed_name": "Financial Times — World",
+            "feed_url": "https://www.ft.com/rss/world",
+            "id": "fda5010631f2d903",
+            "published_at": "2026-11-25T02:04:15+00:00",
+            "selection_rank": 20,
+            "selection_reason": "assunto/relevância/atualidade/diversidade",
+            "source": "Financial Times",
+            "summary": "Projects that touted chip access to Chinese customers face tighter US scrutiny",
+            "title": "Will the Nvidia fallout kill off Asia’s data centre boom?",
+            "topics": [
+              "política",
+              "economia",
+              "tecnologia"
+            ],
+            "url": "https://www.ft.com/content/e5df32d1-1801-4d81-b2f5-b83e93377c1c?syn-25a6b1a6=1"
+          },
+          {
+            "body": "",
+            "content_access": "não solicitado",
+            "country": "BR",
+            "evidence_level": "excerpt",
+            "feed_name": "Deutsche Welle — Brasil",
+            "feed_url": "https://rss.dw.com/rdf/rss-br-br",
+            "id": "1fc5aed1adfbdc18",
+            "published_at": "2026-11-24T14:44:00+00:00",
+            "selection_rank": 21,
+            "selection_reason": "assunto/relevância/atualidade/diversidade",
+            "source": "Deutsche Welle — DW",
+            "summary": "Brasil recuperou certificação em menos de cinco anos após surto recorde. Especialistas apontam vacinação e resposta rápida como lições para os EUA, que recentemente perderam status de país livre do sarampo.",
+            "title": "O que o Brasil pode ensinar aos EUA sobre como controlar o sarampo",
+            "topics": [
+              "política",
+              "economia",
+              "segurança",
+              "tecnologia"
+            ],
+            "url": "https://www.dw.com/pt-br/o-que-o-brasil-pode-ensinar-aos-eua-sobre-como-controlar-o-sarampo/a-80025580?maca=bra-rss-br-br-1031-rdf"
+          },
+          {
+            "body": "",
+            "content_access": "não solicitado",
+            "country": "MUNDO",
+            "evidence_level": "excerpt",
+            "feed_name": "G1 — Economia",
+            "feed_url": "https://g1.globo.com/rss/g1/economia/",
+            "id": "a2bcfd9010c48e23",
+            "published_at": "2026-11-24T22:33:17+00:00",
+            "selection_rank": 22,
+            "selection_reason": "assunto/relevância/atualidade/diversidade",
+            "source": "G1",
+            "summary": "Argentina entra em recessão técnica A atividade econômica da Argentina recuou 1,2% em setembro em relação ao mesmo mês do ano passado, segundo dados divulgados nesta terça-feira (24) pelo Instituto Nacional de Estatística e Censos (Indec). O resultado, que consta no Estimador Mensal de Atividade Econômica (Emae), reforça os sinais de que o país entrou em recessão técnica, caracterizada por dois trimestres consecutivos de contração da economia. 📱Favorite o g1 no Google e acompanhe as principais notícias do dia O indicador antecipa o comportamento do Produto Interno Bruto (PIB). Apesar de a atividade ter crescido 1,1% na comparação com agosto, economistas ouvidos pela AFP estimam que a economia argentina encolheu 1,8% no terceiro trimestre, após queda de 0,6% entre abril e junho. A confirmação oficial da recessão técnica, no entanto, depende da divulgação dos dados do PIB do terceiro trimestre, prevista para dezembro. \"Com os dados divulgados recentemente, entramos em recessão técnica, embora seja preciso aguardar o dado do Produto Interno Bruto (PIB), em dezembro\", afirmou o economista Federico Glustein, professor da Universidade de Buenos Aires, à AFP. O governo do presidente Javier Milei, por sua vez, ressaltou que é necessário aguardar a divulgação do PIB para confirmar a recessão, em vez de considerar apenas os resultados do Emae. “Existem muitas definições (de recessão técnica). Essa de dois trimestres negativos não é a única. Mas, se considerarmos essa definição, são dois trimestres de queda do PIB”, afirmou o porta-voz presidencial, Adrián Ravier. VEJA TAMBÉM Dólar a R$ 6: o que explica a disparada da moeda e o que pode frear novas altas? Arrecadação federal avança para R$ 294 bilhões em outubro, novo recorde para o mês Presidente da Argentina, Javier Milei. Yara Nardi / REUTERS Período de estagnação O resultado de setembro ficou abaixo das expectativas do mercado. Uma pesquisa da Reuters apontava para uma retração de 0,8% na atividade econômica em relação ao mesmo mês de 2025, enquanto a queda registrada foi de 1,2%. Para o economista Lisandro Mondino, secretário acadêmico da Universidade de Quilmes, os números refletem um período prolongado de estagnação da economia argentina. \"Em nível geral, a economia já está estagnada há vários meses, o que se observa no próprio relatório do Indec\", afirmou à AFP. O economista Pablo Tigani também avaliou que o país entrou em recessão técnica, ressaltando que o Emae funciona como uma aproximação do comportamento do PIB. Desempenho por setores Na comparação com setembro de 2025, os setores que registraram as maiores quedas foram: Pesca: -48,6%; Intermediação financeira: -11,5%; Indústria manufatureira: -1,8%. Já os maiores avanços foram observados em: Extração mineral: +11,1%; Eletricidade, água e gás: +4%; Construção: +3,5%. Os dados foram divulgados pouco antes de o presidente Javier Milei completar três anos no poder. O argentino, que assumiu a Presidência em dezembro de 2023, deve disputar a reeleição em outubro de 2027. Casa Rosada, na Argentina. Wikimedia Commons. * Com informações da Reuters e da AFP",
+            "title": "Economia da Argentina encolhe e entra em recessão técnica, apontam dados preliminares",
+            "topics": [
+              "economia"
+            ],
+            "url": "https://g1.globo.com/economia/noticia/2026/11/24/economia-da-argentina-encolhe-e-entra-em-recessao-tecnica-apontam-dados-preliminares.ghtml"
+          },
+          {
+            "body": "",
+            "content_access": "não solicitado",
+            "country": "BR",
+            "evidence_level": "excerpt",
+            "feed_name": "Folha de S.Paulo — Poder",
+            "feed_url": "https://feeds.folha.uol.com.br/poder/rss091.xml",
+            "id": "9f1209228cb9e57b",
+            "published_at": "2026-11-24T22:35:00+00:00",
+            "selection_rank": 23,
+            "selection_reason": "assunto/relevância/atualidade/diversidade",
+            "source": "Folha de S.Paulo",
+            "summary": "O presidente do Senado , Davi Alcolumbre ( União Brasil -AP), disse nesta terça-feira (24) que vai atuar \"pessoalmente\", na condição de chefe do Congresso Nacional , no processo no STF (Supremo Tribunal Federal) que pode tornar o deputado federal Marcel Van Hattem (Novo) réu por calúnia e injúria contra um delegado da Polícia Federal. Leia mais (11/24/2026 - 19h35)",
+            "title": "Alcolumbre diz que Congresso defenderá prerrogativas de Van Hattem em ação no STF",
+            "topics": [
+              "política"
+            ],
+            "url": "https://www1.folha.uol.com.br/blogs/brasilia-hoje/2026/11/alcolumbre-diz-que-congresso-defendera-prerrogativas-de-van-hattem-em-acao-no-stf-contra-deputado.shtml"
+          },
+          {
+            "body": "",
+            "content_access": "não solicitado",
+            "country": "MISTO",
+            "evidence_level": "excerpt",
+            "feed_name": "The Economist — Finance and Economics",
+            "feed_url": "https://www.economist.com/finance-and-economics/rss.xml",
+            "id": "ea8349b18f100694",
+            "published_at": "2026-11-24T18:12:38+00:00",
+            "selection_rank": 24,
+            "selection_reason": "assunto/relevância/atualidade/diversidade",
+            "source": "The Economist",
+            "summary": "The pitfalls of being a proxy bet for a technological revolution",
+            "title": "Copper shows how AI is messing with markets",
+            "topics": [
+              "economia"
+            ],
+            "url": "https://www.economist.com/finance-and-economics/2026/11/24/copper-shows-how-ai-is-messing-with-markets"
+          },
+          {
+            "body": "",
+            "content_access": "não solicitado",
+            "country": "BR",
+            "evidence_level": "excerpt",
+            "feed_name": "Poder360",
+            "feed_url": "https://www.poder360.com.br/feed/",
+            "id": "05e137f823b653df",
+            "published_at": "2026-11-25T01:31:36+00:00",
+            "selection_rank": 25,
+            "selection_reason": "assunto/relevância/atualidade/diversidade",
+            "source": "Poder360",
+            "summary": "Deputado quer esclarecimentos sobre mudanças na estrutura da Polícia Federal e revisão de relatórios que citam ministros do STF no caso Master",
+            "title": "Câmara convoca ministro para explicar troca de delegados da PF",
+            "topics": [
+              "política",
+              "economia"
+            ],
+            "url": "https://www.poder360.com.br/poder-justica/camara-convoca-ministro-para-explicar-troca-de-delegados-da-pf/"
+          },
+          {
+            "body": "",
+            "content_access": "não solicitado",
+            "country": "MUNDO",
+            "evidence_level": "excerpt",
+            "feed_name": "The New York Times — World",
+            "feed_url": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+            "id": "5e200e79ec4d187c",
+            "published_at": "2026-11-25T02:55:17+00:00",
+            "selection_rank": 26,
+            "selection_reason": "assunto/relevância/atualidade/diversidade",
+            "source": "The New York Times",
+            "summary": "Mr. Markle, 82, was indicted by a grand jury in Los Angeles and is expected to be arraigned in the coming weeks, prosecutors said.",
+            "title": "Thomas Markle Indicted in US on Charges of Possession of Child Sexual Abuse Materials",
+            "topics": [
+              "política",
+              "economia",
+              "segurança"
+            ],
+            "url": "https://www.nytimes.com/2026/11/24/world/europe/thomas-markle-indicted.html"
+          },
+          {
+            "body": "",
+            "content_access": "não solicitado",
+            "country": "BR",
+            "evidence_level": "excerpt",
+            "feed_name": "BBC News Brasil",
+            "feed_url": "https://feeds.bbci.co.uk/portuguese/rss.xml",
+            "id": "ff54a4a5ebeef00b",
+            "published_at": "2026-11-24T18:21:56+00:00",
+            "selection_rank": 27,
+            "selection_reason": "assunto/relevância/atualidade/diversidade",
+            "source": "BBC News Brasil",
+            "summary": "Plano do ministro Bruno Moretti, aprovado no Congresso, é 'muito aquém' do que país precisa para acalmar ânimos, avalia economista. Para ele, Lula 4 precisa não só agir como vencer a 'batalha de expectativas' com o mercado",
+            "title": "Brasil terá recessão se Lula não fizer ajuste fiscal mais robusto, diz Eduardo Giannetti",
+            "topics": [
+              "política",
+              "economia",
+              "segurança",
+              "tecnologia"
+            ],
+            "url": "https://www.bbc.com/portuguese/articles/c6d71g79qpe1o?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "body": "",
+            "content_access": "não solicitado",
+            "country": "MUNDO",
+            "evidence_level": "excerpt",
+            "feed_name": "The Wall Street Journal — World",
+            "feed_url": "https://feeds.content.dowjones.io/public/rss/RSSWorldNews",
+            "id": "44088e7faf8cbca7",
+            "published_at": "2026-11-25T02:44:00+00:00",
+            "selection_rank": 28,
+            "selection_reason": "assunto/relevância/atualidade/diversidade",
+            "source": "The Wall Street Journal",
+            "summary": "The Solomon Islands said it won’t allow foreign bases on its soil, calming worries that the country was slipping into China’s orbit and that Beijing could open a military outpost there.",
+            "title": "China’s Military Ambitions in the Pacific Suffer Setback",
+            "topics": [
+              "política",
+              "economia",
+              "segurança",
+              "tecnologia"
+            ],
+            "url": "https://www.wsj.com/world/asia/chinas-military-ambitions-in-the-pacific-suffer-setback-ef5a2d30?mod=rss_worldnews"
+          },
+          {
+            "body": "",
+            "content_access": "não solicitado",
+            "country": "BR",
+            "evidence_level": "excerpt",
+            "feed_name": "Agência Lupa",
+            "feed_url": "https://www.agencialupa.org/feed/",
+            "id": "e4bfdb013350f484",
+            "published_at": "2026-11-24T16:09:13+00:00",
+            "selection_rank": 29,
+            "selection_reason": "assunto/relevância/atualidade/diversidade",
+            "source": "Agência Lupa",
+            "summary": "Secretário não se manifestou sobre o assunto; post faz referência a falso comunicado que circula nas redes sociais",
+            "title": "Marco Rubio não disse que Lula conspirou contra os EUA",
+            "topics": [
+              "política",
+              "segurança"
+            ],
+            "url": "https://www.agencialupa.org/verificacao/2026/11/24/marco-rubio-nao-disse-que-lula-conspirou-contra-os-eua/"
+          },
+          {
+            "body": "",
+            "content_access": "não solicitado",
+            "country": "MUNDO",
+            "evidence_level": "excerpt",
+            "feed_name": "Financial Times — World",
+            "feed_url": "https://www.ft.com/rss/world",
+            "id": "02e56d3ac658c96e",
+            "published_at": "2026-11-25T02:00:02+00:00",
+            "selection_rank": 30,
+            "selection_reason": "assunto/relevância/atualidade/diversidade",
+            "source": "Financial Times",
+            "summary": "Regulators claim cotton that the retailer’s suppliers said was US-grown was harvested in China",
+            "title": "Shein to pay $100mn to resolve US allegations that it deceived customers",
+            "topics": [
+              "política",
+              "economia",
+              "tecnologia"
+            ],
+            "url": "https://www.ft.com/content/0128d44e-8ca1-49b8-868b-b8fe0e4824c6?syn-25a6b1a6=1"
+          },
+          {
+            "body": "",
+            "content_access": "não solicitado",
+            "country": "BR",
+            "evidence_level": "excerpt",
+            "feed_name": "G1 — Brasil e Cidades",
+            "feed_url": "https://g1.globo.com/rss/g1/",
+            "id": "eb3fde211768fe68",
+            "published_at": "2026-11-25T03:00:00+00:00",
+            "selection_rank": 31,
+            "selection_reason": "assunto/relevância/atualidade/diversidade",
+            "source": "G1",
+            "summary": "Medidas protetivas crescem 11% em SP, mas 188 mulheres foram vítimas de feminicídio em 2026 Quase 117 mil medidas protetivas foram solicitadas à Justiça no estado de São Paulo entre janeiro e outubro de 2026, um aumento de 11% em relação ao mesmo período de 2025. Apesar do crescimento dos pedidos, 188 mulheres foram vítimas de feminicídio no estado este ano. Um dos mecanismos que podem reforçar a proteção de mulheres ameaçadas é o uso de tornozeleiras eletrônicas por agressores. O equipamento permite monitorar a localização do suspeito e acionar a Polícia Militar caso ele se aproxime da vítima, desrespeitando a distância determinada pela Justiça. A importância desse tipo de proteção ficou evidente em mais um caso de feminicídio registrado nesta semana. Simone Maria Fernandes, de 49 anos, mãe de três filhos, foi morta a facadas pelo ex-namorado, Fernando Martins Santana, mesmo depois de conseguir uma medida protetiva de urgência contra ele. Na última sexta-feira (20), Simone havia solicitado e obtido a determinação judicial para impedir a aproximação do ex-namorado. Imagens de câmeras de segurança mostram Simone caminhando com um guarda-chuva na rua quando um carro para ao lado dela. No veículo estava Fernando. Ao perceber a presença do ex-namorado, ela corre em direção ao condomínio onde morava, na Zona Leste de São Paulo. Fernando vai atrás da vítima e força a entrada no prédio. Na garagem, ele imobiliza Simone e deixa cair a faca que carregava. Em seguida, aplica o golpe conhecido como mata-leão e esfaqueia a mulher diversas vezes. Antes de deixar o condomínio, o agressor ainda volta para atacar Simone. Ferida, ela consegue chegar à escadaria do prédio e pedir ajuda, mas não resiste aos ferimentos. Fernando fugiu e foi encontrado morto horas depois no quarto de um motel no Ipiranga, na Zona Sul da capital. Medidas protetivas crescem 11% em SP, mas 188 mulheres foram vítimas de feminicídio em 2026 Reprodução/TV Globo Como funciona o monitoramento por tornozeleira eletrônica? Há 20 anos, a Lei Maria da Penha estabeleceu a possibilidade de mulheres ameaçadas de violência solicitarem medidas protetivas de urgência. Entre as determinações possíveis estão a proibição de aproximação e contato do agressor com a vítima, além do encaminhamento da mulher para um local seguro ou programas de proteção. A tornozeleira eletrônica pode ser determinada pelo juiz, de acordo com a situação de vulnerabilidade da mulher. Em cidades onde não há juiz, a medida também pode ser adotada por um delegado. A promotora de Justiça Fabiana Dalmas afirma, porém, que existe um descompasso entre a quantidade de medidas protetivas concedidas e a disponibilidade de equipamentos para monitorar os agressores. \"Então há um gargalo em relação a essa questão\", afirma. Segundo ela, o número de medidas protetivas deferidas é muito superior ao de tornozeleiras eletrônicas disponíveis e também à estrutura de segurança envolvida no acompanhamento das vítimas. Quais ferramentas estão disponíveis para proteger as vítimas? Quando uma mulher procura uma delegacia para denunciar violência, o delegado pode solicitar diferentes mecanismos de proteção. A Justiça tem até 48 horas para decidir se concede ou não a medida protetiva. Depois da decisão, a vítima pode contar com ferramentas como botão do pânico, aplicativos de monitoramento e tornozeleira eletrônica para o agressor. O aplicativo também permite que a mulher receba alertas caso o homem monitorado esteja se aproximando. Outra possibilidade é registrar um novo boletim de ocorrência quando o agressor tenta entrar em contato ou descumpre alguma determinação judicial. A partir da denúncia, o delegado pode solicitar a prisão do suspeito. A delegada da mulher destaca que a tornozeleira representa uma proteção adicional por permitir o monitoramento contínuo do agressor. O equipamento funciona 24 horas por dia, sete dias por semana. O juiz estabelece uma zona de exclusão, ou seja, uma área da qual o homem está proibido de se aproximar. Se o monitorado entra nessa região, a Polícia Militar, responsável pelo acompanhamento, é acionada e encaminha a viatura mais próxima. Caso seja constatado o descumprimento da medida protetiva, o agressor pode ser preso em flagrante. Mãe de três filhos é morta a facadas três dias após pedir medida protetiva em SP O que diz a Secretaria da Segurança Pública? A Secretaria da Segurança Pública de São Paulo informou que dispõe de tornozeleiras eletrônicas suficientes para atender à demanda atual. Segundo a pasta, 572 homens acusados de violência doméstica são monitorados atualmente no estado.",
+            "title": "Medidas protetivas crescem 11% em SP, mas estado registra 188 feminicídios no ano; vítima foi morta 3 dias após decisão judicial",
+            "topics": [
+              "segurança",
+              "política"
+            ],
+            "url": "https://g1.globo.com/sp/sao-paulo/noticia/2026/11/25/medidas-protetivas-crescem-11percent-em-sp-mas-estado-registra-188-feminicidios-no-ano-vitima-foi-morta-3-dias-apos-decisao-judicial.ghtml"
+          },
+          {
+            "body": "",
+            "content_access": "não solicitado",
+            "country": "MISTO",
+            "evidence_level": "excerpt",
+            "feed_name": "Nexo Jornal",
+            "feed_url": "https://www.nexojornal.com.br/rss.xml",
+            "id": "279da1a6bfa42d00",
+            "published_at": "2026-11-25T01:36:04+00:00",
+            "selection_rank": 32,
+            "selection_reason": "assunto/relevância/atualidade/diversidade",
+            "source": "Nexo Jornal",
+            "summary": "O juiz que se torna uma máquina de fazer tudo o que entende ser necessário para, na sua visão, proteger a democracia e a Constituição corre o risco de deixar de ser juiz Depois de mais de sete anos de tramitação, o presidente do Supremo, Edson Fachin, encerrou o inquérito das fake news. Na sua controversa história, dois planos foram frequentemente confundidos, tanto na crítica quanto na defesa do procedimento: sua origem e sua condução. Em sua decisão, Fachin enfatizou que o plenário do Supremo inequivocamente validou a instauração do inquérito de ofício em 2020, com a designação do ministro Alexandre de Moraes como relator. Contudo, a autorização inicial não torna correta toda decisão posterior no procedimento. A validade da origem não é chancela das centenas de escolhas (em sua maioria individuais, sem passagem pelo colegiado) feitas ao longo do caminho.",
+            "title": "Como o inquérito das fake news mudou o Supremo (para pior)",
+            "topics": [
+              "política",
+              "economia",
+              "segurança",
+              "tecnologia"
+            ],
+            "url": "https://www.nexojornal.com.br/colunistas/2026/11/24/inquerito-das-fake-news-supremo-stf-moraes-efeitos-o-que-mudou"
+          },
+          {
+            "body": "",
+            "content_access": "não solicitado",
+            "country": "BR",
+            "evidence_level": "excerpt",
+            "feed_name": "Folha de S.Paulo — Mercado",
+            "feed_url": "https://feeds.folha.uol.com.br/mercado/rss091.xml",
+            "id": "d477a176f1f2ee26",
+            "published_at": "2026-11-25T02:13:00+00:00",
+            "selection_rank": 33,
+            "selection_reason": "assunto/relevância/atualidade/diversidade",
+            "source": "Folha de S.Paulo",
+            "summary": "O governo de Luiz Inácio Lula da Silva (PT) anunciou nesta terça-feira (24) uma liberação de R$ 3,43 bilhões em despesas do Orçamento de 2026, graças à redução de gastos obrigatórios e à decisão de excluir da meta fiscal R$ 10,5 bilhões em gastos com a subvenção ao diesel. Leia mais (11/24/2026 - 23h13)",
+            "title": "Governo Lula libera R$ 3,4 bi do Orçamento após excluir mais R$ 10,5 bi da meta fiscal de 2026",
+            "topics": [
+              "economia"
+            ],
+            "url": "https://www1.folha.uol.com.br/mercado/2026/11/governo-lula-libera-r-34-bi-do-orcamento-apos-excluir-mais-despesas-da-meta-de-2026.shtml"
+          },
+          {
+            "body": "",
+            "content_access": "não solicitado",
+            "country": "MUNDO",
+            "evidence_level": "excerpt",
+            "feed_name": "Poder360",
+            "feed_url": "https://www.poder360.com.br/feed/",
+            "id": "843367bb533fd7c8",
+            "published_at": "2026-11-25T00:47:31+00:00",
+            "selection_rank": 34,
+            "selection_reason": "assunto/relevância/atualidade/diversidade",
+            "source": "Poder360",
+            "summary": "País sediará a competição pela 2ª edição consecutiva; Brasil não conquista o título continental desde 2019",
+            "title": "Conmebol anuncia EUA como sede da Copa América de 2028",
+            "topics": [
+              "política",
+              "economia"
+            ],
+            "url": "https://www.poder360.com.br/poder-sportsmkt/conmebol-anuncia-eua-como-sede-da-copa-america-de-2028/"
+          },
+          {
+            "body": "",
+            "content_access": "não solicitado",
+            "country": "BR",
+            "evidence_level": "excerpt",
+            "feed_name": "BBC News Brasil",
+            "feed_url": "https://feeds.bbci.co.uk/portuguese/rss.xml",
+            "id": "11eaeaf1ddf3a338",
+            "published_at": "2026-11-24T17:24:05+00:00",
+            "selection_rank": 35,
+            "selection_reason": "assunto/relevância/atualidade/diversidade",
+            "source": "BBC News Brasil",
+            "summary": "Cerimônia acontecerá no dia 5 de janeiro e contará com atrações internacionais, como Roger Waters, ex-Pink Floyd, e o porto-riquenho Bad Bunny.",
+            "title": "O que se sabe e o que ainda não está definido sobre a posse de Lula em 2027",
+            "topics": [
+              "política",
+              "economia",
+              "segurança",
+              "tecnologia"
+            ],
+            "url": "https://www.bbc.com/portuguese/articles/cmewv01z9n7wo?at_medium=RSS&at_campaign=rss"
+          }
+        ],
+        "lookback_hours": 24
+      },
+      "id": "dd865a698929781ccb6bc70d",
+      "key": "2026-11-25",
+      "manifest_hash": "9598b6d3e08d292c6acfeb9002dad610bd5b62b2f4bb259c06990e9f2da29cb5",
+      "parts": [
+        {
+          "article_ids": [
+            "340988c9b78fdbdd",
+            "48b220aea078ba0b"
+          ],
+          "id": "dd865a698929781ccb6bc70d:1",
+          "status": "pending",
+          "text": "<i>[Parte 1/3]</i>\n📰 <b>Boletim de notícias — 25/11/2026</b>\n<i>Cobertura: últimas 24 horas.</i>\n\n<b>Panorama:</b>\nO cenário brasileiro é marcado por impasses jurídicos sobre a regulamentação do fim da escala 6x1 e a retomada extrajudicial de veículos, enquanto a economia enfrenta pressões inflacionárias e recessão técnica na Argentina. Paralelamente, o aumento de medidas protetivas em São Paulo não tem sido suficiente para conter os índices de feminicídio no estado.\n\n<b>1. CNI contesta regulamentação do fim da escala 6x1 no STF</b>\n<i>Brasil • Política</i>\nA Confederação Nacional da Indústria (CNI) protocolou nova ação no Supremo Tribunal Federal (STF) buscando a inconstitucionalidade de decretos e portarias do governo federal sobre o fim da escala 6x1. A entidade argumenta que o Executivo extrapolou competências ao definir regras que deveriam ser legisladas pelo Congresso, como compensação de horas e remuneração de repouso. O ministro Flávio Dino, relator, já havia concedido liminar com normas provisórias, permitindo jornadas de até 8 horas e 24 minutos em 5 dias semanais, sem horas extras, na ausência de acordos coletivos. Base documental limitada ao trecho RSS; corpo integral não acessível.\n\n<b>Contexto:</b> A disputa jurídica ocorre após a Emenda Constitucional 141 de 2026, que alterou a jornada de trabalho no país.\n\n<b>Limitação da evidência:</b> Base documental limitada ao trecho RSS; corpo integral não acessível.\n\n🔗 <a href=\"https://www.poder360.com.br/poder-brasil/cni-protocola-nova-acao-no-stf-contra-a-regulamentacao-do-fim-da-6-x-1/\">Poder360</a>\n\n<b>2. Retomada extrajudicial de veículos pode triplicar crédito automotivo</b>\n<i>Brasil • Economia</i>\nEstudo da Acrefi aponta que a retomada extrajudicial de veículos inadimplentes pode elevar a carteira de crédito automotivo de R$ 520 bilhões para R$ 1,5 trilhão. O mecanismo, previsto no Marco Legal das Garantias, permite a recuperação do bem sem ação judicial, reduzindo riscos bancários. Contudo, a eficácia da medida depende de desfecho no STF sobre a atuação dos Detrans no processo. O julgamento, que conta com votos favoráveis à regulamentação via CNJ, foi transferido para o plenário físico após pedido de destaque do ministro Flávio Dino. Instituições financeiras suspenderam projetos-piloto devido à insegurança jurídica atual. Base documental limitada ao trecho RSS; corpo integral não acessível.\n\n<b>Contexto:</b> O setor busca maior segurança jurídica para expandir o financiamento de veículos no Brasil.\n\n<b>Limitação da evidência:</b> Base documental limitada ao trecho RSS; corpo integral não acessível.\n\n🔗 <a href=\"https://www.poder360.com.br/poder-economia/financiamento-de-veiculos-pode-triplicar-com-retomada-extrajudicial/\">Poder360</a>"
+        },
+        {
+          "article_ids": [
+            "762ce6d7fedd6d19",
+            "a2bcfd9010c48e23",
+            "eb3fde211768fe68"
+          ],
+          "id": "dd865a698929781ccb6bc70d:2",
+          "status": "pending",
+          "text": "<i>[Parte 2/3]</i>\n\n\n<b>3. Aumento de medidas protetivas em SP não impede feminicídios</b>\n<i>Brasil • Segurança</i>\nO estado de São Paulo registrou um aumento de 11% nas solicitações de medidas protetivas entre janeiro e outubro de 2026, totalizando 117 mil pedidos. Apesar do reforço nos mecanismos de proteção, como o uso de tornozeleiras eletrônicas, o estado contabilizou 188 feminicídios no período. Um caso recente ilustra a vulnerabilidade: uma mulher foi assassinada três dias após obter medida protetiva contra o ex-namorado. A promotora Fabiana Dalmas aponta um descompasso entre a demanda por proteção e a disponibilidade de equipamentos de monitoramento. A Secretaria da Segurança Pública afirma possuir tornozeleiras suficientes para a demanda atual, com 572 homens monitorados. Base documental limitada ao trecho RSS; corpo integral não acessível.\n\n<b>Contexto:</b> O debate sobre a eficácia das medidas protetivas e o monitoramento de agressores é recorrente no estado.\n\n<b>Limitação da evidência:</b> Base documental limitada ao trecho RSS; corpo integral não acessível.\n\n🔗 <a href=\"https://g1.globo.com/sp/sao-paulo/noticia/2026/11/25/medidas-protetivas-crescem-11percent-em-sp-mas-estado-registra-188-feminicidios-no-ano-vitima-foi-morta-3-dias-apos-decisao-judicial.ghtml\">G1</a>\n\n<b>4. Argentina entra em recessão técnica após queda na atividade</b>\n<i>Internacional • Economia</i>\nDados do Instituto Nacional de Estatística e Censos (Indec) da Argentina indicam que a economia do país entrou em recessão técnica, com dois trimestres consecutivos de contração. A atividade econômica recuou 1,2% em setembro na comparação anual. Economistas estimam uma queda de 1,8% no terceiro trimestre, após retração de 0,6% entre abril e junho. O governo de Javier Milei pondera que a confirmação oficial depende da divulgação do PIB em dezembro. Setores como pesca e intermediação financeira registraram as maiores quedas, enquanto a extração mineral avançou. Base documental limitada ao trecho RSS; corpo integral não acessível.\n\n<b>Contexto:</b> O país enfrenta estagnação econômica prolongada sob a gestão de Javier Milei.\n\n<b>Limitação da evidência:</b> Base documental limitada ao trecho RSS; corpo integral não acessível.\n\n🔗 <a href=\"https://g1.globo.com/economia/noticia/2026/11/24/economia-da-argentina-encolhe-e-entra-em-recessao-tecnica-apontam-dados-preliminares.ghtml\">G1</a>\n\n<b>5. Huawei é condenada por roubo de segredos comerciais nos EUA</b>\n<i>Internacional • Segurança</i>\nUm júri em Nova York condenou a gigante chinesa Huawei por conspiração para roubar segredos comerciais e fraude bancária. A empresa foi considerada culpada em 10 das 12 acusações, incluindo violação de sanções dos EUA. Contudo, foi absolvida da acusação de extorsão (racketeering), que alegava que a companhia operava como uma organização criminosa. A defesa da Huawei classificou a acusação de extorsão como um excesso e planeja recorrer da decisão. O julgamento, que durou dois meses, concluiu um processo iniciado em 2019. A sentença está prevista para setembro de 2027. Base documental limitada ao trecho RSS; corpo integral não acessível.\n\n<b>Contexto:</b> O caso é um marco nas tensões tecnológicas e comerciais entre Estados Unidos e China.\n\n<b>Limitação da evidência:</b> Base documental limitada ao trecho RSS; corpo integral não acessível.\n\n🔗 <a href=\"https://www.bbc.co.uk/news/articles/cmy49ngydqzpo?at_medium=RSS&amp;at_campaign=rss\">BBC News</a>"
+        },
+        {
+          "article_ids": [
+            "9e718fc3226f7343",
+            "e80b00ee9ee720af"
+          ],
+          "id": "dd865a698929781ccb6bc70d:3",
+          "status": "pending",
+          "text": "<i>[Parte 3/3]</i>\n\n\n<b>6. Ações da Anthropic caem abaixo do preço de IPO</b>\n<i>Internacional • Tecnologia</i>\nAs ações da Anthropic fecharam abaixo do preço de sua estreia na Bolsa pela primeira vez nesta terça-feira (24). O movimento reflete uma desaceleração no setor de tecnologia nos Estados Unidos, que vinha de uma forte alta impulsionada pelo desempenho da Nvidia. Base documental limitada ao trecho RSS; corpo integral não acessível.\n\n<b>Contexto:</b> O mercado de tecnologia dos EUA apresenta volatilidade após períodos de valorização intensa.\n\n<b>Limitação da evidência:</b> Base documental limitada ao trecho RSS; corpo integral não acessível.\n\n🔗 <a href=\"https://c-level.folha.uol.com.br/negocios/2026/11/anthropic-fecha-abaixo-do-preco-do-ipo-pela-primeira-vez-com-desaceleracao-de-acoes-de-tecnologia.shtml\">Folha de S.Paulo</a>\n\n<b>7. Reforma tributária e fim da escala 6x1 podem pressionar inflação em 2027</b>\n<i>Brasil • Economia</i>\nEconomistas alertam que a transição para o novo sistema tributário e o fim da escala 6x1 podem pressionar a inflação brasileira em 2027. O Banco Central monitora o fim da escala 6x1 como um choque de oferta. O ministro da Fazenda, Dario Durigan, reconheceu um possível impacto inicial, mas aposta na adaptação dos empresários. Especialistas divergem sobre a necessidade de juros altos por mais tempo, com o Copom aguardando sinais de convergência da inflação antes de retomar a flexibilização monetária. Base documental limitada ao trecho RSS; corpo integral não acessível.\n\n<b>Contexto:</b> O país enfrenta incertezas sobre a magnitude dos impactos inflacionários em um cenário de juros elevados e desaceleração econômica.\n\n<b>Limitação da evidência:</b> Base documental limitada ao trecho RSS; corpo integral não acessível.\n\n🔗 <a href=\"https://g1.globo.com/economia/noticia/2026/11/25/reforma-tributaria-e-fim-da-escala-6x1-podem-pressionar-inflacao-em-2027-bc-e-equipe-economica-monitoram-impactos.ghtml\">G1</a>\n\n─────────────────────\n<i>Revisão de fidelidade às evidências concluída em 25/11/2026 às 00:24:47 (Brasília).</i>"
+        }
+      ],
+      "status": "pending"
     }
   ],
   "schema_version": 1
